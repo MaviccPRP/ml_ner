@@ -1,6 +1,11 @@
 #! /usr/bin/python3
 # Phillip Richter-Pechanski
 # Created on 02.12.2016
+# Example:
+#
+# Build an instance of the Conll_Extraction Reader Class.
+# Ex = Conll_Extraction("/home/tom/Dokumente/UniWiSe2016/ML/ml_ner/wsj/")
+# ne = Ex.extract_labeled_named_entities()
 
 from pprint import pprint
 import os
@@ -56,10 +61,3 @@ class Conll_Extraction:
                                     save = False
 
         return n_entities
-
-
-c
-#Build an instance of the Conll_Extraction Reader Class.
-Ex = Conll_Extraction("/home/tom/Dokumente/UniWiSe2016/ML/ml_ner/wsj/")
-
-ne = Ex.extract_labeled_named_entities()

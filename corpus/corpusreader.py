@@ -43,8 +43,10 @@ class CorpusReader:
                                 # Get the phrase of the current ne
                                 phrase = line[5]  # .replace('*', '').replace('(', '').replace(')', '')
                                 reg = re.search("[A-Z][A-Z][A-Z]?[A-Z]?\*", phrase)
+
+                                # If the phrase is starting save it
                                 if reg:
-                                    phrase = reg.group().replace("*", "")
+                                    reg_phrase = reg.group().replace("*", "")
 
                                 # start extracting ne
                                 if '(' in line[10] and save is False:
@@ -54,7 +56,7 @@ class CorpusReader:
 
                                     # Save the helper variables
                                     save = True
-                                    current_phrase = phrase
+                                    current_phrase = reg_phrase
                                     current_entity = entity
                                 # stop if ne is just one word
                                 if ')' in line[10] and '*)' not in line[10] and save is True:

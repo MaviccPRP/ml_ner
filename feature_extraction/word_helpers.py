@@ -24,4 +24,4 @@ def word_helper():
                 if type(word) == list:
                     word_list.append(word[0])
 
-    return word_list
+    return set(word_list)

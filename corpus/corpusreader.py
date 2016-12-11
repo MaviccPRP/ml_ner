@@ -8,6 +8,7 @@
 # ne = cr.extract_labeled_named_entities()
 
 import os
+import re
 
 class CorpusReader:
     '''
@@ -34,19 +35,30 @@ class CorpusReader:
             for file in files:
                 if 'gold_conll' in file:
                     with open(root + '/' + file, "r") as f:
-                        for line in f:
+                        for i, line in enumerate(f):
                             line = line.split()
                             if len(line) > 0 and '#' not in line[0]:
                                 entity = line[10].replace('*','').replace('(','').replace(')','')
+
+                                # Get the phrase of the current ne
+                                phrase = line[5]  # .replace('*', '').replace('(', '').replace(')', '')
+                                reg = re.search("[A-Z][A-Z][A-Z]?[A-Z]?\*", phrase)
+                                if reg:
+                                    phrase = reg.group().replace("*", "")
+
                                 # start extracting ne
                                 if '(' in line[10] and save is False:
                                     entity_list = {}
                                     entity_list[entity] = []
                                     entity_list[entity].append([line[3], line[4]])
+
+                                    # Save the helper variables
                                     save = True
+                                    current_phrase = phrase
                                     current_entity = entity
                                 # stop if ne is just one word
                                 if ')' in line[10] and '*)' not in line[10] and save is True:
+                                    entity_list[entity].append(current_phrase)
                                     n_entities.append(entity_list)
                                     save = False
                                 # add multiple words to the current ne
@@ -56,7 +68,9 @@ class CorpusReader:
                                 # close the multiline ne
                                 if '*)' in line[10] and save is True:
                                     entity_list[current_entity].append([line[3], line[4]])
+                                    entity_list[current_entity].append(current_phrase)
                                     n_entities.append(entity_list)
                                     save = False
+
 
         return n_entities

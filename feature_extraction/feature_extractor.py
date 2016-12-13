@@ -16,7 +16,7 @@ class FeatureExtractor:
         dict_features = OrderedDict()
         # Extract lemmas
         lemmas = word_helper()
-        pos_tags = ['NNP', 'NNS', 'DT', 'CD']
+        pos_tags = ['CC' , 'CD', 'DT' , 'EX' , 'FW' , 'IN' , 'JJ' , 'JJR' , 'JJS' , 'LS' , 'MD' , 'NN' , 'NNS' , 'NNP' , 'NNPS' , 'PDT' , 'POS' , 'PRP' , 'PRP$' , 'RB' , 'RBR' , 'RBS' , 'RP' , 'SYM' , 'TO' , 'UH' , 'VB' , 'VBD' , 'VBG' , 'VBN' , 'VBP' , 'VBZ' , 'WDT' , 'WP' , 'WP$' , 'WRB']
         print("Defining lemma features")
         for lemma in lemmas:
             dict_features[lemma.lower().strip()] = 0

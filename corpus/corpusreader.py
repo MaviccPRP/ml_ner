@@ -30,9 +30,9 @@ class CorpusReader:
         n_entities = []
         save = False
         current_entity = ""
-        for root, dirs, files in os.walk(self.path):
+        for root, dirs, files in sorted(os.walk(self.path)):
             path = root.split('/')
-            for file in files:
+            for file in sorted(files):
                 if 'gold_conll' in file:
                     with open(root + '/' + file, "r") as f:
                         for i, line in enumerate(f):

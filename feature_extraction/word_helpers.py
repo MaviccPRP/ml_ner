@@ -1,4 +1,4 @@
-# This script is a helper for the word extractor
+# This script is a helper for the word extraction
 
 import sys
 import os
@@ -11,7 +11,7 @@ from ml_ner.corpus.corpusreader import CorpusReader
 def word_helper():
     # /resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/train/data/english/annotations/nw/
     # Create an instance of the CorpusReader class
-    cr = CorpusReader("/resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/train/data/english/annotations/nw/")
+    cr = CorpusReader("../corpus/wsj")
 
     # Extract the NE and its POS tags
     ne = cr.extract_labeled_named_entities()
@@ -24,4 +24,4 @@ def word_helper():
                 if type(word) == list:
                     word_list.append(word[0])
 
-    return set(word_list)
+    return sorted(list(set(word_list)))

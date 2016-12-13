@@ -2,6 +2,8 @@
 # Phillip Richter-Pechanski
 # Created on 02.12.2016
 # Example:
+# fe = FeatureExtractor(samples)
+# feature_vectors_as_dicts = fe.extract_baseline_features()
 
 from collections import OrderedDict
 from ml_ner.feature_extraction.word_helpers import word_helper

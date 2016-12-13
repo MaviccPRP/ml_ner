@@ -20,4 +20,4 @@ ne = cr.extract_labeled_named_entities()
 
 
 fe = FeatureExtractor(ne)
-pprint.pprint(fe.extract_baseline_features())
+pprint.pprint(fe.extract_baseline_features()[1])

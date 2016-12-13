@@ -24,7 +24,10 @@ class FeatureExtractor:
         for pos in pos_tags:
             dict_features[pos] = 0
 
-        print(len(dict_features))
+        # Label
+        dict_features['label'] = ""
+
+        print("Number of features: ", len(dict_features))
         return dict_features
 
     def extract_baseline_features(self):
@@ -36,7 +39,9 @@ class FeatureExtractor:
 
         for sample in self.ne_list:
             i += 1
-            print("Processing sample no.: ", i)
+            label = list(sample)[0]
+            if i % 100 == 0:
+                print("Processed ", i, " samples")
             # List of lemmas in sample
             sample_lemmas = [lemma_list[0] for key, value in sample.items() for lemma_list in value if type(lemma_list) == list]
             # List of pos in sample
@@ -59,6 +64,9 @@ class FeatureExtractor:
                 for pos in sample_pos:
                     if pos == feature:
                         sample_features[pos] += 1
+
+                # Set class
+                sample_features['label'] = label
 
             # Add the dcit vector of this sample to the result list
             result.append(sample_features)

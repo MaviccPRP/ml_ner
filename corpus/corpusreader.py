@@ -25,7 +25,7 @@ class CorpusReader:
         '''
         Extract all named entities and assign them to their groups.
         Returns a list of dictionaries containing the NEs, its POS tags and its NE group
-        Example output:  {'PERSON': [['Mikhail', 'NNP'], ['Gorbachev', 'NNP']]}
+        Example output:  {'PERSON': [['Mikhail', 'NNP'], ['Gorbachev', 'NNP'], 'NP']}
         '''
         n_entities = []
         save = False

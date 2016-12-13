@@ -21,4 +21,5 @@ ne = cr.extract_labeled_named_entities()
 
 fe = FeatureExtractor(ne)
 # Print the first feater vector dict
-pprint.pprint(fe.extract_baseline_features()[1])
+#pprint.pprint(fe.extract_baseline_features()[1])
+fe.define_all_features()

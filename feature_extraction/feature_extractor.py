@@ -10,14 +10,26 @@ from ml_ner.feature_extraction.word_helpers import word_helper
 
 
 class FeatureExtractor:
+    '''
+    FeatureExtractor class
+    '''
 
     def __init__(self, ne_list):
+        '''
+        Constructor for the FeatureExtractor
+        :param ne_list:
+        '''
         self.ne_list = ne_list
 
     def define_baseline_features(self):
+        '''
+        This methods defines the baseline features
+        :return: an ordered dict with the featured as keys
+        '''
         dict_features = OrderedDict()
         # Extract lemmas
         lemmas = word_helper()
+        # Define pos-tags
         pos_tags = ['CC' , 'CD', 'DT' , 'EX' , 'FW' , 'IN' , 'JJ' , 'JJR' , 'JJS' , 'LS' , 'MD' , 'NN' , 'NNS' , 'NNP' , 'NNPS' , 'PDT' , 'POS' , 'PRP' , 'PRP$' , 'RB' , 'RBR' , 'RBS' , 'RP' , 'SYM' , 'TO' , 'UH' , 'VB' , 'VBD' , 'VBG' , 'VBN' , 'VBP' , 'VBZ' , 'WDT' , 'WP' , 'WP$' , 'WRB']
         print("Defining lemma features")
         for lemma in lemmas:
@@ -33,6 +45,10 @@ class FeatureExtractor:
         return dict_features
 
     def extract_baseline_features(self):
+        '''
+        This method extracts the feature values per sample
+        :return: list of dicts with features and its values extracted per sample
+        '''
         i = 0
         # Extracts: lemma, pos tags
 
@@ -72,5 +88,25 @@ class FeatureExtractor:
 
             # Add the dcit vector of this sample to the result list
             result.append(sample_features)
-
         return result
+
+
+    def define_all_features(self):
+        '''
+        This methods defines the full features
+        :return: an ordered dict with the featured as keys
+        '''
+        dict_features = OrderedDict()
+        dict_features['is_np'] = False
+        dict_features['is_in_wiki'] =  False
+        dict_features['is_not_in_wordnet'] = False
+        dict_features['is_title'] = False
+        dict_features['is_all_caps'] = False
+        dict_features['bigram_context'] = ""
+        baseline_features = self.define_baseline_features()
+        for feature in baseline_features:
+            dict_features[feature] = 0
+
+
+        print(dict_features)
+

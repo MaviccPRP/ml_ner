@@ -13,7 +13,7 @@ from ml_ner.corpus.corpusreader import CorpusReader
 
 # /resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/train/data/english/annotations/nw/
 # Create an instance of the CorpusReader class
-cr = CorpusReader("/resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/train/data/english/annotations/nw/")
+cr = CorpusReader("/resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/development/data/english/annotations/nw/wsj")
 
 # Extract the NE, its POS tags and phrases
 ne = cr.extract_labeled_named_entities()

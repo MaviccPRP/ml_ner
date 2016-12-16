@@ -33,13 +33,12 @@ class CorpusReader:
         for root, dirs, files in sorted(os.walk(self.path)):
             path = root.split('/')
             for file in sorted(files):
-                if 'gold_conll' in file:
+                if 'auto_conll' in file:
                     with open(root + '/' + file, "r") as f:
                         for i, line in enumerate(f):
                             line = line.split()
                             if len(line) > 0 and '#' not in line[0]:
                                 entity = line[10].replace('*','').replace('(','').replace(')','')
-
                                 # Get the phrase of the current ne
                                 phrase = line[5]  # .replace('*', '').replace('(', '').replace(')', '')
                                 reg = re.search("[A-Z][A-Z][A-Z]?[A-Z]?\*", phrase)
@@ -73,6 +72,5 @@ class CorpusReader:
                                     entity_list[current_entity].append(current_phrase)
                                     n_entities.append(entity_list)
                                     save = False
-
 
         return n_entities

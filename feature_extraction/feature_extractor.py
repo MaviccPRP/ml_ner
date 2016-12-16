@@ -69,15 +69,13 @@ class FeatureExtractor:
 
             #Create dict vector for current sample
             sample_features = baseline_features.copy()
-
             # Loop through the features
             for feature in sample_features:
-
                 # Count for each lemma
                 for lemma in sample_lemmas:
                     lemma = lemma.lower().strip()
                     feature_l = feature.lower().strip()
-                    if lemma == feature_l:
+                    if lemma == feature_l and lemma != 'class':
                         sample_features[feature] += 1
 
                 # Count for each pos-tag

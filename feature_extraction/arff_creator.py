@@ -3,16 +3,17 @@ import sys,os
 sys.path.append(os.path.join(os.path.dirname(__file__), '../..'))
 
 
-import pprint as pp
 import arff
 from collections import OrderedDict
-from ml_ner.feature_extraction.word_helpers import word_helper
 from ml_ner.feature_extraction.feature_extractor import FeatureExtractor
 from ml_ner.corpus.corpusreader import CorpusReader
 
 
 
 class ArffCreator:
+    '''
+    Class to create an arff filefrom a given list of features and values created by the corpus_reader and feature_extractor
+    '''
 
     def __init__(self, samples):
         self.samples = samples
@@ -22,7 +23,7 @@ class ArffCreator:
 
         classes = ['PERSON', 'NORP', 'FACILITY', 'ORGANIZATION', 'GPE', 'LOCATION', 'PRODUCT',
                                           'EVENT', 'WORK_OF_ART', 'LAW', 'LANGUAGE', 'DATE', 'TIME', 'PERCENT', 'MONEY',
-                                          'QUANTITY', 'ORDINAL', 'CARDINAL', 'ORG', 'LOC', 'FAC']
+                                          'QUANTITY', 'ORDINAL', 'CARDINAL']
 
         # Create an instance of the CorpusReader class
         cr = CorpusReader(

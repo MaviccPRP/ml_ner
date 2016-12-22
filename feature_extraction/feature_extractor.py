@@ -124,3 +124,6 @@ class FeatureExtractor:
 
         print(dict_features)
 
+    def extract_all_features(self):
+        pass
+

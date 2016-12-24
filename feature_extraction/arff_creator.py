@@ -21,9 +21,13 @@ class ArffCreator:
 
 
     def define_features(self):
+        '''
+        define the list of attributes used to create the arff file
+        :return:
+        '''
 
-
-            #classes = ['PERSON', 'NORP', 'FAC', 'ORG', 'GPE', 'LOC', 'PRODUCT','EVENT', 'WORK_OF_ART', 'LAW', 'LANGUAGE', 'DATE', 'TIME', 'PERCENT', 'MONEY','QUANTITY', 'ORDINAL', 'CARDINAL']
+        #classes = ['PERSON', 'NORP', 'FAC', 'ORG', 'GPE', 'LOC', 'PRODUCT','EVENT', 'WORK_OF_ART', 'LAW', 'LANGUAGE', 'DATE', 'TIME', 'PERCENT', 'MONEY','QUANTITY', 'ORDINAL', 'CARDINAL']
+        # Balanced list of classes
         classes = ['PERSON', 'NORP', 'ORG', 'GPE', 'DATE', 'PERCENT', 'MONEY', 'CARDINAL']
 
         booleans = ['True', 'False']
@@ -58,6 +62,11 @@ class ArffCreator:
 
 
     def generate_arff(self, filename):
+        '''
+        generate the arff file
+        :param filename: defined output filename
+        :return:
+        '''
 
         samples_dict_to_arff = OrderedDict()
         samples_dict_to_arff['description'] = "Testing arff"

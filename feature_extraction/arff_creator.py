@@ -23,9 +23,8 @@ class ArffCreator:
     def define_features(self):
 
 
-        classes = ['PERSON', 'NORP', 'FAC', 'ORG', 'GPE', 'LOC', 'PRODUCT',
-                                          'EVENT', 'WORK_OF_ART', 'LAW', 'LANGUAGE', 'DATE', 'TIME', 'PERCENT', 'MONEY',
-                                          'QUANTITY', 'ORDINAL', 'CARDINAL']
+            #classes = ['PERSON', 'NORP', 'FAC', 'ORG', 'GPE', 'LOC', 'PRODUCT','EVENT', 'WORK_OF_ART', 'LAW', 'LANGUAGE', 'DATE', 'TIME', 'PERCENT', 'MONEY','QUANTITY', 'ORDINAL', 'CARDINAL']
+        classes = ['PERSON', 'NORP', 'ORG', 'GPE', 'DATE', 'PERCENT', 'MONEY', 'CARDINAL']
 
         booleans = ['True', 'False']
 

@@ -137,9 +137,9 @@ class FeatureExtractor:
 
     def extract_all_features(self):
         '''
-                This method extracts the feature values per sample
-                :return: list of dicts with features and its values extracted per sample
-                '''
+        This method extracts the feature values per sample
+        :return: list of dicts with features and its values extracted per sample
+        '''
         i = 0
 
         all_features = self.define_all_features()
@@ -244,6 +244,11 @@ class FeatureExtractor:
                 if lemma in names_list:
                     sample_features['is_name'] = True
 
+            # Check if one word is all caps
+            for lemma in sample_lemmas:
+                reg = re.match("[a-zA-Z]", lemma)
+                if lemma.isupper() and reg:
+                    sample_features['is_all_caps'] = True
 
             # Set class
             sample_features['class'] = label

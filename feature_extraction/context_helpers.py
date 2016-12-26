@@ -27,7 +27,7 @@ def context_helper(corpus_set=""):
     most_frequent_contexts = []
 
     for key, value in counts.items():
-        if value > 10:
+        if value > 5:
             most_frequent_contexts.append(key)
 
     return sorted(most_frequent_contexts)

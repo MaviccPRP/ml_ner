@@ -12,7 +12,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '../..'))
 from collections import OrderedDict
 from ml_ner.feature_extraction.word_helpers import word_helper
 from ml_ner.feature_extraction.context_helpers import context_helper
-
+from ml_ner.feature_extraction.feature_engeneering_helper import feature_engeneering_helper
 
 
 class FeatureExtractor:
@@ -20,7 +20,7 @@ class FeatureExtractor:
     FeatureExtractor class
     '''
 
-    def __init__(self, ne_list, set,verbose = False):
+    def __init__(self, ne_list, set, filtered = False, verbose = False):
         '''
         Constructor for the FeatureExtractor
         :param ne_list:
@@ -29,6 +29,7 @@ class FeatureExtractor:
         '''
         self.ne_list = ne_list
         self.set = set
+        self.filtered = filtered
         self.verbose = verbose
 
     def define_baseline_features(self):
@@ -97,27 +98,37 @@ class FeatureExtractor:
         This methods defines the full features
         :return: an ordered dict with the featured as keys
         '''
+
+        # Get the list of not used features
+        unused_features = feature_engeneering_helper()
+
         dict_features = OrderedDict()
         if self.verbose: print("Creating is_np feature")
-        dict_features['is_np'] = False
+        dict_features['is_np'] = 0
         if self.verbose: print("Creating is_in_wiki features")
-        dict_features['is_in_wiki'] =  False
+        dict_features['is_in_wiki'] =  0
         if self.verbose: print("Creating is_title features")
-        dict_features['is_title'] = False
+        dict_features['is_title'] = 0
         if self.verbose: print("Creating is_all_caps features")
-        dict_features['is_all_caps'] = False
+        dict_features['is_all_caps'] = 0
         if self.verbose: print("Creating is_name features")
-        dict_features['is_name'] = False
+        dict_features['is_name'] = 0
         if self.verbose: print("Creating lemma features")
         lemmas = word_helper(self.set)
         if self.verbose: print("Defining lemma features")
         for lemma in lemmas:
-            dict_features[lemma.lower().strip()] = 0
+            if lemma.lower().strip() not in unused_features and self.filtered:
+                dict_features[lemma.lower().strip()] = 0
+            if not self.filtered:
+                dict_features[lemma.lower().strip()] = 0
         if self.verbose: print("Creating context features")
         contexts = context_helper(self.set)
         if self.verbose: print("Defining context features")
         for context in contexts:
-            dict_features[context.lower().strip()] = 0
+            if context.lower().strip() not in unused_features and self.filtered:
+                dict_features[context.lower().strip()] = 0
+            if not self.filtered:
+                dict_features[context.lower().strip()] = 0
 
 
         # Define pos-tags
@@ -139,6 +150,16 @@ class FeatureExtractor:
         '''
         This method extracts the feature values per sample
         :return: list of dicts with features and its values extracted per sample
+        The following features are extracted:
+        @ATTRIBUTE "is_np" REAL
+        @ATTRIBUTE "is_in_wiki" REAL
+        @ATTRIBUTE "is_title" REAL
+        @ATTRIBUTE "is_all_caps" REAL
+        @ATTRIBUTE "is_name" REAL
+        @ATTRIBUTES all lemmas in the corpus REAL
+        @ATTRIBUTES all contexts in the corpus REAL
+        @ATTRIBUTE class
+        returns a list of dicts with the features per sample
         '''
         i = 0
 
@@ -146,7 +167,7 @@ class FeatureExtractor:
         result = []
 
         # create list of all entries in wikipedia
-
+        '''
         try:
             wiki_articles = set()
             fname = "../misc/enwiki-latest-all-titles"
@@ -157,7 +178,7 @@ class FeatureExtractor:
                     wiki_articles.add(line.strip().lower())
         except:
             print("Cannot read wikifile")
-
+        '''
 
         # create list of titles
         try:
@@ -202,6 +223,7 @@ class FeatureExtractor:
             # Create dict vector for current sample
             sample_features = all_features.copy()
 
+
             # Loop through the features
             for feature in sample_features:
                 # Count for each lemma
@@ -226,29 +248,29 @@ class FeatureExtractor:
 
             # Check if is NP
             if 'NP' in sample_phrase:
-                sample_features['is_np'] = True
-
+                sample_features['is_np'] = 1
+            '''
             # Check if it is in wiki
             sample_name = "_".join(sample_lemmas)
             sample_name = sample_name.lower()
             if sample_name in wiki_articles:
-                sample_features['is_in_wiki'] = True
-
+                sample_features['is_in_wiki'] = 1
+            '''
             # Check if it contains a title
             for lemma in sample_lemmas:
                 if lemma in titles_list:
-                    sample_features['is_title'] = True
+                    sample_features['is_title'] = 1
 
             # Check if it contains a name
             for lemma in sample_lemmas:
                 if lemma in names_list:
-                    sample_features['is_name'] = True
+                    sample_features['is_name'] = 1
 
             # Check if one word is all caps
             for lemma in sample_lemmas:
                 reg = re.match("[a-zA-Z]", lemma)
                 if lemma.isupper() and reg:
-                    sample_features['is_all_caps'] = True
+                    sample_features['is_all_caps'] = 1
 
             # Set class
             sample_features['class'] = label

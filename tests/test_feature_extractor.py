@@ -13,14 +13,14 @@ from ml_ner.corpus.corpusreader import CorpusReader
 
 # /resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/train/data/english/annotations/nw/
 # Create an instance of the CorpusReader class
-cr = CorpusReader("/resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/test/data/english/annotations/nw/wsj")
+cr = CorpusReader("/resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/train/data/english/annotations/nw/wsj")
 
 # Extract the NE, its POS tags and phrases
 ne = cr.extract_labeled_named_entities()
 
 
-fe = FeatureExtractor(ne, True)
+fe = FeatureExtractor(ne, 'train', True, True)
 # Print the first feater vector dict
-pprint.pprint(fe.extract_baseline_features())
+#pprint.pprint(fe.extract_all_features())
+fe.extract_all_features()
 #pprint.pprint(fe.define_baseline_features())
-#pprint.pprint()

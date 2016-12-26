@@ -18,7 +18,7 @@ cr = CorpusReader("/resources/corpora/multilingual/ontonotes-5.0-conll-2012/conl
 ne = cr.extract_labeled_named_entities()
 
 # Pretty print the output
-# pprint.pprint(ne)
+pprint.pprint(ne)
 
 
 

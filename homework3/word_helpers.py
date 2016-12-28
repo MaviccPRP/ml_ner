@@ -1,5 +1,5 @@
 # This script is a helper for the word extraction
-# It extracts all lemmas in the corpus and saves lemmas, which occur >=3 times in a list
+# It extracts all lemmas in the corpus and saves lemmas, which occur >=5 times in a list
 
 import sys
 import os
@@ -9,7 +9,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '../..'))
 import pprint
 from collections import defaultdict
 
-from ml_ner.corpus.corpusreader import CorpusReader
+from ml_ner.homework3.corpusreader import CorpusReader
 
 
 def word_helper(corpus_set=""):

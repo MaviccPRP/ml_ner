@@ -2,8 +2,9 @@
 # Phillip Richter-Pechanski
 # Created on 28.12.2016
 # Example:
-# fe = FeatureExtractor(samples)
+# fe = FeatureExtractor(ne, 'train', False, True)
 # feature_vectors_as_dicts = fe.extract_baseline_features()
+
 import sys, os, io, re, pprint
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '../..'))

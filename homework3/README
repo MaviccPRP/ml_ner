@@ -1,0 +1,23 @@
+Author: Phillip Richter-Pechanski
+
+Scripts to extract named entities from the Ontonotes corpus.
+
+Usage:
+
+source ../../venv/bin/activate
+
+python test_feature_extractor.py > output
+
+The output will contain the feature vectors from all extracted named entities from the development set of the corpus.i
+
+Weitere Anmerkungen zu Hausaufgabe 3:
+
+Beschreibung des Features
+
+Quelle: Lexeme (kleingeschrieben) im Korpus, die mindestens 5 mal vorkommen. Pro Lexem wird ein Feature definiert. 
+
+Der Wertebereich ist NUMERIC.
+
+Die gesammelten Wörter sollen bei der Named Entity Klassifikation helfen. Bereits klassifizierte Named Entities aus dem Trainingskorpus sollen durch die Lexeme Hinweis auf die Klassifikation im Testkorpus liefern.
+
+

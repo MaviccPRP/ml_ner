@@ -207,7 +207,7 @@ class FeatureExtractor:
             with open(fname, "r") as f:
                 for line in f:
                     line = line.strip().lower()
-                    com_list.add(line)
+                    com_list.append(line)
         except:
             print("Can not read file with defined commercials")
 
@@ -269,7 +269,7 @@ class FeatureExtractor:
             # Check if is NP
             if 'NP' in sample_phrase:
                 sample_features['is_np'] = 1
-
+            
             # Check if it is in wiki
             sample_name = "_".join(sample_lemmas)
             sample_name = sample_name.lower()
@@ -289,6 +289,8 @@ class FeatureExtractor:
             # Check if it contains a commercial name
             for lemma in sample_lemmas:
                 if lemma.lower() in com_list:
+                    print(lemma)
+                    print(com_list)
                     sample_features['is_com_name'] = 1
 
             # Check if one word is all caps

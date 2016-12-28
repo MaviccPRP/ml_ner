@@ -113,6 +113,12 @@ class FeatureExtractor:
         dict_features['is_all_caps'] = 0
         if self.verbose: print("Creating is_name features")
         dict_features['is_name'] = 0
+        if self.verbose: print("Creating is_com_name features")
+        dict_features['is_com_name'] = 0
+        if self.verbose: print("Creating contains_dash features")
+        dict_features['contains_dash'] = 0
+        if self.verbose: print("Creating contains_digit features")
+        dict_features['contains_digit'] = 0
         if self.verbose: print("Creating lemma features")
         lemmas = word_helper(self.set)
         if self.verbose: print("Defining lemma features")
@@ -156,6 +162,9 @@ class FeatureExtractor:
         @ATTRIBUTE "is_title" REAL
         @ATTRIBUTE "is_all_caps" REAL
         @ATTRIBUTE "is_name" REAL
+        @ATTRIBUTE "is_com_name" REAL
+        #@ATTRIBUTE "contains_dash" REAL
+        #@ATTRIBUTE "contains_digit" REAL
         @ATTRIBUTES all lemmas in the corpus REAL
         @ATTRIBUTES all contexts in the corpus REAL
         @ATTRIBUTE class
@@ -167,7 +176,7 @@ class FeatureExtractor:
         result = []
 
         # create list of all entries in wikipedia
-        '''
+
         try:
             wiki_articles = set()
             fname = "../misc/enwiki-latest-all-titles"
@@ -178,7 +187,7 @@ class FeatureExtractor:
                     wiki_articles.add(line.strip().lower())
         except:
             print("Cannot read wikifile")
-        '''
+
 
         # create list of titles
         try:
@@ -186,10 +195,21 @@ class FeatureExtractor:
             fname = "../misc/title_list"
             with open(fname, "r") as f:
                 for line in f:
-                    line = line.strip()
+                    line = line.strip().lower()
                     titles_list.add(line)
         except:
             print("Can not read file with defined titles")
+
+        # create list of commercial names
+        try:
+            com_list = []
+            fname = "../misc/com_list"
+            with open(fname, "r") as f:
+                for line in f:
+                    line = line.strip().lower()
+                    com_list.add(line)
+        except:
+            print("Can not read file with defined commercials")
 
         # create list of names
         try:
@@ -249,28 +269,51 @@ class FeatureExtractor:
             # Check if is NP
             if 'NP' in sample_phrase:
                 sample_features['is_np'] = 1
-            '''
+
             # Check if it is in wiki
             sample_name = "_".join(sample_lemmas)
             sample_name = sample_name.lower()
             if sample_name in wiki_articles:
                 sample_features['is_in_wiki'] = 1
-            '''
+
             # Check if it contains a title
             for lemma in sample_lemmas:
-                if lemma in titles_list:
+                if lemma.lower() in titles_list:
                     sample_features['is_title'] = 1
 
             # Check if it contains a name
             for lemma in sample_lemmas:
-                if lemma in names_list:
+                if lemma.lower() in names_list:
                     sample_features['is_name'] = 1
+
+            # Check if it contains a commercial name
+            for lemma in sample_lemmas:
+                if lemma.lower() in com_list:
+                    sample_features['is_com_name'] = 1
 
             # Check if one word is all caps
             for lemma in sample_lemmas:
                 reg = re.match("[a-zA-Z]", lemma)
                 if lemma.isupper() and reg:
                     sample_features['is_all_caps'] = 1
+
+            # Maybe not helping
+            # Check if one word contains a dash
+            for lemma in sample_lemmas:
+                if "-" in lemma:
+                    sample_features['contains_dash'] = 1
+
+            # Check if entity contains digi and/or letterst
+            _digits = re.compile('\d')
+            for lemma in sample_lemmas:
+                if _digits.search(lemma):
+                    sample_features['contains_digit'] = 1
+                    _letters = re.compile('[a-zA-Z]')
+                    if ('-' in lemma or '-' in lemma or ',' in lemma) and not _letters.search(lemma):
+                        sample_features['contains_digit'] = 2
+                    elif ('-' in lemma or '-' in lemma or ',' in lemma) and _letters.search(lemma):
+                        sample_features['contains_digit'] = 3
+
 
             # Set class
             sample_features['class'] = label

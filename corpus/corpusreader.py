@@ -16,12 +16,14 @@ class CorpusReader:
     '''
     Corpus Reader for the Ontonotes 2012 conll corpus
     '''
-    def __init__(self, path):
+    def __init__(self, path, auto_gold='gold'):
         '''
         Constructor for the CorpusReader class
         :param path: the path to the ontonotes corpus
+        :param auto_gold: use auto or gold conll files
         '''
         self.path = path
+        self.auto_gold = auto_gold
 
     def extract_labeled_named_entities(self):
         '''
@@ -43,7 +45,7 @@ class CorpusReader:
         for root, dirs, files in sorted(os.walk(self.path)):
             path = root.split('/')
             for file in sorted(files):
-                if 'auto_conll' in file:
+                if self.auto_gold+'_conll' in file:
                     with open(root + '/' + file, "r") as f:
                         lines = f.readlines()
                         for previous_line, line, next_line in previous_and_next(lines):
@@ -59,6 +61,10 @@ class CorpusReader:
 
                             if len(line) > 0 and '#' not in line[0]:
                                 entity = line[10].replace('*','').replace('(','').replace(')','')
+                                if entity == 'GPE' or entity == 'NORP':
+                                    entity = 'GPE_NORP'
+                                if entity == 'PERCENT' or entity == 'CARDINAL' or entity == 'MONEY':
+                                    entity = 'PERCENT_CARDINAL_MONEY'
                                 # Get the phrase of the current ne
                                 phrase = line[5]  # .replace('*', '').replace('(', '').replace(')', '')
                                 reg = re.search("[A-Z][A-Z][A-Z]?[A-Z]?\*", phrase)

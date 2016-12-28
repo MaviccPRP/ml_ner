@@ -1,7 +1,7 @@
-Mr
-Mrs
-Ms
-Mx
+Mr.
+Mrs.
+Ms.
+Mx.
 Miss
 Master
 Maid
@@ -149,6 +149,9 @@ AA
 AAS
 AS
 BA
+BSc
+B.Sc.
+B.A.
 BArch
 BBA
 BSBA
@@ -175,4 +178,5 @@ Th.D.
 MA
 LL.M.
 MSc
+M.Sc.
 Magister

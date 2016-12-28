@@ -28,8 +28,10 @@ class ArffAndSciKitDataCreator:
 
         # List of unbalanced classes
         # classes = ['PERSON', 'NORP', 'FAC', 'ORG', 'GPE', 'LOC', 'PRODUCT','EVENT', 'WORK_OF_ART', 'LAW', 'LANGUAGE', 'DATE', 'TIME', 'PERCENT', 'MONEY','QUANTITY', 'ORDINAL', 'CARDINAL']
-        # Balanced list of classes
-        classes = ['PERSON', 'NORP', 'ORG', 'GPE', 'DATE', 'PERCENT', 'MONEY', 'CARDINAL']
+        # Partly balanced list of classes
+        # classes = ['PERSON', 'NORP', 'ORG', 'GPE', 'DATE', 'PERCENT', 'MONEY', 'CARDINAL']
+        # Better balanced classes
+        classes = ['PERSON', 'GPE_NORP', 'ORG', 'DATE', 'PERCENT_CARDINAL_MONEY']
 
         attributes_list = []
 
@@ -90,5 +92,3 @@ class ArffAndSciKitDataCreator:
             features_list.append(temp_feature_list)
 
         return features_list, label_list
-
-

@@ -30,7 +30,7 @@ Extract features for the training set
 
 # /resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/train/data/english/annotations/nw/
 # Create an instance of the CorpusReader class
-cr = CorpusReader("/resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/development/data/english/annotations/nw/wsj")
+cr = CorpusReader("/resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/train/data/english/annotations/nw/wsj")
 
 # Extract the NE, its POS tags and phrases
 ne = cr.extract_labeled_named_entities()
@@ -39,7 +39,7 @@ ne = cr.extract_labeled_named_entities()
 fe = FeatureExtractor(ne, 'train', False, True)
 
 # Extract features
-samples = fe.extract_baseline_features()
+samples = fe.extract_all_features()
 
 data = ArffAndSciKitDataCreator(samples)
 
@@ -61,7 +61,7 @@ ne = cr.extract_labeled_named_entities()
 fe = FeatureExtractor(ne, 'train', False, True)
 
 # Extract features
-samples = fe.extract_baseline_features()
+samples = fe.extract_all_features()
 
 data = ArffAndSciKitDataCreator(samples)
 
@@ -69,8 +69,10 @@ data = ArffAndSciKitDataCreator(samples)
 
 X_test, y_test = array(data.createScikitData()[0]), array(data.createScikitData()[1])
 
-print("Classifying", flush=True)
 '''
+print("Classification per sample", flush=True)
+
+
 for test_sample, entity, f_vector in zip(X_test, ne, samples):
     y_pred_l1_one = OneVsOneClassifier(LinearSVC(random_state=0, dual=False, penalty='l1')).fit(X_train, y_train).predict(test_sample.reshape(1, -1))
     for key, value in entity.items():
@@ -82,9 +84,9 @@ for test_sample, entity, f_vector in zip(X_test, ne, samples):
             print("____________________________________________", flush=True)
 '''
 
-tuned_parameters = [{'penalty': ['l1'], 'dual': [False], 'multi_class': ['ovr','crammer_singer'],
+tuned_parameters = [{'penalty': ['l1'], 'dual': [False], 'probability': [True, False], 'multi_class': ['ovr','crammer_singer'],
                      'max_iter': [100,1000,10000], 'C': [1, 10, 100, 1000]},
-                    {'penalty': ['l2'], 'loss': ['hinge', 'squared_hinge'],'dual': [True], 'multi_class': ['ovr', 'crammer_singer'],
+                    {'penalty': ['l2'], 'loss': ['hinge', 'squared_hinge'],'dual': [True], 'probability': [True, False], 'multi_class': ['ovr', 'crammer_singer'],
                      'max_iter': [100, 1000, 10000], 'C': [1, 10, 100, 1000]}]
 
 scores = ['accuracy', 'f1_weighted']
@@ -94,7 +96,9 @@ labels=['PERSON', 'GPE_NORP', 'ORG', 'DATE', 'PERCENT_CARDINAL_MONEY']
 
 print("Classify LinearSVC")
 for score in scores:
+    print("Calculating: " + str(score))
     clf = GridSearchCV(LinearSVC(), tuned_parameters, scoring='%s' % score)
+    print("Training: " + str(score))
     clf.fit(X_train, y_train)
 
     print("Best parameters set found on development set:")

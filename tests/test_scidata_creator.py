@@ -84,9 +84,9 @@ for test_sample, entity, f_vector in zip(X_test, ne, samples):
             print("____________________________________________", flush=True)
 '''
 
-tuned_parameters = [{'penalty': ['l1'], 'dual': [False], 'probability': [True, False], 'multi_class': ['ovr','crammer_singer'],
+tuned_parameters = [{'penalty': ['l1'], 'dual': [False], 'multi_class': ['ovr','crammer_singer'],
                      'max_iter': [100,1000,10000], 'C': [1, 10, 100, 1000]},
-                    {'penalty': ['l2'], 'loss': ['hinge', 'squared_hinge'],'dual': [True], 'probability': [True, False], 'multi_class': ['ovr', 'crammer_singer'],
+                    {'penalty': ['l2'], 'loss': ['hinge', 'squared_hinge'],'dual': [True], 'multi_class': ['ovr', 'crammer_singer'],
                      'max_iter': [100, 1000, 10000], 'C': [1, 10, 100, 1000]}]
 
 scores = ['accuracy', 'f1_weighted']

@@ -135,8 +135,6 @@ class FeatureExtractor:
                 dict_features[context.lower().strip()] = 0
             if not self.filtered:
                 dict_features[context.lower().strip()] = 0
-
-
         # Define pos-tags
         pos_tags = ['CC', 'CD', 'DT', 'EX', 'FW', 'IN', 'JJ', 'JJR', 'JJS', 'LS', 'MD', 'NN', 'NNS', 'NNP', 'NNPS',
                     'PDT', 'POS', 'PRP', 'PRP$', 'RB', 'RBR', 'RBS', 'RP', 'SYM', 'TO', 'UH', 'VB', 'VBD', 'VBG',
@@ -144,7 +142,6 @@ class FeatureExtractor:
         if self.verbose: print("Creating POS-tag features")
         for pos in pos_tags:
             dict_features[pos] = 0
-
 
         # Label
         dict_features['class'] = ""
@@ -176,7 +173,7 @@ class FeatureExtractor:
         result = []
 
         # create list of all entries in wikipedia
-
+        
         try:
             wiki_articles = set()
             fname = "../misc/enwiki-latest-all-titles"
@@ -187,7 +184,7 @@ class FeatureExtractor:
                     wiki_articles.add(line.strip().lower())
         except:
             print("Cannot read wikifile")
-
+        
 
         # create list of titles
         try:
@@ -258,51 +255,51 @@ class FeatureExtractor:
                     context = "_".join(context)
                     context = context.lower().strip()
                     feature_c = feature.lower().strip()
-                    if context == feature_l:
+                    if context == feature_c:
                         sample_features[feature] += 1
-
+                
                 # Count for each pos-tag
                 for pos in sample_pos:
                     if pos == feature:
                         sample_features[pos] += 1
-
+                
             # Check if is NP
             if 'NP' in sample_phrase:
                 sample_features['is_np'] = 1
-
+            
             # Check if it is in wiki
             sample_name = "_".join(sample_lemmas)
             sample_name = sample_name.lower()
             if sample_name in wiki_articles:
                 sample_features['is_in_wiki'] = 1
-
+            
             # Check if it contains a title
             for lemma in sample_lemmas:
                 if lemma.lower() in titles_list:
                     sample_features['is_title'] = 1
-
+            
             # Check if it contains a name
             for lemma in sample_lemmas:
                 if lemma.lower() in names_list:
                     sample_features['is_name'] = 1
-
+            
             # Check if it contains a commercial name
             for lemma in sample_lemmas:
                 if lemma.lower() in com_list:
                     sample_features['is_com_name'] = 1
-
+            
             # Check if one word is all caps
             for lemma in sample_lemmas:
                 reg = re.match("[a-zA-Z]", lemma)
                 if lemma.isupper() and reg:
                     sample_features['is_all_caps'] = 1
-
+            
             # Maybe not helping
             # Check if one word contains a dash
             for lemma in sample_lemmas:
                 if "-" in lemma:
                     sample_features['contains_dash'] = 1
-
+             
             # Check if entity contains digi and/or letterst
             _digits = re.compile('\d')
             for lemma in sample_lemmas:
@@ -313,7 +310,7 @@ class FeatureExtractor:
                         sample_features['contains_digit'] = 2
                     elif ('-' in lemma or '-' in lemma or ',' in lemma) and _letters.search(lemma):
                         sample_features['contains_digit'] = 3
-
+            
 
             # Set class
             sample_features['class'] = label

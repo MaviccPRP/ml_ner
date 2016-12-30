@@ -27,7 +27,7 @@ Extract features for the training set
 
 # /resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/train/data/english/annotations/nw/
 # Create an instance of the CorpusReader class
-cr = CorpusReader("/resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/development/data/english/annotations/nw/wsj")
+cr = CorpusReader("/resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/train/data/english/annotations/nw/wsj")
 
 # Extract the NE, its POS tags and phrases
 ne = cr.extract_labeled_named_entities()
@@ -36,7 +36,7 @@ ne = cr.extract_labeled_named_entities()
 fe = FeatureExtractor(ne, 'train', False, True)
 
 # Extract features
-samples = fe.extract_all_features()
+samples = fe.extract_baseline_features()
 
 data = ArffAndSciKitDataCreator(samples)
 
@@ -58,7 +58,7 @@ ne = cr.extract_labeled_named_entities()
 fe = FeatureExtractor(ne, 'train', False, True)
 
 # Extract features
-samples = fe.extract_all_features()
+samples = fe.extract_basline_features()
 
 data = ArffAndSciKitDataCreator(samples)
 

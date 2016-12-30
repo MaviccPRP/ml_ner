@@ -101,24 +101,29 @@ class FeatureExtractor:
 
         # Get the list of not used features
         unused_features = feature_engeneering_helper()
-
+        
         dict_features = OrderedDict()
+        '''
         if self.verbose: print("Creating is_np feature")
         dict_features['is_np'] = 0
         if self.verbose: print("Creating is_in_wiki features")
         dict_features['is_in_wiki'] =  0
         if self.verbose: print("Creating is_title features")
         dict_features['is_title'] = 0
+        '''
         if self.verbose: print("Creating is_all_caps features")
         dict_features['is_all_caps'] = 0
+        '''
         if self.verbose: print("Creating is_name features")
         dict_features['is_name'] = 0
         if self.verbose: print("Creating is_com_name features")
         dict_features['is_com_name'] = 0
         if self.verbose: print("Creating contains_dash features")
         dict_features['contains_dash'] = 0
+        '''
         if self.verbose: print("Creating contains_digit features")
         dict_features['contains_digit'] = 0
+        
         if self.verbose: print("Creating lemma features")
         lemmas = word_helper(self.set)
         if self.verbose: print("Defining lemma features")
@@ -127,6 +132,7 @@ class FeatureExtractor:
                 dict_features[lemma.lower().strip()] = 0
             if not self.filtered:
                 dict_features[lemma.lower().strip()] = 0
+        
         if self.verbose: print("Creating context features")
         contexts = context_helper(self.set)
         if self.verbose: print("Defining context features")
@@ -135,6 +141,7 @@ class FeatureExtractor:
                 dict_features[context.lower().strip()] = 0
             if not self.filtered:
                 dict_features[context.lower().strip()] = 0
+        
         # Define pos-tags
         pos_tags = ['CC', 'CD', 'DT', 'EX', 'FW', 'IN', 'JJ', 'JJR', 'JJS', 'LS', 'MD', 'NN', 'NNS', 'NNP', 'NNPS',
                     'PDT', 'POS', 'PRP', 'PRP$', 'RB', 'RBR', 'RBS', 'RP', 'SYM', 'TO', 'UH', 'VB', 'VBD', 'VBG',
@@ -249,7 +256,7 @@ class FeatureExtractor:
                     feature_l = feature.lower().strip()
                     if lemma == feature_l and lemma != 'class':
                         sample_features[feature] += 1
-
+                
                 # Count for each context
                 for context in sample_context:
                     context = "_".join(context)
@@ -262,7 +269,7 @@ class FeatureExtractor:
                 for pos in sample_pos:
                     if pos == feature:
                         sample_features[pos] += 1
-                
+            '''    
             # Check if is NP
             if 'NP' in sample_phrase:
                 sample_features['is_np'] = 1
@@ -287,19 +294,19 @@ class FeatureExtractor:
             for lemma in sample_lemmas:
                 if lemma.lower() in com_list:
                     sample_features['is_com_name'] = 1
-            
+            '''
             # Check if one word is all caps
             for lemma in sample_lemmas:
                 reg = re.match("[a-zA-Z]", lemma)
                 if lemma.isupper() and reg:
                     sample_features['is_all_caps'] = 1
-            
+            '''
             # Maybe not helping
             # Check if one word contains a dash
             for lemma in sample_lemmas:
                 if "-" in lemma:
                     sample_features['contains_dash'] = 1
-             
+            ''' 
             # Check if entity contains digi and/or letterst
             _digits = re.compile('\d')
             for lemma in sample_lemmas:
@@ -311,7 +318,7 @@ class FeatureExtractor:
                     elif ('-' in lemma or '-' in lemma or ',' in lemma) and _letters.search(lemma):
                         sample_features['contains_digit'] = 3
             
-
+            
             # Set class
             sample_features['class'] = label
 

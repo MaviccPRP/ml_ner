@@ -58,7 +58,7 @@ ne = cr.extract_labeled_named_entities()
 fe = FeatureExtractor(ne, 'train', False, True)
 
 # Extract features
-samples = fe.extract_basline_features()
+samples = fe.extract_baseline_features()
 
 data = ArffAndSciKitDataCreator(samples)
 

@@ -180,7 +180,7 @@ class FeatureExtractor:
         result = []
 
         # create list of all entries in wikipedia
-        
+        '''        
         try:
             wiki_articles = set()
             fname = "../misc/enwiki-latest-all-titles"
@@ -191,7 +191,7 @@ class FeatureExtractor:
                     wiki_articles.add(line.strip().lower())
         except:
             print("Cannot read wikifile")
-        
+        '''
 
         # create list of titles
         try:

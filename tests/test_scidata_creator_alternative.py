@@ -18,6 +18,7 @@ from sklearn.metrics import f1_score
 from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import classification_report
+from sklearn.neural_network import MLPClassifier
 
 from ml_ner.feature_extraction.feature_extractor import FeatureExtractor
 from ml_ner.feature_extraction.arff_scikitdata_creator import ArffAndSciKitDataCreator
@@ -83,21 +84,20 @@ for test_sample, entity, f_vector in zip(X_test, ne, samples):
                     print(str(key) + " : " + str(value), flush=True)
             print("____________________________________________", flush=True)
 '''
-'''
-tuned_parameters = [{'penalty': ['l1'], 'dual': [False], 'multi_class': ['ovr','crammer_singer'],
-                     'max_iter': [100,1000,10000], 'C': [1, 10, 100, 1000]},
-                    {'penalty': ['l2'], 'loss': ['hinge', 'squared_hinge'],'dual': [True], 'multi_class': ['ovr', 'crammer_singer'],
-                     'max_iter': [100, 1000, 10000], 'C': [1, 10, 100, 1000]}]
+
+tuned_parameters = [{'activation': ['identity', 'logistic', 'tanh', 'relu'], 'solver': ['sgd'], 'alpha': [0.0001,0.00001,0.001,0.01],
+                     'learning_rate': ['constant', 'invscaling', 'adaptive'], 'hidden_layer_sizes':[(10,4),(20,8),(3,1)]},
+                    {'activation': ['identity', 'logistic', 'tanh', 'relu'], 'solver': ['lbfgs', 'adam'], 'alpha': [0.0001,0.00001,0.001,0.01],'hidden_layer_sizes':[(10,4),(20,8),(3,1)]}]
 
 scores = ['accuracy', 'f1_weighted']
 
 labels=['PERSON', 'GPE_NORP', 'ORG', 'DATE', 'PERCENT_CARDINAL_MONEY']
 
-
-print("Classify LinearSVC")
+'''
+print("Classify MLP")
 for score in scores:
     print("Calculating: " + str(score))
-    clf = GridSearchCV(LinearSVC(), tuned_parameters, scoring='%s' % score)
+    clf = GridSearchCV(MLPClassifier(), tuned_parameters, scoring='%s' % score)
     print("Training: " + str(score))
     clf.fit(X_train, y_train)
 
@@ -125,14 +125,26 @@ for score in scores:
 
     print("Solely LinearSVC")
     print(accuracy_score(y_test, y_pred_l1))
-    print(f1_score(y_test, y_pred_l1, average='weighted'))
-    print(confusion_matrix(y_test, y_pred_l1, labels=['PERSON', 'GPE_NORP', 'ORG', 'DATE', 'PERCENT_CARDINAL_MONEY']))
+    print(f1_score(y_test, y_pred, average='weighted'))
+    print(confusion_matrix(y_test, y_pred, labels=['PERSON', 'GPE_NORP', 'ORG', 'DATE', 'PERCENT_CARDINAL_MONEY']))
 '''
-clf = LinearSVC(dual=False, penalty='l1', random_state=0)
+'''
+for i in range(10):
+    for j in range(10):
+        clf = LinearSVC(dual=True, loss='squared_hinge',penalty='l2', random_state=1, class_weight={'PERSON':i, 'GPE_NORP':1, 'ORG':j, 'DATE':1, 'PERCENT_CARDINAL_MONEY':1})
+        clf.fit(X_train, y_train)
+        y_pred = clf.predict(X_test)
+        labels=['PERSON', 'GPE_NORP', 'ORG', 'DATE', 'PERCENT_CARDINAL_MONEY']
+
+        #print(classification_report(y_test, y_pred, labels=labels))
+        #print(confusion_matrix(y_test, y_pred, labels=labels))
+        print(accuracy_score(y_test, y_pred))                                        
+'''
+clf = MLPClassifier(hidden_layer_sizes=(20,8), solver='adam', alpha=0.00001)
 clf.fit(X_train, y_train)
 y_pred = clf.predict(X_test)
-labels=['PERSON', 'GPE_NORP', 'ORG', 'DATE', 'PERCENT_CARDINAL_MONEY']
 
-print(classification_report(y_test, y_pred, labels=labels))
-print(confusion_matrix(y_test, y_pred, labels=labels))
 print(accuracy_score(y_test, y_pred))
+print(f1_score(y_test, y_pred, average='weighted'))
+print(confusion_matrix(y_test, y_pred, labels=['PERSON', 'GPE_NORP', 'ORG', 'DATE', 'PERCENT_CARDINAL_MONEY']))
+print(classification_report(y_test, y_pred, labels=labels))

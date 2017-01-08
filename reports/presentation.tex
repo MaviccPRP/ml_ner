@@ -4,6 +4,8 @@
 \usepackage{hyperref}
 \usepackage{minted}
 \usepackage{color}
+\usepackage{booktabs}
+\usepackage{tabularx}
 
 \setbeamertemplate{navigation symbols}{}
 \mode<presentation>{\usetheme{Madrid}}
@@ -41,12 +43,73 @@
 	\subsection{Korpus}
 	\begin{frame}
 			\frametitle{Korpus}
+			Für die Named Entity Klassifikation nutzen wir das OntoNotes Korpus 2012.\\
 			
+			Dabei nutzen die englischen Nachrichtentexte des The Wall Street Journal.
+			Für die Entwicklungsphase nutzten wir das im OntoNotes Korpus bereits vorgefertigte Developmenttest.\\
+			
+			Für die Klassifikation der Named Entities werden die bereits vorgefertigten Trainings- und Testdatensets genutzt.\\
+			 \begin{table}
+			 	\caption{Anzahl an atomaren Named Entities}
+			 	\begin{tabular}{ccc}
+			 		\toprule
+					Developmentset & Trainingset & Testset\\
+			 		\midrule
+					3325 & 23686 & 2996\\
+			 		\bottomrule
+			 	\end{tabular}
+			 	\label{tab:datasets}
+			 \end{table}
 	\end{frame}
+		\begin{frame}
+			\frametitle{Korpusreader}
+			-
+		\end{frame}
+	
 	\subsection{Korpusklassen}
+		\begin{frame}
+			\frametitle{Korpusklassenbalancierung}
+			-
+		\end{frame}
 	\begin{frame}
-			\frametitle{Korpusklassen}
-			
+		\frametitle{Beschreibung Korpusklassen}
+		\begin{table}
+			\caption{Balancierte Klassen}
+			\begin{tabularx}{\textwidth}{lX}
+				\toprule
+				Klassen  & Beschreibung \\
+				\midrule
+				PERSON 	& People, including fictional \\
+				NORP\_GPE &	Nationalities or religious or political groups
+				Countries, cities, states\\
+				ORGANIZATION &	Companies, agencies, institutions, etc.\\
+				DATE &	Absolute or relative dates or periods\\
+				PERCENT\_MONEY\_CARDINAL &	Percentage (including “\%”)
+				Monetary values, including unit
+				Numerals that do not fall under another type \\
+				\bottomrule
+			\end{tabularx}
+			\label{tab:datasets}
+		\end{table}
+	\end{frame}
+	
+	\begin{frame}
+			\frametitle{Verteilung Korpusklassen}
+			 \begin{table}
+			 	\caption{Verteilung der Klassen}
+			 	\begin{tabular}{lccc}
+			 		\toprule
+			 		Klassen  & Developmentset & Trainingset & Testset \\
+			 		\midrule
+			 		ORG  & 930 & 5857 & 859 \\
+			 		PERSON & 486 & 3759 & 413 \\
+			 		GPE\_NORP & 732 & 5134 & 588 \\
+			 		PERCENT\_CARDINAL\_MONEY & 564 & 4672 & 529 \\
+			 		DATE & 613 & 4254 & 601 \\
+			 		\bottomrule
+			 	\end{tabular}
+			 	\label{tab:datasets}
+			 \end{table}
 	\end{frame}
 
 
@@ -54,7 +117,17 @@
 	\subsection{Features für den Baseline-Klassifizierer}
 	\begin{frame}
 		\frametitle{Features für den Baseline-Klassifizierer}
-		
+					 \begin{table}
+					 	\caption{Features für den Baseline-Klassifizierer}
+					 	\begin{tabularx}{\textwidth}{llX}
+					 		\toprule
+							Feature & Wert & Beschreibung\\
+					 		\midrule
+					 		Unigram & numerisch & Vorkommen der Unigramme, die mindestens fünfmal im Trainingscorpus vorkommen \\
+					 		\bottomrule
+					 	\end{tabularx}
+					 	\label{tab:datasets}
+					 \end{table}
 	\end{frame}
 	\subsection{Erweitertes Featureset}
 	\begin{frame}

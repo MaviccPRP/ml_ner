@@ -1,0 +1,5380 @@
+Creating is_np feature
+Creating is_in_wiki features
+Creating is_title features
+Creating is_all_caps features
+Creating is_name features
+Creating is_com_name features
+Creating contains_dash features
+Creating contains_digit features
+Creating context features
+Defining context features
+Creating POS-tag features
+Number of features:  416
+Processed  100  samples
+Processed  200  samples
+Processed  300  samples
+Processed  400  samples
+Processed  500  samples
+Processed  600  samples
+Processed  700  samples
+Processed  800  samples
+Processed  900  samples
+Processed  1000  samples
+Processed  1100  samples
+Processed  1200  samples
+Processed  1300  samples
+Processed  1400  samples
+Processed  1500  samples
+Processed  1600  samples
+Processed  1700  samples
+Processed  1800  samples
+Processed  1900  samples
+Processed  2000  samples
+Processed  2100  samples
+Processed  2200  samples
+Processed  2300  samples
+Processed  2400  samples
+Processed  2500  samples
+Processed  2600  samples
+Processed  2700  samples
+Processed  2800  samples
+Processed  2900  samples
+Processed  3000  samples
+Processed  3100  samples
+Processed  3200  samples
+Processed  3300  samples
+Processed  3400  samples
+Processed  3500  samples
+Processed  3600  samples
+Processed  3700  samples
+Processed  3800  samples
+Processed  3900  samples
+Processed  4000  samples
+Processed  4100  samples
+Processed  4200  samples
+Processed  4300  samples
+Processed  4400  samples
+Processed  4500  samples
+Processed  4600  samples
+Processed  4700  samples
+Processed  4800  samples
+Processed  4900  samples
+Processed  5000  samples
+Processed  5100  samples
+Processed  5200  samples
+Processed  5300  samples
+Processed  5400  samples
+Processed  5500  samples
+Processed  5600  samples
+Processed  5700  samples
+Processed  5800  samples
+Processed  5900  samples
+Processed  6000  samples
+Processed  6100  samples
+Processed  6200  samples
+Processed  6300  samples
+Processed  6400  samples
+Processed  6500  samples
+Processed  6600  samples
+Processed  6700  samples
+Processed  6800  samples
+Processed  6900  samples
+Processed  7000  samples
+Processed  7100  samples
+Processed  7200  samples
+Processed  7300  samples
+Processed  7400  samples
+Processed  7500  samples
+Processed  7600  samples
+Processed  7700  samples
+Processed  7800  samples
+Processed  7900  samples
+Processed  8000  samples
+Processed  8100  samples
+Processed  8200  samples
+Processed  8300  samples
+Processed  8400  samples
+Processed  8500  samples
+Processed  8600  samples
+Processed  8700  samples
+Processed  8800  samples
+Processed  8900  samples
+Processed  9000  samples
+Processed  9100  samples
+Processed  9200  samples
+Processed  9300  samples
+Processed  9400  samples
+Processed  9500  samples
+Processed  9600  samples
+Processed  9700  samples
+Processed  9800  samples
+Processed  9900  samples
+Processed  10000  samples
+Processed  10100  samples
+Processed  10200  samples
+Processed  10300  samples
+Processed  10400  samples
+Processed  10500  samples
+Processed  10600  samples
+Processed  10700  samples
+Processed  10800  samples
+Processed  10900  samples
+Processed  11000  samples
+Processed  11100  samples
+Processed  11200  samples
+Processed  11300  samples
+Processed  11400  samples
+Processed  11500  samples
+Processed  11600  samples
+Processed  11700  samples
+Processed  11800  samples
+Processed  11900  samples
+Processed  12000  samples
+Processed  12100  samples
+Processed  12200  samples
+Processed  12300  samples
+Processed  12400  samples
+Processed  12500  samples
+Processed  12600  samples
+Processed  12700  samples
+Processed  12800  samples
+Processed  12900  samples
+Processed  13000  samples
+Processed  13100  samples
+Processed  13200  samples
+Processed  13300  samples
+Processed  13400  samples
+Processed  13500  samples
+Processed  13600  samples
+Processed  13700  samples
+Processed  13800  samples
+Processed  13900  samples
+Processed  14000  samples
+Processed  14100  samples
+Processed  14200  samples
+Processed  14300  samples
+Processed  14400  samples
+Processed  14500  samples
+Processed  14600  samples
+Processed  14700  samples
+Processed  14800  samples
+Processed  14900  samples
+Processed  15000  samples
+Processed  15100  samples
+Processed  15200  samples
+Processed  15300  samples
+Processed  15400  samples
+Processed  15500  samples
+Processed  15600  samples
+Processed  15700  samples
+Processed  15800  samples
+Processed  15900  samples
+Processed  16000  samples
+Processed  16100  samples
+Processed  16200  samples
+Processed  16300  samples
+Processed  16400  samples
+Processed  16500  samples
+Processed  16600  samples
+Processed  16700  samples
+Processed  16800  samples
+Processed  16900  samples
+Processed  17000  samples
+Processed  17100  samples
+Processed  17200  samples
+Processed  17300  samples
+Processed  17400  samples
+Processed  17500  samples
+Processed  17600  samples
+Processed  17700  samples
+Processed  17800  samples
+Processed  17900  samples
+Processed  18000  samples
+Processed  18100  samples
+Processed  18200  samples
+Processed  18300  samples
+Processed  18400  samples
+Processed  18500  samples
+Processed  18600  samples
+Processed  18700  samples
+Processed  18800  samples
+Processed  18900  samples
+Processed  19000  samples
+Processed  19100  samples
+Processed  19200  samples
+Processed  19300  samples
+Processed  19400  samples
+Processed  19500  samples
+Processed  19600  samples
+Processed  19700  samples
+Processed  19800  samples
+Processed  19900  samples
+Processed  20000  samples
+Processed  20100  samples
+Processed  20200  samples
+Processed  20300  samples
+Processed  20400  samples
+Processed  20500  samples
+Processed  20600  samples
+Processed  20700  samples
+Processed  20800  samples
+Processed  20900  samples
+Processed  21000  samples
+Processed  21100  samples
+Processed  21200  samples
+Processed  21300  samples
+Processed  21400  samples
+Processed  21500  samples
+Processed  21600  samples
+Processed  21700  samples
+Processed  21800  samples
+Processed  21900  samples
+Processed  22000  samples
+Processed  22100  samples
+Processed  22200  samples
+Processed  22300  samples
+Processed  22400  samples
+Processed  22500  samples
+Processed  22600  samples
+Processed  22700  samples
+Processed  22800  samples
+Processed  22900  samples
+Processed  23000  samples
+Processed  23100  samples
+Processed  23200  samples
+Processed  23300  samples
+Processed  23400  samples
+Processed  23500  samples
+Processed  23600  samples
+Creating is_np feature
+Creating is_in_wiki features
+Creating is_title features
+Creating is_all_caps features
+Creating is_name features
+Creating is_com_name features
+Creating contains_dash features
+Creating contains_digit features
+Creating context features
+Defining context features
+Creating POS-tag features
+Number of features:  416
+Processed  100  samples
+Processed  200  samples
+Processed  300  samples
+Processed  400  samples
+Processed  500  samples
+Processed  600  samples
+Processed  700  samples
+Processed  800  samples
+Processed  900  samples
+Processed  1000  samples
+Processed  1100  samples
+Processed  1200  samples
+Processed  1300  samples
+Processed  1400  samples
+Processed  1500  samples
+Processed  1600  samples
+Processed  1700  samples
+Processed  1800  samples
+Processed  1900  samples
+Processed  2000  samples
+Processed  2100  samples
+Processed  2200  samples
+Processed  2300  samples
+Processed  2400  samples
+Processed  2500  samples
+Processed  2600  samples
+Processed  2700  samples
+Processed  2800  samples
+Processed  2900  samples
+Classify one-vs-one
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('the', '.')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+the_. : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Japan', 'NNP'], 'NP', ('in', 'when')]}['DATE']
+is_np : 1
+is_in_wiki : 1
+in_when : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Kao', 'NNP'], 'NP', ('when', 'introduced')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Color', 'NNP'], ['Guard', 'NNP'], 'NP', ('with', '--')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Lemon', 'NN'], ['Cheer', 'NN'], 'NP', ('superconcentrated', 'in')]}['DATE']
+is_np : 1
+NN : 2
+____________________________________________
+Entity: 
+{'ORG': [['Lemon', 'NN'], ['Cheer', 'NN'], 'NP', ('of', ',')]}['DATE']
+is_np : 1
+of_, : 1
+NN : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NML', ('billion', 'detergent')]}['ORG']
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Cheer', 'NN'], 'NP', ('the', 'name')]}['DATE']
+is_np : 1
+is_in_wiki : 1
+NN : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Ariel', 'NNP'], 'NP', ('the', 'brand')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Cheer', 'NN'], 'NP', ('new', 'sells')]}['DATE']
+is_np : 1
+is_in_wiki : 1
+NN : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Kao', 'NNP'], 'NP', ('if', 'introduces')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('the', '.')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+the_. : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Kao', 'NNP'], 'NP', (',', 'would')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('taking', 'market')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Andrew', 'NNP'], ['Jergens', 'NNP'], ['Co.', 'NNP'], 'NP', ('of', ',')]}['ORG']
+is_np : 1
+is_com_name : 1
+of_, : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'ORG': [['Cincinnati', 'NNP'], 'NP', ('a', 'hand')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Kao', 'NNP'], 'NP', ('without', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NML', ('from', 'Trade')]}['ORG']
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Carla', 'NNP'], ['Hills', 'NNP'], 'NML', ('Representative', '.')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('the', '.')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+the_. : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Hills', 'NNPS'], 'NP', ('Mrs.', "'")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNPS : 1
+____________________________________________
+Entity: 
+{'ORG': [['Commerce', 'NNP'], 'NML', ('by', 'Secretary')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Robert', 'NNP'], ['A.', 'NNP'], ['Mosbacher', 'NNP'], 'NML', ('Secretary', '.')]}['ORG']
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'PERSON': [['Mosbacher', 'NNP'], 'NP', ('Mr.', 'called')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['cents', 'NNS'], 'NP', ('and', "''")]}['DATE']
+is_np : 1
+is_in_wiki : 1
+NNS : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Japan', 'NNP'], 'NP', ('with', '.')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+with_. : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Hills', 'NNP'], 'NP', ('Mrs.', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Hills', 'NNP'], 'NP', ('Mrs.', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Hills', 'NNP'], 'NP', ('Mrs.', 'replied')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['three', 'CD'], ['days', 'NNS'], 'NP', ('during', 'of')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+CD : 1
+NNS : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Hills', 'NNP'], 'NP', ('Mrs.', 'said')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Saturday', 'NNP'], 'NP', ('conference', 'afternoon')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Hills', 'NNP'], 'NP', ('Mrs.', 'firmly')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Hills', 'NNPS'], 'NP', ('Mrs.', "'")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNPS : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('some', 'officials')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('on', 'access')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('The', 'share')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['1986', 'CD'], 'NP', ('a', 'agreement')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('assuring', 'companies')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Hills', 'NNP'], 'NP', ('Mrs.', 'said')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Information', 'NNP'], ['International', 'NNP'], 'NP', ('for', 'said')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Morris', 'NNP'], 'NP', ('the', 'units')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Syms', 'NNP'], 'NP', ('As', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Sulka', 'NNP'], 'NP', ('said', 'operates')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Syms', 'NNP'], 'NP', ('', 'operates')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('the', '.')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+the_. : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Phillips', 'NNP'], 'NP', ('forecast', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Phillips', 'NNP'], 'NP', ('say', 'will')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['July', 'NNP'], 'NP', ('since', 'to')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['33', 'CD'], ['cents', 'NNS'], 'NP', ('for', ',')]}['DATE']
+is_np : 1
+contains_digit : 1
+for_, : 1
+CD : 1
+NNS : 1
+____________________________________________
+Entity: 
+{'DATE': [['last', 'JJ'], ['December', 'NNP'], 'NP', ('cents', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+JJ : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('growing', 'economy')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['July', 'NNP'], 'NP', ('in', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_and : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['August', 'NNP'], 'NP', ('and', 'that')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Refiners', 'NNS'], 'NP', ('', 'say')]}['DATE']
+is_np : 1
+is_in_wiki : 1
+NNS : 1
+____________________________________________
+Entity: 
+{'DATE': [['September', 'NNP'], 'NP', ('in', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Phillips', 'NNP'], 'NP', (',', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+,_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Ing', 'NNP'], 'NML', ("'s", '.')]}['GPE_NORP']
+is_in_wiki : 1
+'s_. : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['the', 'DT'], ['Bush', 'NNP'], ['administration', 'NN'], 'NP', ('But', 'says')]}['DATE']
+is_np : 1
+DT : 1
+NN : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Cocom', 'NNP'], 'NP', ('all', 'members')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Olivetti', 'NNP'], 'NP', ('that', 'may')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['the', 'DT'], ['Soviet', 'NNP'], ['Union', 'NNP'], 'NP', ('supplied', 'with')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+DT : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('the', 'concerns')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('a', 'intelligence')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Olivetti', 'NNP'], 'NP', ('that', 'exported')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Olivetti', 'NNP'], 'NP', ('', 'reportedly')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('the', 'is')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+the_is : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Cocom', 'NNP'], 'NP', ('and', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+and_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Francesco', 'NNP'], ['Cossiga', 'NNP'], 'NML', ('President', 'promised')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Olivetti', 'NNP'], 'NP', ('whether', 'broke')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Cocom', 'NNP'], 'NP', ('broke', 'rules')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Bush', 'NNP'], 'NP', ('President', 'called')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Cocom', 'NNP'], 'NP', ('violated', 'rules')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Pentagon', 'NNP'], 'NP', ('the', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+the_and : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Cocom', 'NNP'], 'NP', ('important', 'meeting')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('of', 'computer')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Bush', 'NNP'], 'NP', ('Mr.', 'moved')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Cocom', 'NNP'], 'NP', ('the', 'embargo')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Pentagon', 'NNP'], 'NP', ('the', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+the_and : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Cocom', 'NNP'], 'NP', ('which', 'should')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Santa', 'NNP'], ['Barbara', 'NNP'], 'NP', ('of', 'filed')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Ivan', 'NNP'], ['F.', 'NNP'], ['Boesky', 'NNP'], 'NML', ('speculator', 'and')]}['ORG']
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'DATE': [['Thursday', 'NNP'], 'NP', ('court', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['1984', 'CD'], 'NP', ('in', 'declined')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'ORG': [['Drexel', 'NNP'], 'NP', ('and', 'negotiated')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Drexel', 'NNP'], 'NP', ('at', 'said')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Vagabonds', 'NNS'], ['Hotels', 'NNS'], 'NP', ('to', '.')]}['DATE']
+is_np : 1
+to_. : 1
+NNS : 2
+____________________________________________
+Entity: 
+{'ORG': [['Drexel', 'NNP'], 'NP', ('and', 'representives')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['North', 'NNP'], ['American', 'NNP'], 'NML', ('its', 'cement')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Ideal', 'JJ'], 'NP', ('with', 'in')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+with_in : 1
+JJ : 1
+____________________________________________
+Entity: 
+{'ORG': [['Ideal', 'NNP'], 'NP', ('leave', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['North', 'NNP'], ['American', 'NNP'], 'NML', ('the', 'holding')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Ideal', 'JJ'], 'ADJP', ('in', '.')]}['GPE_NORP']
+is_in_wiki : 1
+in_. : 1
+JJ : 1
+____________________________________________
+Entity: 
+{'ORG': [['Ideal', 'NNP'], 'NP', ('given', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Ideal', 'JJ'], 'NP', ('by', 'shareholders')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+JJ : 1
+____________________________________________
+Entity: 
+{'DATE': [['1990', 'CD'], 'NP', ('into', ',')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['the', 'DT'], ['Soviet', 'NNP'], ['Union', 'NNP'], 'NP', ('that', 'will')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+that_will : 1
+DT : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('of', 'wheat')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Agriculture', 'NNP'], 'NML', (',', 'Secretary')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Clayton', 'NNP'], ['Yeutter', 'NNP'], 'NML', ('Secretary', 'last')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['$', '$'], ['4', 'CD'], ['-', 'HYPH'], 'NML', ('the', 'a')]}['DATE']
+contains_dash : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('Trade', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['July', 'NNP'], 'NP', ('In', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Ferruzzi', 'NNP'], ['Finanziaria', 'NNP'], ['S.p', 'NNP'], ['.', '.'], 'NP', ('ordered', 'A.')]}['PERSON']
+is_np : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'PERSON': [['Ferruzzi', 'NNP'], 'NP', ('', 'has')]}['ORG']
+is_np : 1
+_has : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Oregon', 'NNP'], 'NP', ('and', 'is')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+and_is : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Leslie', 'NNP'], ['Analytical', 'NNP'], 'NP', ('of', 'in')]}['ORG']
+is_np : 1
+of_in : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['the', 'DT'], ['Oklahoma', 'NNP'], ['panhandle', 'NNP'], 'NP', ('in', ',')]}['DATE']
+is_np : 1
+in_, : 1
+DT : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['The', 'DT'], ['Soviet', 'NNP'], ['Union', 'NNP'], 'NP', ('', 'has')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+_has : 1
+DT : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('for', 'wheat')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Orange', 'NNP'], ['Juice', 'NN'], 'NP', ('', 'Traders')]}['DATE']
+is_np : 1
+is_in_wiki : 1
+NN : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('began', 'will')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['1989', 'CD'], ['-', 'HYPH'], ['90', 'CD'], 'NP', ('the', 'Florida')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+contains_dash : 1
+contains_digit : 1
+CD : 2
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('the', 'report')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['November', 'NNP'], 'NP', ('the', 'orange')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('the', 'in')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+the_in : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['New', 'NNP'], ['York', 'NNP'], 'NML', ('', 'futures')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'DATE': [['midyear', 'NN'], 'NP', ('at', '.')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+at_. : 1
+NN : 1
+____________________________________________
+Entity: 
+{'DATE': [['January', 'NNP'], 'NP', ('into', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('of', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+of_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('', 'capped')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['the', 'DT'], ['Soviet', 'NNP'], ['Union', 'NNP'], 'NP', ('that', 'is')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+that_is : 1
+DT : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Nigeria', 'NNP'], 'NP', ('that', 'has')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+that_has : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Charles', 'NNP'], 'NP', ('co-founders', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('of', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+of_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Saatchi', 'NNP'], 'NP', (',', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+,_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Southeastern', 'NNP'], ['Asset', 'NNP'], ['Management', 'NNP'], 'NP', (',', ',')]}['PERSON']
+is_np : 1
+,_, : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'ORG': [['Saatchi', 'NNP'], 'NP', ('of', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+of_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Backer', 'NNP'], ['Spielvogel', 'NNP'], ['Bates', 'NNP'], 'NML', ('big', 'advertising')]}['PERSON']
+NNP : 3
+____________________________________________
+Entity: 
+{'PERSON': [['Charles', 'NNP'], ['Saatchi', 'NNP'], 'NP', ('by', '.')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+by_. : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Saatchi', 'NNP'], 'NP', ('which', 'knew')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Saatchi', 'NNP'], 'NP', ('of', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+of_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'ADJP', ('big', '-')]}['ORG']
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Saatchi', 'NNP'], 'NP', ('said', 'would')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Saatchi', 'NNP'], 'NP', ('that', 'was')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('abounded', 'as')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Saatchi', 'NNP'], 'NP', ('joins', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Saatchi', 'NNP'], 'NP', ('repairing', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Dreyfus', 'NNP'], 'NP', ('reason', 'has')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Saatchi', 'NNP'], 'NP', ('several', 'agency')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Backer', 'NNP'], ['Spielvogel', 'NNP'], 'NML', ('at', 'client')]}['PERSON']
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Saatchi', 'NNP'], 'NML', ('at', 'client')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Backer', 'NNP'], ['Spielvogel', 'NNP'], 'NML', ('a', 'client')]}['PERSON']
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Backer', 'NNP'], ['Spielvogel', 'NNP'], 'NP', ('of', 'alone')]}['PERSON']
+is_np : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Federal', 'NNP'], ['Bank', 'NNP'], 'NP', ('Glendale', 'awarded')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Los', 'NNP'], ['Angeles', 'NNP'], 'NML', ('the', 'office')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Los', 'NNP'], ['Angeles', 'NNP'], 'NML', ('a', 'agency')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Hill', 'NNP'], 'NP', ('of', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+of_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Holliday', 'NNP'], 'NP', (',', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+,_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Connors', 'NNP'], 'NP', (',', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+,_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Jamaica', 'NNP'], ['Tourist', 'NNP'], ['Board', 'NNP'], 'NML', ('the', 'ad')]}['PERSON']
+NNP : 3
+____________________________________________
+Entity: 
+{'ORG': [['KOREAN', 'NNP'], ['AGENCY', 'NNP'], [':', ':'], 'NP', ('', '')]}['PERSON']
+is_np : 1
+is_all_caps : 1
+_ : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Samsung', 'NNP'], 'NP', ('', 'already')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Bozell', 'NNP'], 'NP', ('', 'joins')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Backer', 'NNP'], ['Spielvogel', 'NNP'], ['Bates', 'NNP'], 'NP', ('joins', 'and')]}['PERSON']
+is_np : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'ORG': [['Ogilvy', 'NNP'], ['Group', 'NNP'], 'NP', ('and', 'as')]}['PERSON']
+is_np : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('as', 'agencies')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Thomas', 'NNP'], ['W.', 'NNP'], ['Field', 'NNP'], ['Jr.', 'NNP'], 'NP', ('succeeding', ',')]}['ORG']
+is_np : 1
+is_all_caps : 1
+NNP : 4
+____________________________________________
+Entity: 
+{'ORG': [['Field', 'NNP'], 'NP', ('Mr.', 'also')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+mr._also : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Rex', 'NNP'], ['R.', 'NNP'], ['Malson', 'NNP'], 'NP', ('named', ',')]}['ORG']
+is_np : 1
+is_all_caps : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'ORG': [['Field', 'NNP'], 'NP', ('Mr.', '.')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+mr._. : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Seelenfreund', 'NNP'], 'NP', ('and', 'are')]}['PERSON']
+is_np : 1
+and_are : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['North', 'NNP'], ['American', 'NNP'], 'NML', ('five', 'assembly')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('three', 'car')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ("'s", 'market')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['North', 'NNP'], ['American', 'NNP'], 'NML', ('its', 'vehicle')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'DATE': [['1992', 'CD'], 'NP', ('by', '.')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+by_. : 1
+CD : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('eighth', 'assembly')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['since', 'IN'], ['1987', 'CD'], 'PP', ('close', '.')]}['PERCENT_CARDINAL_MONEY']
+contains_digit : 1
+CD : 1
+IN : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('the', 'that')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Stephen', 'NNP'], ['P.', 'NNP'], ['Yokich', 'NNP'], 'NML', ('President', ',')]}['ORG']
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('statement', 'blasting')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], ['-', 'HYPH'], ['Canada', 'NNP'], 'NML', ('the', 'free')]}['ORG']
+is_all_caps : 1
+contains_dash : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Brian', 'NNP'], ['Mulroney', 'NNP'], 'NML', ('Minister', '.')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('three', 'car')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Pontiac', 'NNP'], 'NP', ('and', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+and_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Pontiac', 'NNP'], 'NML', ('the', 'Firebird')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Chevrolet', 'NNP'], 'NML', ('and', 'Camaro')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Oklahoma', 'NNP'], ['City', 'NNP'], 'NP', ('and', 'uncertain')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Oklahoma', 'NNP'], ['City', 'NNP'], 'NML', ('the', 'plant')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Pontiac', 'NNP'], 'NML', ('seater', 'Fiero')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Fiero', 'NNP'], 'NP', ('the', 'forced')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Weatherford', 'NNP'], 'NP', ('', 'said')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+_said : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Weatherford', 'NNP'], 'NP', ('', 'suspended')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['November', 'NNP'], 'NP', ('in', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_. : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Weatherford', 'NNP'], 'NP', ('', 'currently')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Bronx', 'NNP'], 'NP', ('The', 'has')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+the_has : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Little', 'NNP'], ['Italy', 'NNP'], 'NP', ('charming', '-LRB-')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Arthur', 'NNP'], ['Avenue', 'NNP'], 'NP', ('on', '-RRB-')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Yankees', 'NNPS'], 'NP', ('the', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+the_. : 1
+NNPS : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Tom', 'NNP'], ['Wolfe', 'NNP'], ["'s", 'POS'], 'NP', ('way', 'Sherman')]}['ORG']
+is_np : 1
+NNP : 2
+POS : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Laura', 'NNP'], ['Cunningham', 'NNP'], ["'s", 'POS'], 'NP', ('But', 'Bronx')]}['ORG']
+is_np : 1
+NNP : 2
+POS : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Bronx', 'NNP'], 'NP', ("'s", ',')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+'s_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Knopf', 'NNP'], 'NP', ('-LRB-', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+-lrb-_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['$', '$'], ['18.95', 'CD'], 'NP', (',', '-RRB-')]}['DATE']
+is_np : 1
+contains_digit : 1
+,_-rrb- : 1
+CD : 1
+____________________________________________
+Entity: 
+{'ORG': [['Catholic', 'NNP'], 'NP', ('occasional', '-LRB-')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Diana', 'NNP'], 'ADJP', ('kitten', ',')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['the', 'DT'], ['``', '``'], ['Babylonian', 'NNP'], ['Bronx', 'NNP'], 'NP', ('into', ',')]}['ORG']
+is_np : 1
+DT : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['AnaMor', 'NNP'], ['Towers', 'NNP'], 'NP', ('like', '-LRB-')]}['PERSON']
+is_np : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Anna', 'NNP'], 'NP', ('owners', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Cunningham', 'NNP'], 'NP', ('Ms.', 'the')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Lily', 'NNP'], 'NP', ('Little', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Cunningham', 'NNP'], 'NP', ('Ms.', 'calls')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Lily', 'NNP'], 'NP', ('why', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Lily', 'NNP'], 'NP', ('for', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+for_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Rosie', 'NNP'], 'NP', ('', 'died')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Lily', 'NNP'], 'NP', ('and', 'has')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Cunningham', 'NNP'], 'NP', ('Ms.', 'makes')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Susan', 'NNP'], 'NP', ('friend', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Diana', 'NNP'], 'NP', ('friend', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Lily', 'NNP'], 'NP', ('Maybe', 'became')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Gabe', 'NNP'], 'NP', ('Uncle', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['an', 'DT'], ['Orthodox', 'NNP'], ['Jew', 'NNP'], 'NP', (',', 'and')]}['ORG']
+is_np : 1
+,_and : 1
+DT : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Lincoln', 'NNP'], 'NP', ('like', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Lily', 'NNP'], 'NP', ('', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Philosophy', 'NNP'], ['for', 'IN'], ['Women', 'NNP'], 'NP', ('``', '.')]}['PERSON']
+is_np : 1
+``_. : 1
+IN : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Lily', 'NNP'], 'NP', ('when', 'becomes')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Bruce', 'NNP'], ['Jay', 'NNP'], ['Friedman', 'NNP'], ["'s", 'POS'], 'NP', ('in', 'latest')]}['ORG']
+is_np : 1
+NNP : 3
+POS : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['the', 'DT'], ['New', 'NNP'], ['York', 'NNP'], 'NP', ('to', 'of')]}['ORG']
+is_np : 1
+to_of : 1
+DT : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Atlantic', 'NNP'], ['Monthly', 'NNP'], 'NP', ('-LRB-', 'Press')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['$', '$'], ['18.95', 'CD'], 'NP', (',', '-RRB-')]}['DATE']
+is_np : 1
+contains_digit : 1
+,_-rrb- : 1
+CD : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Friedman', 'NNP'], 'NP', ('Mr.', 'tried')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['1972', 'CD'], 'NP', ('his', 'work')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Harry', 'NNP'], 'NP', ('', 'is')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+_is : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['New', 'NNP'], ['York', 'NNP'], 'NP', ('and', 'seems')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Harry', 'NNP'], ['fondly', 'RB'], 'NP', ('', 'remembers')]}['DATE']
+is_np : 1
+NNP : 1
+RB : 1
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['old', 'JJ'], 'NP', ('``', "''")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+``_'' : 1
+JJ : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Travis', 'NNP'], 'NP', ('friend', 'would')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Travis', 'NNP'], 'NP', ('what', 'was')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Harry', 'NNP'], 'NP', ('', 'has')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+_has : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['1984', 'CD'], 'NP', ('In', 'the')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'ORG': [['Gulf', 'NNP'], ['Resources', 'NNP'], 'NP', ('notified', ',')]}['PERSON']
+is_np : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['EPA', 'NNP'], 'NP', ('the', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+the_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['late', 'JJ'], ['Friday', 'NNP'], 'NP', ('agreement', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+JJ : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Gulf', 'NNP'], ['Resources', 'NNP'], 'NP', ('', 'added')]}['PERSON']
+is_np : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Gulf', 'NNP'], 'NP', (',', 'must')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Gulf', 'NNP'], 'NP', ('of', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+of_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Gulf', 'NNP'], 'NP', (',', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+,_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Gulf', 'NNP'], 'NP', (',', 'must')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Gulf', 'NNP'], 'NP', ('', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['New', 'NNP'], ['York', 'NNP'], 'NML', ('of', 'office')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['about', 'RB'], ['one', 'CD'], ['-', 'HYPH'], ['quarter', 'NN'], 'QP', ('are', 'lower')]}['DATE']
+contains_dash : 1
+CD : 1
+NN : 1
+RB : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Madison', 'NNP'], 'NML', ('and', 'and')]}['GPE_NORP']
+is_in_wiki : 1
+and_and : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['New', 'NNP'], ['York', 'NNP'], 'NML', ('small', 'retailers')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['New', 'NNP'], ['York', 'NNP'], 'NML', ('', 'retail')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('other', 'cities')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Madison', 'NNP'], 'NML', ('', 'and')]}['GPE_NORP']
+is_in_wiki : 1
+_and : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Beverly', 'NNP'], ['Hills', 'NNP'], 'NML', ('on', "'")]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['RBSPr', 'NN'], 'NP', ('symbol', '.')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+NN : 1
+____________________________________________
+Entity: 
+{'ORG': [['Nasdaq', 'NNP'], 'NP', ('the', 'over')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Harry', 'NNP'], ['Blackmun', 'NNP'], 'NP', (',', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+,_and : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['John', 'NNP'], ['Stevens', 'NNP'], 'NP', ('and', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+and_. : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'DATE': [['88', 'CD'], ['years', 'NNS'], 'NP', ('after', ',')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+contains_digit : 1
+CD : 1
+NNS : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Stevens', 'NNP'], 'NP', ('and', 'appear')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Marshall', 'NNP'], 'NP', ('Justices', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['fifth', 'JJ'], 'NP', ('a', 'vote')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+JJ : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Brennan', 'NNP'], 'NP', ('Justice', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Earl', 'NNP'], ['Warren', 'NNP'], 'NML', ('Justice', '.')]}['ORG']
+is_in_wiki : 1
+is_title : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Brennan', 'NNP'], 'NP', ('Justice', 'cast')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Brennan', 'NNP'], 'NP', ('Justice', 'foresaw')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['1985', 'CD'], 'NP', ('a', 'speech')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Marshall', 'NNP'], 'NML', ('Justice', 'say')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Brennan', 'NNP'], 'NP', ('Justice', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Harvard', 'NNP'], ['Law', 'NNP'], ['School', 'NNP'], 'NML', ('', 'Professor')]}['PERSON']
+is_in_wiki : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'PERSON': [['Laurence', 'NNP'], ['Tribe', 'NNP'], 'NML', ('Professor', 'says')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['the', 'DT'], ['Warren', 'NNP'], ['Court', 'NNP'], 'NP', ('in', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_, : 1
+DT : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Marshall', 'NNP'], 'NP', ('and', 'are')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+and_are : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Blackmun', 'NNP'], 'NP', ('Justice', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['1973', 'CD'], 'NP', ('his', 'opinion')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Blackmun', 'NNP'], 'NP', ('Justice', 'during')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['August', 'NNP'], 'NP', ('in', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_. : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Washington', 'NNP'], 'NP', ('on', '.')]}['DATE']
+is_np : 1
+is_in_wiki : 1
+on_. : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Stevens', 'NNP'], 'NP', ('Justice', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['A.E.', 'NNP'], ['Dick', 'NNP'], ['Howard', 'NNP'], 'NP', ('Prof.', 'of')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'DATE': [['two', 'CD'], ['months', 'NNS'], ['ago', 'RB'], 'NP', ('legislation', '.')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+CD : 1
+NNS : 1
+RB : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Acquirers', 'NNS'], 'NP', ('', 'paid')]}['DATE']
+is_np : 1
+is_in_wiki : 1
+NNS : 1
+____________________________________________
+Entity: 
+{'ORG': [['People', 'NNPS'], ["'s", 'POS'], ['Heritage', 'NNP'], ['Savings', 'NNPS'], 'NP', ('selling', ',')]}['GPE_NORP']
+is_np : 1
+NNP : 1
+NNPS : 2
+POS : 1
+____________________________________________
+Entity: 
+{'ORG': [['University', 'NNP'], ['Federal', 'NNP'], ['Savings', 'NNP'], ['Association', 'NNP'], 'NP', ('acquire', ',')]}['PERSON']
+is_np : 1
+NNP : 4
+____________________________________________
+Entity: 
+{'ORG': [['NCNB', 'NNP'], 'NP', ('to', 'to')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+to_to : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Freedom', 'NNP'], 'NP', ('of', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+of_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['RTC', 'NNP'], 'NP', ('the', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+the_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Hill', 'NNP'], ['Financial', 'NNP'], ['Savings', 'NNP'], ['Association', 'NNP'], 'NP', ('acquire', ',')]}['PERSON']
+is_np : 1
+NNP : 4
+____________________________________________
+Entity: 
+{'ORG': [['Red', 'NNP'], ['Hill', 'NNP'], 'NP', (',', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+,_, : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Pacific', 'NNP'], ['Savings', 'NNP'], ['Bank', 'NNP'], 'NP', ('acquire', ',')]}['PERSON']
+is_np : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'ORG': [['Prudential', 'NNP'], ['-', 'HYPH'], ['Bache', 'NNP'], ['Capital', 'NNP'], ['Funding', 'NNP'], 'NP', (',', ',')]}['PERSON']
+is_np : 1
+contains_dash : 1
+,_, : 1
+NNP : 4
+____________________________________________
+Entity: 
+{'ORG': [['Bateman', 'NNP'], ['Eichler', 'NNP'], [',', ','], ['Hill', 'NNP'], ['Richards', 'NNP'], 'NP', ('and', '.')]}['PERSON']
+is_np : 1
+and_. : 1
+NNP : 4
+____________________________________________
+Entity: 
+{'PERSON': [['PacifiCare', 'NNP'], 'NP', ('by', 'and')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+by_and : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['PacifiCare', 'NNP'], 'NP', ('-LRB-', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Time', 'NNP'], ['magazine', 'NN'], 'NP', ('part', ',')]}['DATE']
+is_np : 1
+is_in_wiki : 1
+part_, : 1
+NN : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['weekly', 'JJ'], 'NP', ("'s", 'magazine')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+JJ : 1
+____________________________________________
+Entity: 
+{'ORG': [['Time', 'NNP'], 'NP', ('said', 'will')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['annual', 'JJ'], 'NP', ('its', 'subscription')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+JJ : 1
+____________________________________________
+Entity: 
+{'ORG': [['Time', 'NNP'], 'NP', (',', 'associate')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Reader', 'NNP'], ["'s", 'POS'], ['Digest', 'NNP'], 'NP', (',', ',')]}['GPE_NORP']
+is_np : 1
+,_, : 1
+NNP : 2
+POS : 1
+____________________________________________
+Entity: 
+{'PERSON': [['McCall', 'NNP'], ["'s", 'POS'], 'NP', ("'s", ',')]}['ORG']
+is_np : 1
+'s_, : 1
+NNP : 1
+POS : 1
+____________________________________________
+Entity: 
+{'ORG': [['Time', 'NNP'], 'NP', ('But', ',')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+but_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Time', 'NNP'], 'NP', (',', 'executives')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Time', 'NNP'], ['magazine', 'NN'], 'NP', ('', 'executives')]}['DATE']
+is_np : 1
+is_in_wiki : 1
+NN : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Time', 'NNP'], 'NP', (',', 'executives')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Time', 'NNP'], 'NP', ('And', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+and_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Time', 'NNP'], 'NP', (',', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+,_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Time', 'NNP'], 'NP', ('', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Newsweek', 'NNP'], 'NML', ("'s", 'and')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['two', 'CD'], ['weeks', 'NNS'], ['ago', 'RB'], 'NP', ('Panama', ',')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+CD : 1
+NNS : 1
+RB : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Ted', 'NNP'], ['Turner', 'NNP'], ["'s", 'POS'], 'NP', ('far', 'Cable')]}['ORG']
+is_np : 1
+NNP : 2
+POS : 1
+____________________________________________
+Entity: 
+{'ORG': [['Cable', 'NNP'], ['News', 'NNP'], ['Network', 'NNP'], 'NP', ("'s", 'has')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'DATE': [['nine', 'CD'], ['years', 'NNS'], ['ago', 'RB'], 'NP', ('birth', ',')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+CD : 1
+NNS : 1
+RB : 1
+____________________________________________
+Entity: 
+{'ORG': [['Eastern', 'NNP'], 'NP', ('.', 'time')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Networks', 'NNS'], 'NP', ('', ',')]}['DATE']
+is_np : 1
+is_in_wiki : 1
+_, : 1
+NNS : 1
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', ('at', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+at_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Business', 'NNP'], ['Channel', 'NNP'], 'NML', ('and', ',')]}['PERSON']
+and_, : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['less', 'JJR'], ['than', 'IN'], ['one', 'CD'], ['-', 'HYPH'], ['third', 'NN'], 'QP', ("'s", 'the')]}['DATE']
+contains_dash : 1
+CD : 1
+IN : 1
+JJR : 1
+NN : 1
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', ('', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['daily', 'JJ'], 'NP', ('its', 'schedule')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+JJ : 1
+____________________________________________
+Entity: 
+{'DATE': [['August', 'NNP'], 'NP', ('In', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['weekly', 'JJ'], 'NP', ('produce', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+JJ : 1
+____________________________________________
+Entity: 
+{'PERSON': [['MacNeil', 'NNP'], ['-', 'HYPH'], ['Lehrer', 'NNP'], ['NewsHour', 'NNP'], 'NP', ('with', ',')]}['ORG']
+is_np : 1
+contains_dash : 1
+with_, : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'ORG': [['Turner', 'NNP'], ['Broadcasting', 'NNP'], 'NP', ('in', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_. : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Court', 'NNP'], ['Backs', 'VBZ'], ['Texaco', 'NNP'], 'NP', ('``', "'s")]}['PERSON']
+is_np : 1
+NNP : 2
+VBZ : 1
+____________________________________________
+Entity: 
+{'ORG': [['Pennzoil', 'NNP'], 'NP', ('found', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Getty', 'NNP'], ['Oil', 'NNP'], 'NP', ('and', 'intended')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Arcadian', 'NNP'], ['Phosphates', 'NNP'], 'NP', ('in', 'they')]}['PERSON']
+is_np : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Valley', 'NNP'], ['Federal', 'NNP'], 'NP', ('five', 'branches')]}['PERSON']
+is_np : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'DATE': [['August', 'NNP'], 'NP', ('in', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Valley', 'NNP'], ['Federal', 'NNP'], 'NP', ('but', 'had')]}['PERSON']
+is_np : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('said', 'that')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Valley', 'NNP'], ['Federal', 'NNP'], 'NP', ('', ',')]}['PERSON']
+is_np : 1
+_, : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['dozens', 'NNS'], 'NP', ('for', 'of')]}['DATE']
+is_np : 1
+is_in_wiki : 1
+for_of : 1
+NNS : 1
+____________________________________________
+Entity: 
+{'ORG': [['Cowboys', 'NNPS'], 'NML', ('Dallas', 'football')]}['GPE_NORP']
+is_in_wiki : 1
+NNPS : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Sunbelt', 'NNP'], 'NP', ('', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+_and : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Sunbelt', 'NNP'], 'NP', ('about', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['FSLIC', 'NNP'], 'NP', ('the', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+the_and : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Sunbelt', 'NNP'], 'NP', ('for', ',')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+for_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Sunbelt', 'NNP'], 'NP', ('because', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Triland', 'NNP'], ['Investment', 'NNP'], ['Group', 'NNP'], 'NP', ('for', ',')]}['PERSON']
+is_np : 1
+for_, : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'DATE': [['August', 'NNP'], 'NP', ('in', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['San', 'NNP'], ['Diego', 'NNP'], 'NP', ('his', 'home')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Sisulu', 'NNP'], 'NP', ("'s", 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['African', 'NNP'], ['National', 'NNP'], ['Congress', 'NNP'], 'NP', ('outlawed', ',')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'PERSON': [['Sisulu', 'NNP'], 'NML', ('old', ',')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['1964', 'CD'], 'NP', ('in', 'along')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['South', 'NNP'], ['Africa', 'NNP'], 'NP', ('in', 'was')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['ANC', 'NNP'], 'NP', ('the', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+the_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['The', 'DT'], ['Soviet', 'NNP'], ['Union', 'NNP'], 'NP', ('', 'reported')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+DT : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Ryzhkov', 'NNP'], 'NP', ('Premier', 'warned')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Bush', 'NNP'], 'NP', ('', 'indicated')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('conference', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Noriega', 'NNP'], 'NP', ("'s", '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+'s_. : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('seize', 'fugitives')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Baker', 'NNP'], 'NP', ('State', 'emphasized')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('emphasized', 'that')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['South', 'NNP'], ['Korea', 'NNP'], ["'s", 'POS'], 'NP', ('', 'President')]}['ORG']
+is_np : 1
+_president : 1
+NNP : 2
+POS : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Roh', 'NNP'], 'NP', ('President', 'traveled')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('the', 'for')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('of', 'military')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Bush', 'NNP'], 'NP', ('with', 'tomorrow')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Xinhua', 'NNP'], ['News', 'NNP'], ['Agency', 'NNP'], 'NP', ('official', ',')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'DATE': [['June', 'NNP'], 'NP', ('in', 'is')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_is : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['West', 'NNP'], ['Germany', 'NNP'], 'NP', ('to', 'through')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Zaire', 'NNP'], 'NP', ('', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Mobutu', 'NNP'], 'NP', ('President', 'met')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Savimbi', 'NNP'], 'NML', ('leader', 'and')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('senior', 'envoy')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Arafat', 'NNP'], 'NML', ('leader', 'insisted')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('a', 'plan')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Shamir', 'NNP'], 'NP', ('as', 'opposed')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Saudi', 'NNP'], ['Arabia', 'NNP'], 'NP', ('in', 'proposals')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'DATE': [['two', 'CD'], ['years', 'NNS'], 'NP', ('Damascus', 'to')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+CD : 1
+NNS : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Moslems', 'NNPS'], 'NP', ('for', '.')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+for_. : 1
+NNPS : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Miami', 'NNP'], ['Beach', 'NNP'], 'NML', ('oppose', 'financier')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Victor', 'NNP'], ['Posner', 'NNP'], 'NML', ('financier', "'s")]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Posner', 'NNP'], 'NP', ('Mr.', 'that')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['August', 'NNP'], 'NP', ('in', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_. : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Arby', 'NNP'], 'NP', ('of', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+of_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('', ',')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Arby', 'NNP'], 'NP', ('franchised', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['September', 'NNP'], 'NP', ('part', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+part_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('plunge', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('reported', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Fed', 'NNP'], 'NP', ('the', 'from')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('reported', 'that')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['September', 'NNP'], 'NP', ('in', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['August', 'NNP'], 'NP', ('in', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('the', 'report')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Fed', 'NNP'], 'NP', ('the', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+the_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['0.7', 'CD'], ['%', 'NN'], 'NP', ('by', ',')]}['DATE']
+is_np : 1
+contains_digit : 1
+by_, : 1
+CD : 1
+NN : 1
+____________________________________________
+Entity: 
+{'DATE': [['September', 'NNP'], 'NP', ('the', 'jump')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['annual', 'JJ'], 'NML', ('digit', 'rates')]}['GPE_NORP']
+is_in_wiki : 1
+JJ : 1
+____________________________________________
+Entity: 
+{'DATE': [['annual', 'JJ'], 'NML', ('compound', 'rate')]}['GPE_NORP']
+is_in_wiki : 1
+JJ : 1
+____________________________________________
+Entity: 
+{'DATE': [['1988', 'CD'], 'NP', ('of', '.')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+of_. : 1
+CD : 1
+____________________________________________
+Entity: 
+{'DATE': [['August', 'NNP'], 'NP', ('in', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_. : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['September', 'NNP'], 'NP', ('in', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['August', 'NNP'], 'NP', ('in', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_and : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['September', 'NNP'], 'NP', ('the', 'increase')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['their', 'PRP$'], ['1990', 'CD'], 'NP', ('introduced', 'models')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+contains_digit : 1
+CD : 1
+PRP$ : 1
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['a', 'DT'], ['hefty', 'JJ'], ['1.1', 'CD'], ['%', 'NN'], 'NP', ('rose', 'in')]}['DATE']
+is_np : 1
+contains_digit : 1
+rose_in : 1
+CD : 1
+DT : 1
+JJ : 1
+NN : 1
+____________________________________________
+Entity: 
+{'DATE': [['September', 'NNP'], 'NP', ('in', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['August', 'NNP'], 'NP', ('in', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_. : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['September', 'NNP'], 'NP', ('in', 'to')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_to : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['August', 'NNP'], 'NP', ('in', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['September', 'NNP'], 'NP', ('in', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['August', 'NNP'], 'NP', ('in', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_and : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['July', 'NNP'], 'NP', ('in', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_. : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['September', 'NNP'], 'NP', ('for', ',')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+for_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['West', 'NNP'], ['Germany', 'NNP'], ["'s", 'POS'], 'NP', ('of', 'most')]}['ORG']
+is_np : 1
+NNP : 2
+POS : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['West', 'NNP'], ['German', 'NNP'], 'NML', ('of', 'households')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'DATE': [['1992', 'CD'], 'NP', ('the', 'economic')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Dallas', 'NNP'], 'NP', ('``', ',')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+``_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Saturday', 'NNP'], 'NML', ('popular', 'night')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Thomas', 'NNP'], ['Gottschalk', 'NNP'], 'NP', (',', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+,_, : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', (',', 'Ambassador')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['West', 'NNP'], ['Germany', 'NNP'], 'NP', ('to', 'Richard')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Burt', 'NNP'], 'NP', ('Mr.', 'nonetheless')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['West', 'NNP'], ['German', 'NNP'], 'NML', ('with', 'Foreign')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Hans', 'NNP'], ['-', 'HYPH'], ['Dietrich', 'NNP'], ['Genscher', 'NNP'], 'NML', ('Minister', 'frying')]}['ORG']
+contains_dash : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'ORG': [['Mega-hits', 'NNS'], 'NP', ('', 'in')]}['DATE']
+is_np : 1
+contains_dash : 1
+_in : 1
+NNS : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Great', 'NNP'], ['Britain', 'NNP'], 'NP', ('or', ',')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+or_, : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('on', 'public')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Dallas', 'NNP'], 'NP', ('``', ',')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+``_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['National', 'NNP'], ['Film', 'NNP'], ['Theatre', 'NNP'], ['School', 'NNP'], 'NP', ("'s", '.')]}['PERSON']
+is_np : 1
+'s_. : 1
+NNP : 4
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('the', 'contend')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['earlier', 'RBR'], 'ADVP', ('Spain', 'began')]}['PERCENT_CARDINAL_MONEY']
+RBR : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('the', '.')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+the_. : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Rupert', 'NNP'], ['Murdoch', 'NNP'], 'ADJP', ('tycoon', ',')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Australia', 'NNP'], 'NP', ('on', "'s")]}['ORG']
+is_np : 1
+is_in_wiki : 1
+on_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Lisa', 'NNP'], ['Grishaw', 'NNP'], ['-', 'HYPH'], ['Mueller', 'NNP'], 'NP', ('', 'in')]}['ORG']
+is_np : 1
+contains_dash : 1
+_in : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'PERSON': [['Laura', 'NNP'], ['Colby', 'NNP'], 'NP', (',', 'in')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+,_in : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Tim', 'NNP'], ['Carrington', 'NNP'], 'NP', (',', 'in')]}['ORG']
+is_np : 1
+,_in : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['British', 'NNP'], ['Aerospace', 'NNP'], ['and', 'CC'], ['French', 'JJ'], ['government', 'NN'], 'NP', (',', '-')]}['DATE']
+is_np : 1
+,_- : 1
+CC : 1
+JJ : 1
+NN : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('a', 'unit')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+a_unit : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Matra', 'NNP'], 'NP', ('neither', 'nor')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Ferranti', 'NNP'], 'NP', ('the', 'fight')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Ferranti', 'NNP'], 'NP', ('joint', 'bid')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['West', 'NNP'], ['Germany', 'NNP'], ["'s", 'POS'], 'NP', (',', 'Daimler')]}['ORG']
+is_np : 1
+NNP : 2
+POS : 1
+____________________________________________
+Entity: 
+{'ORG': [['Dassault', 'NNP'], 'NP', ("'s", 'group')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Ferranti', 'NNP'], 'NP', ('study', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('a', 'unit')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+a_unit : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Ferranti', 'NNP'], 'NP', ('which', 'merged')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Ferranti', 'NNP'], 'NP', (';', 'is')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['British', 'NNP'], ['Defense', 'NNP'], ['Ministry', 'NNP'], 'NML', ('heighten', 'worries')]}['PERSON']
+NNP : 3
+____________________________________________
+Entity: 
+{'ORG': [['Ferranti', 'NNP'], 'NP', ('in', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_and : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Matra', 'NNP'], 'NP', (',', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+,_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Ferranti', 'NNP'], 'NP', ('in', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_. : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Matra', 'NNP'], 'NP', ('a', 'official')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Sunday', 'NNP'], 'NP', ('said', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Thomson', 'NNP'], 'NML', ('both', 'and')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['British', 'NNP'], ['Aerospace', 'NNP'], 'NML', ('and', ',')]}['GPE_NORP']
+is_in_wiki : 1
+and_, : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'DATE': [['five', 'CD'], ['years', 'NNS'], 'NP', ('by', 'of')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+by_of : 1
+CD : 1
+NNS : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Thomson', 'NNP'], 'NP', ('for', 'is')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Thomson', 'NNP'], 'NP', ('', 'feels')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['West', 'NNP'], ['Germany', 'NNP'], ["'s", 'POS'], 'NP', (',', 'Siemens')]}['ORG']
+is_np : 1
+NNP : 2
+POS : 1
+____________________________________________
+Entity: 
+{'ORG': [['Messerschmitt', 'NNP'], ['-', 'HYPH'], ['Boelkow', 'NNP'], ['Blohm', 'NNP'], ['G.m.b', 'NNP'], ['.', '.'], 'NP', ('buy', 'H')]}['PERSON']
+is_np : 1
+contains_dash : 1
+NNP : 4
+____________________________________________
+Entity: 
+{'PERSON': [['Thomson', 'NNP'], 'NP', (',', 'is')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+,_is : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['British', 'NNP'], ['Aerospace', 'NNP'], 'NP', ('by', 'and')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+by_and : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Thomson', 'NNP'], 'NP', (',', 'officials')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Thomson', 'NNP'], 'NP', (',', 'would')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['British', 'NNP'], ['Aerospace', 'NNP'], 'NP', ('to', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+to_. : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'DATE': [['Annual', 'JJ'], 'NP', ('', 'revenue')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+JJ : 1
+____________________________________________
+Entity: 
+{'ORG': [['British', 'JJ'], ['Aerospace', 'NNP'], 'QP', ('half', "'s")]}['GPE_NORP']
+is_in_wiki : 1
+JJ : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['830', 'CD'], ['million', 'CD'], ['Canadian', 'JJ'], ['-', 'HYPH'], ['dollar', 'NN'], 'QP', (',', '-LRB-')]}['DATE']
+contains_dash : 1
+contains_digit : 1
+,_-lrb- : 1
+CD : 2
+JJ : 1
+NN : 1
+____________________________________________
+Entity: 
+{'ORG': [['Interprovincial', 'NNP'], 'NP', ('', ',')]}['PERSON']
+is_np : 1
+_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['by', 'IN'], ['1991', 'CD'], 'PP', ('day', ',')]}['PERCENT_CARDINAL_MONEY']
+contains_digit : 1
+CD : 1
+IN : 1
+____________________________________________
+Entity: 
+{'DATE': [['1988', 'CD'], 'NP', ('the', 'level')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+the_level : 1
+CD : 1
+____________________________________________
+Entity: 
+{'DATE': [['January', 'NNP'], 'NP', ('since', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Interprovincial', 'NNP'], 'NP', ('', 'transports')]}['PERSON']
+is_np : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('the', 'is')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+the_is : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'UCP', ('major', 'and')]}['ORG']
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('the', 'total')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('net', 'crude')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Petroleum', 'NNP'], ['Industry', 'NNP'], ['Research', 'NNP'], ['Foundation', 'NNP'], 'NML', ('based', '.')]}['PERSON']
+NNP : 4
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Saudi', 'NNP'], ['Arabia', 'NNP'], 'NP', ('behind', ',')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Canada', 'NNP'], 'NP', ('said', "'s")]}['ORG']
+is_np : 1
+is_in_wiki : 1
+said_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('of', 'crude')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Lichtblau', 'NNP'], 'NP', ('Mr.', 'stressed')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('increase', 'dependence')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Interprovincial', 'NNP'], 'NP', (',', 'intended')]}['PERSON']
+is_np : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['1991', 'CD'], 'NP', ('by', '.')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+by_. : 1
+CD : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['IOWA', 'NNP'], 'NP', ('', 'IS')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+_is : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Iowa', 'NNP'], 'NP', ('', ',')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['North', 'NNP'], ['Dakota', 'NNP'], 'NP', (',', 'was')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+,_was : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'DATE': [['1980', 'CD'], 'NP', ('since', '--')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['New', 'NNP'], ['York', 'NNP'], 'NP', ('including', ',')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+including_, : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['West', 'NNP'], ['Virginia', 'NNP'], 'NP', ('--', ',')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+--_, : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'DATE': [['aged', 'VBN'], ['65', 'CD'], ['to', 'TO'], ['74', 'CD'], 'ADJP', ('people', 'were')]}['PERCENT_CARDINAL_MONEY']
+contains_digit : 1
+CD : 2
+TO : 1
+VBN : 1
+____________________________________________
+Entity: 
+{'DATE': [['65', 'CD'], ['to', 'TO'], ['74', 'CD'], 'QP', ('aged', 'lived')]}['PERCENT_CARDINAL_MONEY']
+contains_digit : 1
+CD : 2
+TO : 1
+____________________________________________
+Entity: 
+{'DATE': [['75', 'CD'], ['and', 'CC'], ['older', 'JJR'], 'QP', ('aged', ',')]}['PERCENT_CARDINAL_MONEY']
+contains_digit : 1
+CC : 1
+CD : 1
+JJR : 1
+____________________________________________
+Entity: 
+{'DATE': [['75', 'CD'], ['and', 'CC'], ['older', 'JJR'], 'NP', ('aged', 'lived')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+contains_digit : 1
+CC : 1
+CD : 1
+JJR : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Clancy', 'NNP'], 'NP', (',', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+,_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Shulman', 'NNP'], 'NP', (',', 'indicates')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['nearly', 'RB'], ['one', 'CD'], ['-', 'HYPH'], ['third', 'NN'], 'QP', ('control', 'of')]}['DATE']
+contains_dash : 1
+CD : 1
+NN : 1
+RB : 1
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['one', 'CD'], ['-', 'HYPH'], ['fourth', 'JJ'], 'NP', ('and', 'do')]}['DATE']
+is_np : 1
+contains_dash : 1
+CD : 1
+JJ : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('the', 'grew')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['1988', 'CD'], 'NP', ('from', ',')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+from_, : 1
+CD : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['River', 'NNP'], ['City', 'NNP'], 'NP', ('of', ',')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+of_, : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Addison', 'NNP'], 'NP', ('on', "'s")]}['ORG']
+is_np : 1
+is_in_wiki : 1
+on_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Addison', 'NNP'], 'NP', ('along', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Hill', 'NNP'], 'NP', ('Prof.', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Addison', 'NNP'], 'NP', ('', 'is')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+_is : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['one', 'NN'], 'NP', ('the', 'redeeming')]}['DATE']
+is_np : 1
+is_in_wiki : 1
+NN : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Jackie', 'NNP'], ['Mason', 'NNP'], 'NP', ('to', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+to_, : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'DATE': [['Tuesday', 'NNP'], 'NP', ('on', 'nights')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Mason', 'NNP'], 'NP', ('Mr.', 'the')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Chicken', 'NNP'], ['Soup', 'NNP'], 'NP', ('``', ',')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+``_, : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['``', '``'], ['Duck', 'NN'], ['Soup', 'NN'], 'NP', ('to', ',')]}['DATE']
+is_np : 1
+to_, : 1
+NN : 2
+____________________________________________
+Entity: 
+{'PERSON': [['the', 'DT'], ['Rudolph', 'NNP'], ['Giuliani', 'NNP'], 'NP', ('for', 'mayoral')]}['ORG']
+is_np : 1
+DT : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Newsweek', 'NNP'], 'NP', ('in', 'after')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_after : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Mason', 'NNP'], 'NP', ('Mr.', 'did')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Mason', 'NNP'], 'NP', ('Mr.', 'instinctively')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['David', 'NNP'], ['Dinkins', 'NNP'], 'NP', ('called', ',')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+called_, : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['New', 'NNP'], ['York', 'NNP'], 'NML', ('the', 'state')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Mason', 'NNP'], 'NP', ('the', 'donnybrook')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Bostonians', 'NNPS'], 'NML', ('collar', 'in')]}['GPE_NORP']
+is_in_wiki : 1
+NNPS : 1
+____________________________________________
+Entity: 
+{'ORG': [['Chicken', 'NNP'], ['Soup', 'NNP'], 'NP', ('``', ',')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+``_, : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Mason', 'NNP'], 'NP', ('Mr.', 'plays')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Jackie', 'NNP'], 'NP', ('plays', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Lynn', 'NNP'], ['Redgrave', 'NNP'], 'NP', ('-LRB-', '-RRB-')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+-lrb-_-rrb- : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Rita', 'NNP'], ['Karin', 'NNP'], 'NP', ('-LRB-', '-RRB-')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+-lrb-_-rrb- : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Michael', 'NNP'], ['-LRB-', '-LRB-'], ['Brandon', 'NNP'], ['Maggart', 'NNP'], 'NP', ('brother', '-RRB-')]}['ORG']
+is_np : 1
+contains_dash : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'PERSON': [['Jackie', 'NNP'], 'NP', ('do', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Chicken', 'NNP'], ['Soup', 'NNP'], 'NP', ('``', "''")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+``_'' : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['an', 'DT'], ['Orthodox', 'NNP'], ['Jew', 'NNP'], 'NP', ('between', 'and')]}['ORG']
+is_np : 1
+between_and : 1
+DT : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Anne', 'NNP'], ['Nichols', 'NNP'], 'NP', (',', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+,_, : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'DATE': [['1972', 'CD'], 'NP', ('a', 'CBS')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'PERSON': [['David', 'NNP'], ['Birney', 'NNP'], 'NP', ('and', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+and_. : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Chicken', 'NNP'], ['Soup', 'NNP'], 'NP', ('``', "''")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+``_'' : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Norman', 'NNP'], ['Lear', 'NNP'], 'NP', ('of', ',')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+of_, : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Mason', 'NNP'], 'NP', ('Mr.', 'slips')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Carmelite', 'NNP'], 'NP', ('the', 'convent')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Miss', 'NNP'], ['America', 'NNP'], 'NP', ('of', '.')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_title : 1
+of_. : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Jackie', 'NNP'], 'NP', (',', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+,_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('through', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Treasury', 'NNP'], 'NML', ('', 'Secretary')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Nicholas', 'NNP'], ['Brady', 'NNP'], 'NML', ('Secretary', 'said')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('statement', 'that')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['1987', 'CD'], 'NP', ('the', 'crash')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'DATE': [['1929', 'CD'], 'NP', ('the', 'crash')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Herbert', 'NNP'], ['Hoover', 'NNP'], 'NP', (',', 'said')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+,_said : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Philips', 'NNP'], 'NP', ('.', 'of')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Charles', 'NNP'], ['J.', 'NNP'], ['Lawson', 'NNP'], 'NP', ('', 'Jr.')]}['ORG']
+is_np : 1
+is_all_caps : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'DATE': [['June', 'NNP'], 'NP', ('in', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_. : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Late', 'JJ'], ['Friday', 'NNP'], 'NP', ('', 'night')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+JJ : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Senate', 'NNP'], 'NP', ('the', 'voted')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['87', 'CD'], ['-', 'SYM'], ['7', 'CD'], 'NP', ('voted', 'to')]}['DATE']
+is_np : 1
+contains_dash : 1
+contains_digit : 1
+CD : 2
+SYM : 1
+____________________________________________
+Entity: 
+{'ORG': [['Senate', 'NNP'], ['Budget', 'NNP'], ['Committee', 'NNP'], 'NML', ('said', 'Chairman')]}['PERSON']
+is_in_wiki : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'ORG': [['Senate', 'NNP'], 'NP', ('But', 'supporters')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Congress', 'NNP'], 'NP', ('through', 'that')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['House', 'NNP'], 'NP', ('the', 'includes')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['midweek', 'JJ'], 'ADJP', ('at', 'and')]}['GPE_NORP']
+is_in_wiki : 1
+at_and : 1
+JJ : 1
+____________________________________________
+Entity: 
+{'ORG': [['House', 'NNP'], 'NP', ('the', 'side')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Senate', 'NNP'], 'NML', ('said', 'Minority')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Robert', 'NNP'], ['Dole', 'NNP'], 'NML', ('Leader', '-LRB-')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['White', 'NNP'], ['House', 'NNP'], ['Budget', 'NNP'], 'NML', ('', 'Director')]}['PERSON']
+NNP : 3
+____________________________________________
+Entity: 
+{'PERSON': [['Richard', 'NNP'], ['Darman', 'NNP'], 'NML', ('Director', 'told')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['the', 'DT'], ['White', 'NNP'], ['House', 'NNP'], 'NP', ('from', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+from_, : 1
+DT : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Bush', 'NNP'], 'NP', ('President', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Senate', 'NNP'], 'NML', ('', 'Majority')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['George', 'NNP'], ['Mitchell', 'NNP'], 'NML', ('Leader', '-LRB-')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Senate', 'NNP'], 'NP', ('The', 'bill')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Congress', 'NNP'], 'NP', ('through', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Bush', 'NNP'], 'NP', ('President', 'has')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Gramm', 'NNP'], ['-', 'HYPH'], ['Rudman', 'NNP'], 'NML', ('the', 'deficit')]}['ORG']
+contains_dash : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['House', 'NNP'], 'NP', ('the', 'to')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+the_to : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['House', 'NNP'], 'NP', ('The', 'appears')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['House', 'NNP'], 'NP', ('whether', 'Republicans')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Senate', 'NNP'], 'NP', ('their', 'colleagues')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Senate', 'NNP'], 'NP', ('the', 'action')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Senate', 'NNP'], 'NP', ('the', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+the_. : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Bush', 'NNP'], 'NP', ('President', 'thinks')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Senate', 'NNP'], 'NP', ('The', 'bill')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['House', 'NNP'], 'ADJP', ('the', '-')]}['GPE_NORP']
+is_in_wiki : 1
+the_- : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Senate', 'NNP'], 'NP', ('the', 'bill')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Senate', 'NNP'], 'NP', ('the', 'bill')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Senate', 'NNP'], 'NP', ('the', 'will')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+the_will : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Medicare', 'NNP'], 'NP', ('under', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Medicaid', 'NNP'], 'NP', ('boost', 'funding')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['New', 'NNP'], ['Mexico', 'NNP'], 'NML', (',', 'Sen.')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Pete', 'NNP'], ['Domenici', 'NNP'], 'NML', ('Sen.', ',')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Dole', 'NNP'], 'NP', ('Sen.', 'said')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Senate', 'NNP'], 'NP', ('The', 'also')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Finance', 'NNP'], ['Committee', 'NNP'], 'NP', ('its', 'that')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Senate', 'NNP'], 'NP', ('the', 'bill')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Mitchell', 'NNP'], 'NP', ('Sen.', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Budget', 'NNP'], 'NML', ('with', 'Director')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Darman', 'NNP'], 'NML', ('Director', ',')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Darman', 'NNP'], 'NP', ('Mr.', 'chose')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['fiscal', 'JJ'], ['1989', 'CD'], 'NML', ('the', 'supplemental')]}['PERCENT_CARDINAL_MONEY']
+contains_digit : 1
+CD : 1
+JJ : 1
+____________________________________________
+Entity: 
+{'DATE': [['one', 'CD'], ['year', 'NN'], 'NP', ('for', 'an')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+CD : 1
+NN : 1
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['$', '$'], ['3', 'CD'], ['-', 'HYPH'], 'NML', ('a', 'a')]}['DATE']
+contains_dash : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'DATE': [['fiscal', 'JJ'], ['1990', 'CD'], 'NP', ('in', 'by')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+contains_digit : 1
+in_by : 1
+CD : 1
+JJ : 1
+____________________________________________
+Entity: 
+{'ORG': [['House', 'NNP'], 'NP', ('the', 'version')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Authority', 'NNP'], 'NP', ('--', 'for')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['New', 'NNP'], ['York', 'NNP'], ["'s", 'POS'], 'NP', ('at', 'LaGuardia')]}['ORG']
+is_np : 1
+NNP : 2
+POS : 1
+____________________________________________
+Entity: 
+{'ORG': [['Nuclear', 'NNP'], ['Regulatory', 'NNP'], ['Commission', 'NNP'], 'NML', ('in', 'fees')]}['PERSON']
+is_in_wiki : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'PERSON': [['John', 'NNP'], ['E.', 'NNP'], ['Yang', 'NNP'], 'NP', ('', 'contributed')]}['ORG']
+is_np : 1
+is_all_caps : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'DATE': [['1984', 'CD'], ['to', 'TO'], ['1986', 'CD'], 'NP', ('from', '-RRB-')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+contains_digit : 1
+CD : 2
+TO : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Cambridge', 'NNP'], 'NP', ('', ',')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Beverly', 'NNP'], ['Hills', 'NNP'], 'NML', ('this', ',')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Franklin', 'NNP'], 'NP', ('said', "'s")]}['ORG']
+is_np : 1
+is_in_wiki : 1
+said_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Franklin', 'NNP'], 'NML', ('said', 'President')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Duane', 'NNP'], ['H.', 'NNP'], ['Hall', 'NNP'], 'NML', ('President', '.')]}['ORG']
+is_all_caps : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('about', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['October', 'NNP'], 'NP', ('an', 'massacre')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['late', 'JJ'], ['August', 'NNP'], ['and', 'CC'], ['September', 'NNP'], 'NP', ('through', ',')]}['ORG']
+is_np : 1
+CC : 1
+JJ : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'DATE': [['1987', 'CD'], 'NP', ('from', ',')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+from_, : 1
+CD : 1
+____________________________________________
+Entity: 
+{'DATE': [['2200', 'CD'], 'NP', ('to', 'this')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('lows', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['1987', 'CD'], 'NP', ('the', 'crash')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['October', 'NNP'], 'NP', ('an', 'massacre')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['one', 'CD'], ['to', 'TO'], ['four', 'CD'], ['weeks', 'NNS'], 'QP', ('lasted', 'and')]}['PERCENT_CARDINAL_MONEY']
+CD : 2
+NNS : 1
+TO : 1
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['10%-12', 'CD'], ['%', 'NN'], 'NP', ('market', 'down')]}['DATE']
+is_np : 1
+contains_dash : 1
+contains_digit : 2
+CD : 1
+NN : 1
+____________________________________________
+Entity: 
+{'DATE': [['2450', 'CD'], 'NP', ('below', ',')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['November', 'NNP'], 'NP', ('into', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Cooperman', 'NNP'], 'NP', ('Mr.', 'sees')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Monday', 'NNP'], 'NP', ('weaker', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['1987', 'CD'], 'NP', ('Unlike', ',')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'DATE': [['1987', 'CD'], 'NP', ('Unlike', ',')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'DATE': [['1987', 'CD'], 'NP', ('unlike', ',')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('into', 'on')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('into', 'with')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ("''", '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Thirties', 'NNS'], 'NP', ('the', '--')]}['DATE']
+is_np : 1
+is_in_wiki : 1
+NNS : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['New', 'NNP'], ['York', 'NNP'], 'NML', ('', 'money')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Mario', 'NNP'], ['Gabelli', 'NNP'], 'NML', ('manager', ',')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Ford', 'NNP'], 'NP', ('``', 'looking')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['BellSouth', 'NNP'], 'NP', (',', 'looking')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['-RCB-', 'NFP'], ['Bush', 'NNP'], 'NP', ('President', 'took')]}['ORG']
+is_np : 1
+contains_dash : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('during', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'ADVP', ('``', 'you')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['dollars', 'NNS'], 'NP', ('sell', ',')]}['DATE']
+is_np : 1
+is_in_wiki : 1
+NNS : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Rogers', 'NNP'], 'NP', ('Mr.', 'wo')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['1987', 'CD'], 'NP', ('the', 'crash')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'ORG': [['Queens', 'NNP'], 'NML', ('', 'newsletter')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Francis', 'NNP'], ['X.', 'NNP'], ['Curzio', 'NNP'], 'NML', ('writer', 'actually')]}['ORG']
+is_all_caps : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'ORG': [['Renaissance', 'NNP'], 'NP', ('', ',')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Kangaroo', 'NNP'], ['Committees', 'NNPS'], 'NP', ('``', "''")]}['PERSON']
+is_np : 1
+``_'' : 1
+NNP : 1
+NNPS : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Lantos', 'NNP'], 'NP', ('Mr.', 'supported')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Samuel', 'NNP'], ['Pierce', 'NNP'], 'NP', (',', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+,_, : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Lantos', 'NNP'], 'NP', ('Mr.', 'doth')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Congress', 'NNP'], 'NP', ('when', 'wanted')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Journal', 'NNP'], 'NP', ('the', 'defends')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['HUD', 'NNP'], 'NP', ('of', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+of_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Journal', 'NNP'], 'NP', ('the', 'did')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Journal', 'NNP'], 'NP', ('the', 'so')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['American', 'JJ'], 'NP', ('to', 'notions')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+JJ : 1
+____________________________________________
+Entity: 
+{'PERSON': [['McCarthy', 'NNP'], 'NML', ("''", 'did')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Lantos', 'NNP'], 'NP', ('Mr.', 'that')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Baxter', 'NNP'], 'NP', ('', 'v.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Pierce', 'NNP'], 'NP', ('Mr.', 'asserted')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Congress', 'NNP'], 'NP', (',', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+,_and : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Estes', 'NNP'], ['Park', 'NNP'], 'NP', ('', ',')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+_, : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'DATE': [['1962', 'CD'], ['-', 'HYPH'], ['85', 'CD'], 'NML', ('the', 'period')]}['PERCENT_CARDINAL_MONEY']
+contains_dash : 1
+contains_digit : 1
+the_period : 1
+CD : 2
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('on', 'the')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Yale', 'NNP'], ['Hirsch', 'NNP'], 'NP', ('to', ',')]}['PERSON']
+is_np : 1
+to_, : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'DATE': [['82', 'CD'], ['Fridays', 'NNPS'], ['the', 'DT'], ['13th', 'NN'], 'NP', ('the', 'in')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+contains_digit : 1
+the_in : 1
+CD : 1
+DT : 1
+NN : 1
+NNPS : 1
+____________________________________________
+Entity: 
+{'DATE': [['1940', 'CD'], ['-', 'HYPH'], ['1987', 'CD'], 'NML', ('the', 'period')]}['PERCENT_CARDINAL_MONEY']
+contains_dash : 1
+contains_digit : 1
+the_period : 1
+CD : 2
+____________________________________________
+Entity: 
+{'DATE': [['Fridays', 'NNPS'], 'NP', ('than', 'in')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNPS : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Kolb', 'NNP'], 'NP', ('Professor', 'says')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['1987', 'CD'], 'NP', ('the', 'crash')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'DATE': [['Saturday', 'NNP'], 'NP', ('and', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+and_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('in', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'UCP', ('key', 'and')]}['ORG']
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('large', 'money')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['$', '$'], ['1,000', 'CD'], 'NP', ('of', ':')]}['DATE']
+is_np : 1
+contains_digit : 2
+of_: : 1
+CD : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['New', 'NNP'], ['York', 'NNP'], 'NML', ('major', 'banks')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['LONDON', 'NNP'], 'NP', ('', 'LATE')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['LONDON', 'NNP'], 'NP', ('', 'INTERBANK')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NML', ('term', 'government')]}['ORG']
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['9.91', 'CD'], ['%', 'NN'], 'NP', ('', ',')]}['DATE']
+is_np : 1
+contains_digit : 1
+_, : 1
+CD : 1
+NN : 1
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['9.86', 'CD'], ['%', 'NN'], 'NP', ('', ',')]}['DATE']
+is_np : 1
+contains_digit : 1
+_, : 1
+CD : 1
+NN : 1
+____________________________________________
+Entity: 
+{'DATE': [['6/2', 'CD'], 'NP', (',', 'rate')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+,_rate : 1
+CD : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('during', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['1987', 'CD'], 'NP', ('their', 'performance')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Rogers', 'NNP'], 'NP', ('Mr.', 'spent')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('hand', 'for')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['James', 'NNP'], ['Craig', 'NNP'], 'ADJP', ('manager', 'was')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('when', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('-LRB-', '-RRB-')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+-lrb-_-rrb- : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['California', 'NNP'], ['Public', 'NNP'], ['Employees', 'NNP'], ['Retirement', 'NNP'], ['System', 'NNP'], 'QP', ('billion', ',')]}['PERSON']
+is_in_wiki : 1
+billion_, : 1
+NNP : 5
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['one', 'CD'], 'NP', ('for', ',')]}['DATE']
+is_np : 1
+is_in_wiki : 1
+for_, : 1
+CD : 1
+____________________________________________
+Entity: 
+{'ORG': [['Wilshire', 'NNP'], ['Associates', 'NNPS'], 'NML', ('consultants', 'in')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+NNPS : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('of', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+of_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('before', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('Even', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['1987', 'CD'], 'NP', ('with', ',')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+with_, : 1
+CD : 1
+____________________________________________
+Entity: 
+{'DATE': [['1987', 'CD'], 'NP', ('the', 'crash')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'DATE': [['1987', 'CD'], 'NP', ('the', 'crash')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('grim', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['New', 'NNP'], ['York', 'NNP'], 'NML', ('whose', '-')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Chilmark', 'NNP'], ['Capital', 'NNP'], ['Partners', 'NNP'], 'NP', ('based', 'had')]}['PERSON']
+is_np : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('firms', 'asking')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['earlier', 'RBR'], 'ADVP', ('up', ',')]}['PERCENT_CARDINAL_MONEY']
+RBR : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Weisman', 'NNP'], 'NP', ('Mr.', 'predicts')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', (',', 'brought')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('of', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+of_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Jeff', 'NNP'], ['Nesbit', 'NNP'], 'NML', ('spokesman', 'said')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'GPE_NORP': [['U.S.', 'NNP'], 'NP', ('the', 'Attorney')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Bolar', 'NNP'], 'NP', ('', ',')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['FDA', 'NNP'], 'NP', ('the', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+the_and : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Bolar', 'NNP'], 'NP', ('', ',')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['earlier', 'RBR'], 'ADVP', (',', 'began')]}['PERCENT_CARDINAL_MONEY']
+RBR : 1
+____________________________________________
+Entity: 
+{'ORG': [['Bolar', 'NNP'], 'NP', ('that', 'substituted')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['West', 'NNP'], ['German', 'NNP'], 'NML', ('The', 'retailer')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['ASKO', 'NNP'], 'NP', ('of', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+is_all_caps : 1
+of_and : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Ahold', 'IN'], 'NP', ('for', 'said')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+IN : 1
+____________________________________________
+Entity: 
+{'ORG': [['Chase', 'NNP'], ['Manhattan', 'NNP'], ['Bank', 'NNP'], 'NML', ('part', 'Chairman')]}['PERSON']
+is_in_wiki : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('on', 'morning')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Japan', 'NNP'], 'NP', ('with', ',')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+with_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Bush', 'NNP'], 'NP', ('President', 'must')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Gramm', 'NNP'], ['-', 'HYPH'], ['Rudman', 'NNP'], 'NML', ('the', 'budget')]}['ORG']
+contains_dash : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Congress', 'NNP'], 'NP', ('because', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['House', 'NNP'], ['Budget', 'NNP'], ['Committee', 'NNP'], 'NML', ("''", 'Chairman')]}['PERSON']
+is_in_wiki : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'ORG': [['Transportation', 'NNP'], 'NML', (',', 'Secretary')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Sam', 'NNP'], ['Skinner', 'NNP'], 'NML', ('Secretary', 'forced')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Northwest', 'NNP'], ['Airlines', 'NNP'], 'NP', ('forced', 'to')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Treasury', 'NNP'], 'NP', ('the', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+the_and : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('to', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+to_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Treasury', 'NNP'], 'NP', ('The', 'was')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['West', 'NNP'], ['German', 'NNP'], 'NML', ('with', 'officials')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'DATE': [['1987', 'CD'], 'NP', ('The', 'crash')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('that', "'s")]}['ORG']
+is_np : 1
+is_in_wiki : 1
+that_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Panetta', 'NNP'], 'NP', ('Rep.', 'said')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Congress', 'NNP'], 'NP', ('and', 'to')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Senate', 'NNP'], ['Finance', 'NNP'], ['Committee', 'NNP'], 'NML', ('said', 'Chairman')]}['PERSON']
+is_in_wiki : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('than', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['190', 'CD'], ['-', 'HYPH'], ['point', 'NN'], 'NML', ("'s", 'decline')]}['DATE']
+contains_dash : 1
+contains_digit : 1
+CD : 1
+NN : 1
+____________________________________________
+Entity: 
+{'ORG': [['White', 'NNP'], ['House', 'NNP'], ['Budget', 'NNP'], 'NML', ('and', 'Director')]}['PERSON']
+NNP : 3
+____________________________________________
+Entity: 
+{'PERSON': [['Richard', 'NNP'], ['Darman', 'NNP'], 'NML', ('Director', 'over')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Hill', 'NNP'], 'NP', ('', 'Democrats')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['April', 'NNP'], 'NP', ('of', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+of_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Senate', 'NNP'], 'NML', ("''", 'Majority')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['George', 'NNP'], ['Mitchell', 'NNP'], 'NML', ('Leader', '-LRB-')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Senate', 'NNP'], 'NP', ('that', 'Republicans')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Senate', 'NNP'], 'NP', ('that', 'Republicans')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Marlin', 'NNP'], ['Fitzwater', 'NNP'], 'NML', ('spokesman', 'told')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'PERSON': [['Bob', 'NNP'], ['Packwood', 'NNP'], 'NML', ('Sen.', ',')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Senate', 'NNP'], ['Finance', 'NNP'], ['Committee', 'NNP'], 'NML', ('writing', ',')]}['PERSON']
+is_in_wiki : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['House', 'NNP'], 'NML', ('the', 'and')]}['GPE_NORP']
+is_in_wiki : 1
+the_and : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Senate', 'NNP'], 'NML', ('and', 'versions')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Senate', 'NNP'], 'NP', ('', 'Republicans')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['House', 'NNP'], 'NP', ('the', 'would')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Senate', 'NNP'], 'NP', ('the', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+the_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('on', 'agreed')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['fiscal', 'JJ'], ['1990', 'CD'], 'NML', ('the', 'deficit')]}['PERCENT_CARDINAL_MONEY']
+contains_digit : 1
+CD : 1
+JJ : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Gramm', 'NNP'], ['-', 'HYPH'], ['Rudman', 'NNP'], 'NML', ('the', 'targets')]}['ORG']
+contains_dash : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['House', 'NNP'], 'ADJP', ('the', '-')]}['GPE_NORP']
+is_in_wiki : 1
+the_- : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Panetta', 'NNP'], 'NP', ('Rep.', 'said')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('provoking', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Richard', 'NNP'], ['Rahn', 'NNP'], 'NP', (',', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+,_, : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Senate', 'NNP'], 'NP', ('the', 'decision')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Mitchell', 'NNP'], 'NP', ('Sen.', 'said')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Honeywell', 'NNP'], 'NP', ('', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['September', 'NNP'], 'NP', ("'s", 'consumer')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('said', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['monthly', 'JJ'], 'NP', ('The', 'increase')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+JJ : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Felipe', 'NNP'], ['Gonzalez', 'NNP'], 'NML', ('Minister', 'and')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'DATE': [['September', 'NNP'], 'NP', ('in', 'rose')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('announced', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['1985', 'CD'], 'NP', ('a', 'base')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'ORG': [['Jaguar', 'NNP'], 'NP', ('', ',')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Ford', 'NNP'], 'NP', ('advised', 'last')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Jaguar', 'NNP'], 'NP', ('of', 'shares')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+of_shares : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['United', 'NNP'], ['Kingdom', 'NNP'], 'NML', ('current', 'government')]}['ORG']
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Jaguar', 'NNP'], 'NP', ('with', 'before')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Ford', 'NNP'], 'NP', ('before', 'began')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Jaguar', 'NNP'], 'NP', ('with', 'about')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('following', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('since', '``')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['1987', 'CD'], 'NP', ('in', "''")]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'ORG': [['Schwab', 'NNP'], 'NP', ('for', 'customers')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Schwab', 'NNP'], 'NP', ('said', 'had')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['1987', 'CD'], 'NP', ('in', 'about')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+is_in_wiki : 1
+contains_digit : 1
+CD : 1
+____________________________________________
+Entity: 
+{'ORG': [['Midway', 'NNP'], ['Airlines', 'NNP'], 'NP', ('and', 'at')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Delta', 'NNP'], ['Air', 'NNP'], ['Lines', 'NNP'], 'NP', ('and', '.')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+and_. : 1
+NNP : 3
+____________________________________________
+Entity: 
+{'ORG': [['Avis', 'NNP'], 'NP', ('put', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Avis', 'NNP'], 'NP', ('for', 'would')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Budget', 'NNP'], 'NP', (',', 'indicated')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Avis', 'NNP'], 'NP', ('and', 'can')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Budget', 'NNP'], 'NP', ('benefit', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Budget', 'NNP'], 'NP', (',', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+,_'s : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Northwest', 'NNP'], 'NP', ('', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+_and : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Budget', 'NNP'], 'NP', ('which', 'has')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Northwest', 'NNP'], 'NP', ('the', 'frequent')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Hertz', 'NNP'], 'NP', (',', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+,_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Park', 'NNP'], ['Ridge', 'NNP'], 'NP', ('of', ',')]}['ORG']
+is_np : 1
+is_in_wiki : 1
+of_, : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['America', 'NNP'], ['West', 'NNP'], 'NP', (',', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+,_and : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Continental', 'NNP'], ['Airlines', 'NNP'], 'NP', ("'s", 'and')]}['PERSON']
+is_np : 1
+is_in_wiki : 1
+NNP : 2
+____________________________________________
+Entity: 
+{'ORG': [['Eastern', 'NNP'], ['Airlines', 'NNPS'], 'NP', ('and', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+and_, : 1
+NNP : 1
+NNPS : 1
+____________________________________________
+Entity: 
+{'ORG': [['United', 'NNP'], ['Airlines', 'NNPS'], 'NP', ("'s", 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+NNPS : 1
+____________________________________________
+Entity: 
+{'ORG': [['USAir', 'NNP'], 'NP', ('and', 'also')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Avis', 'NNP'], 'NP', ("''", "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Avis', 'NNP'], 'NP', (',', 'vice')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['This', 'DT'], ['year', 'NN'], 'NP', ('', 'has')]}['ORG']
+is_np : 1
+_has : 1
+DT : 1
+NN : 1
+____________________________________________
+Entity: 
+{'ORG': [['Hertz', 'NNP'], 'NP', ('both', 'and')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Avis', 'NNP'], 'NP', ('and', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+and_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['August', 'NNP'], 'NP', ('in', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+in_. : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Sajak', 'NNP'], 'NP', ('the', 'hour')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['weekly', 'JJ'], 'NP', ('the', 'ratings')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+JJ : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('among', "'s")]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Treasury', 'NNP'], 'NML', ('year', 'securities')]}['GPE_NORP']
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'ORG': [['Giant', 'NNP'], 'NP', ('a', ',')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+a_, : 1
+NNP : 1
+____________________________________________
+Entity: 
+{'DATE': [['eight', 'CD'], ['years', 'NNS'], 'NP', ('of', 'and')]}['PERCENT_CARDINAL_MONEY']
+is_np : 1
+of_and : 1
+CD : 1
+NNS : 1
+____________________________________________
+Entity: 
+{'DATE': [['Friday', 'NNP'], 'NP', ('Europe', '.')]}['GPE_NORP']
+is_np : 1
+is_in_wiki : 1
+NNP : 1
+____________________________________________
+Acc: 0.730434782609
+F1: 0.733445871015
+[[218 123  68   3   1]
+ [ 18 462 106   2   0]
+ [ 69 196 578  15   1]
+ [  1 109   4 422  65]
+ [  0   2   0  23 504]]

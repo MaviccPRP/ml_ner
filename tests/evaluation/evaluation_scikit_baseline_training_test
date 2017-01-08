@@ -1,0 +1,1877 @@
+Defining lemma features
+Number of features:  1307
+Processed  100  samples
+Processed  200  samples
+Processed  300  samples
+Processed  400  samples
+Processed  500  samples
+Processed  600  samples
+Processed  700  samples
+Processed  800  samples
+Processed  900  samples
+Processed  1000  samples
+Processed  1100  samples
+Processed  1200  samples
+Processed  1300  samples
+Processed  1400  samples
+Processed  1500  samples
+Processed  1600  samples
+Processed  1700  samples
+Processed  1800  samples
+Processed  1900  samples
+Processed  2000  samples
+Processed  2100  samples
+Processed  2200  samples
+Processed  2300  samples
+Processed  2400  samples
+Processed  2500  samples
+Processed  2600  samples
+Processed  2700  samples
+Processed  2800  samples
+Processed  2900  samples
+Processed  3000  samples
+Processed  3100  samples
+Processed  3200  samples
+Processed  3300  samples
+Processed  3400  samples
+Processed  3500  samples
+Processed  3600  samples
+Processed  3700  samples
+Processed  3800  samples
+Processed  3900  samples
+Processed  4000  samples
+Processed  4100  samples
+Processed  4200  samples
+Processed  4300  samples
+Processed  4400  samples
+Processed  4500  samples
+Processed  4600  samples
+Processed  4700  samples
+Processed  4800  samples
+Processed  4900  samples
+Processed  5000  samples
+Processed  5100  samples
+Processed  5200  samples
+Processed  5300  samples
+Processed  5400  samples
+Processed  5500  samples
+Processed  5600  samples
+Processed  5700  samples
+Processed  5800  samples
+Processed  5900  samples
+Processed  6000  samples
+Processed  6100  samples
+Processed  6200  samples
+Processed  6300  samples
+Processed  6400  samples
+Processed  6500  samples
+Processed  6600  samples
+Processed  6700  samples
+Processed  6800  samples
+Processed  6900  samples
+Processed  7000  samples
+Processed  7100  samples
+Processed  7200  samples
+Processed  7300  samples
+Processed  7400  samples
+Processed  7500  samples
+Processed  7600  samples
+Processed  7700  samples
+Processed  7800  samples
+Processed  7900  samples
+Processed  8000  samples
+Processed  8100  samples
+Processed  8200  samples
+Processed  8300  samples
+Processed  8400  samples
+Processed  8500  samples
+Processed  8600  samples
+Processed  8700  samples
+Processed  8800  samples
+Processed  8900  samples
+Processed  9000  samples
+Processed  9100  samples
+Processed  9200  samples
+Processed  9300  samples
+Processed  9400  samples
+Processed  9500  samples
+Processed  9600  samples
+Processed  9700  samples
+Processed  9800  samples
+Processed  9900  samples
+Processed  10000  samples
+Processed  10100  samples
+Processed  10200  samples
+Processed  10300  samples
+Processed  10400  samples
+Processed  10500  samples
+Processed  10600  samples
+Processed  10700  samples
+Processed  10800  samples
+Processed  10900  samples
+Processed  11000  samples
+Processed  11100  samples
+Processed  11200  samples
+Processed  11300  samples
+Processed  11400  samples
+Processed  11500  samples
+Processed  11600  samples
+Processed  11700  samples
+Processed  11800  samples
+Processed  11900  samples
+Processed  12000  samples
+Processed  12100  samples
+Processed  12200  samples
+Processed  12300  samples
+Processed  12400  samples
+Processed  12500  samples
+Processed  12600  samples
+Processed  12700  samples
+Processed  12800  samples
+Processed  12900  samples
+Processed  13000  samples
+Processed  13100  samples
+Processed  13200  samples
+Processed  13300  samples
+Processed  13400  samples
+Processed  13500  samples
+Processed  13600  samples
+Processed  13700  samples
+Processed  13800  samples
+Processed  13900  samples
+Processed  14000  samples
+Processed  14100  samples
+Processed  14200  samples
+Processed  14300  samples
+Processed  14400  samples
+Processed  14500  samples
+Processed  14600  samples
+Processed  14700  samples
+Processed  14800  samples
+Processed  14900  samples
+Processed  15000  samples
+Processed  15100  samples
+Processed  15200  samples
+Processed  15300  samples
+Processed  15400  samples
+Processed  15500  samples
+Processed  15600  samples
+Processed  15700  samples
+Processed  15800  samples
+Processed  15900  samples
+Processed  16000  samples
+Processed  16100  samples
+Processed  16200  samples
+Processed  16300  samples
+Processed  16400  samples
+Processed  16500  samples
+Processed  16600  samples
+Processed  16700  samples
+Processed  16800  samples
+Processed  16900  samples
+Processed  17000  samples
+Processed  17100  samples
+Processed  17200  samples
+Processed  17300  samples
+Processed  17400  samples
+Processed  17500  samples
+Processed  17600  samples
+Processed  17700  samples
+Processed  17800  samples
+Processed  17900  samples
+Processed  18000  samples
+Processed  18100  samples
+Processed  18200  samples
+Processed  18300  samples
+Processed  18400  samples
+Processed  18500  samples
+Processed  18600  samples
+Processed  18700  samples
+Processed  18800  samples
+Processed  18900  samples
+Processed  19000  samples
+Processed  19100  samples
+Processed  19200  samples
+Processed  19300  samples
+Processed  19400  samples
+Processed  19500  samples
+Processed  19600  samples
+Processed  19700  samples
+Processed  19800  samples
+Processed  19900  samples
+Processed  20000  samples
+Processed  20100  samples
+Processed  20200  samples
+Processed  20300  samples
+Processed  20400  samples
+Processed  20500  samples
+Processed  20600  samples
+Processed  20700  samples
+Processed  20800  samples
+Processed  20900  samples
+Processed  21000  samples
+Processed  21100  samples
+Processed  21200  samples
+Processed  21300  samples
+Processed  21400  samples
+Processed  21500  samples
+Processed  21600  samples
+Processed  21700  samples
+Processed  21800  samples
+Processed  21900  samples
+Processed  22000  samples
+Processed  22100  samples
+Processed  22200  samples
+Processed  22300  samples
+Processed  22400  samples
+Processed  22500  samples
+Processed  22600  samples
+Processed  22700  samples
+Processed  22800  samples
+Processed  22900  samples
+Processed  23000  samples
+Processed  23100  samples
+Processed  23200  samples
+Processed  23300  samples
+Processed  23400  samples
+Processed  23500  samples
+Processed  23600  samples
+Defining lemma features
+Number of features:  1307
+Processed  100  samples
+Processed  200  samples
+Processed  300  samples
+Processed  400  samples
+Processed  500  samples
+Processed  600  samples
+Processed  700  samples
+Processed  800  samples
+Processed  900  samples
+Processed  1000  samples
+Processed  1100  samples
+Processed  1200  samples
+Processed  1300  samples
+Processed  1400  samples
+Processed  1500  samples
+Processed  1600  samples
+Processed  1700  samples
+Processed  1800  samples
+Processed  1900  samples
+Processed  2000  samples
+Processed  2100  samples
+Processed  2200  samples
+Processed  2300  samples
+Processed  2400  samples
+Processed  2500  samples
+Processed  2600  samples
+Processed  2700  samples
+Processed  2800  samples
+Processed  2900  samples
+Classify one-vs-one
+Entity: 
+{'ORG': [['Lemon', 'NN'], ['Cheer', 'NN'], 'NP', ('superconcentrated', 'in')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Lemon', 'NN'], ['Cheer', 'NN'], 'NP', ('of', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Cheer', 'NN'], 'NP', ('the', 'name')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Cheer', 'NN'], 'NP', ('new', 'sells')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Kao', 'NNP'], 'NP', ('', 'officials')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERSON': [['Andrew', 'NNP'], ['Jergens', 'NNP'], ['Co.', 'NNP'], 'NP', ('of', ',')]}['ORG']
+andrew : 1
+co. : 1
+____________________________________________
+Entity: 
+{'ORG': [['Cincinnati', 'NNP'], 'NP', ('a', 'hand')]}['GPE_NORP']
+cincinnati : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Carla', 'NNP'], ['Hills', 'NNP'], 'NML', ('Representative', '.')]}['GPE_NORP']
+hills : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Hills', 'NNPS'], 'NP', ('Mrs.', "'")]}['GPE_NORP']
+hills : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Hills', 'NNP'], 'NP', ('Mrs.', ',')]}['GPE_NORP']
+hills : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Hills', 'NNP'], 'NP', ('Mrs.', '.')]}['GPE_NORP']
+hills : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Hills', 'NNP'], 'NP', ('Mrs.', 'replied')]}['GPE_NORP']
+hills : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Hills', 'NNP'], 'NP', ('Mrs.', 'said')]}['GPE_NORP']
+hills : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Hills', 'NNP'], 'NP', ('Mrs.', 'firmly')]}['GPE_NORP']
+hills : 1
+____________________________________________
+Entity: 
+{'ORG': [['the', 'DT'], ['U.S.', 'NNP'], ['government', 'NN'], 'NP', ('that', 'has')]}['GPE_NORP']
+government : 1
+the : 1
+u.s. : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Hills', 'NNPS'], 'NP', ('Mrs.', "'")]}['GPE_NORP']
+hills : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Hills', 'NNP'], 'NP', ('Mrs.', 'said')]}['GPE_NORP']
+hills : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Augusta', 'NNP'], 'NP', ('in', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Ga', 'NNP'], 'NP', (',', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Luxco', 'NNP'], ['Investments', 'NNPS'], 'NP', ('to', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Sulka', 'NNP'], 'NP', ('said', 'operates')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Syms', 'NNP'], 'NP', ('', 'operates')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['mid-1987', 'CD'], 'NP', ('in', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['that', 'DT'], ['period', 'NN'], 'NP', ('in', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Ing', 'NNP'], 'NML', ("'s", '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Cocom', 'NNP'], 'NP', ('all', 'members')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Cocom', 'NNP'], 'NP', ('and', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Cocom', 'NNP'], 'NP', ('broke', 'rules')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Cocom', 'NNP'], 'NP', ('violated', 'rules')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Cocom', 'NNP'], 'NP', ('important', 'meeting')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['a', 'DT'], ['North', 'NNP'], ['Atlantic', 'NNP'], ['Treaty', 'NNP'], ['Organization', 'NNP'], 'NP', ('told', 'meeting')]}['GPE_NORP']
+a : 1
+north : 1
+organization : 1
+____________________________________________
+Entity: 
+{'ORG': [['Cocom', 'NNP'], 'NP', ('the', 'embargo')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Cocom', 'NNP'], 'NP', ('which', 'should')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Vagabond', 'NNP'], ['Hotels', 'NNPS'], 'NP', ('for', 'to')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Vagabond', 'NNP'], ['Hotels', 'NNPS'], 'NP', ('', 'was')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Vagabonds', 'NNS'], ['Hotels', 'NNS'], 'NP', ('to', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Northview', 'NNP'], 'NP', ('', 'officials')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Ideal', 'JJ'], 'NP', ('with', 'in')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Ideal', 'NNP'], 'NP', ('leave', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['HOFI', 'NNP'], 'NP', ('', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Dundee', 'NNP'], 'NP', ('in', 'Cement')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Ideal', 'JJ'], 'ADJP', ('in', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['HOFI', 'NNP'], 'NP', ('But', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Ideal', 'NNP'], 'NP', ('given', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['HOFI', 'NNP'], 'NP', (',', 'will')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Ideal', 'JJ'], 'NP', ('by', 'shareholders')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CBOT', 'NN'], 'NP', ('the', 'ordered')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Ferruzzi', 'NNP'], ['Finanziaria', 'NNP'], ['S.p', 'NNP'], ['.', '.'], 'NP', ('ordered', 'A.')]}['GPE_NORP']
+. : 1
+____________________________________________
+Entity: 
+{'ORG': [['A.', 'NNP'], 'NP', ('.', 'to')]}['PERSON']
+a. : 1
+____________________________________________
+Entity: 
+{'ORG': [['the', 'DT'], ['Oklahoma', 'NNP'], ['panhandle', 'NNP'], 'NP', ('in', ',')]}['GPE_NORP']
+oklahoma : 1
+the : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Brazil', 'NNP'], 'NP', (',', 'waited')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Brazilian', 'JJ'], 'NP', ('', 'juice')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Brazil', 'NNP'], 'NP', ('', 'wants')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Brazilian', 'JJ'], 'NP', ('of', 'juice')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['midyear', 'NN'], 'NP', ('at', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Nigeria', 'NNP'], 'NP', ('that', 'has')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Nigeria', 'NNP'], 'NP', ('in', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERSON': [['Maurice', 'NNP'], ['Saatchi', 'NNP'], 'NP', ('and', 'will')]}['ORG']
+saatchi : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Maurice', 'NNP'], ['Saatchi', 'NNP'], 'NP', ('replace', ',')]}['ORG']
+saatchi : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Maurice', 'NNP'], ['Saatchi', 'NNP'], 'NP', ('is', 'and')]}['ORG']
+saatchi : 1
+____________________________________________
+Entity: 
+{'ORG': [['Dreyfus', 'NNP'], 'NP', ('reason', 'has')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Glendale', 'NNP'], 'NP', ("'s", 'Federal')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['BBDO', 'NNP'], 'NP', ("'s", 'agency')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Hill', 'NNP'], 'NP', ('of', ',')]}['GPE_NORP']
+hill : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Conn.', 'NNP'], 'NP', (',', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Jamaican', 'JJ'], 'NP', ('bribed', 'officials')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Jamaican', 'JJ'], 'NP', ('former', 'tourism')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Jamaican', 'JJ'], 'NML', ('and', 'businessman')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['KOREAN', 'NNP'], ['AGENCY', 'NNP'], [':', ':'], 'NP', ('', '')]}['GPE_NORP']
+agency : 1
+korean : 1
+____________________________________________
+Entity: 
+{'ORG': [['Samsung', 'NNP'], 'NP', ('by', 'and')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Bozell', 'NNP'], 'NP', ('by', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Samsung', 'NNP'], 'NP', ('', 'already')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Bozell', 'NNP'], 'NP', ('', 'joins')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['the', 'DT'], ['end', 'NN'], ['of', 'IN'], ['its', 'PRP$'], ['first', 'JJ'], 'NP', ('by', 'extension')]}['ORG']
+first : 1
+the : 1
+end : 1
+____________________________________________
+Entity: 
+{'ORG': [['Field', 'NNP'], 'NP', ('Mr.', 'also')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['McKesson', 'NNP'], 'NP', ('of', 'and')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERSON': [['Rex', 'NNP'], ['R.', 'NNP'], ['Malson', 'NNP'], 'NP', ('named', ',')]}['GPE_NORP']
+r. : 1
+____________________________________________
+Entity: 
+{'ORG': [['McKesson', 'NNP'], 'NP', ('at', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Field', 'NNP'], 'NP', ('Mr.', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Seelenfreund', 'NNP'], 'NP', ('and', 'are')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['McKesson', 'NNP'], 'NP', ('of', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['the', 'DT'], ['mid-1990s', 'NNS'], 'NP', ('survive', 'as')]}['ORG']
+the : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Lakewood', 'NNP'], 'NP', ('in', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Ga.', 'NNP'], 'NP', (',', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['UAW', 'NNP'], 'NP', ('when', 'leaders')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['UAW', 'NNP'], 'NML', (',', 'Vice')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Flint', 'NNP'], 'NP', ('in', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Ontario', 'NNP'], 'NP', (',', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Lordstown', 'NNP'], 'NP', ('in', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Quebec', 'NNP'], 'NP', ('in', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Van', 'NNP'], ['Nuys', 'NNP'], 'NP', ('in', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Pontiac', 'NNP'], 'NP', ('and', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Pontiac', 'NNP'], 'NML', ('the', 'Firebird')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Chevrolet', 'NNP'], 'NML', ('and', 'Camaro')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Quebec', 'NNP'], 'NP', (',', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Van', 'NNP'], ['Nuys', 'NNP'], 'NP', ('in', 'and')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['1993', 'CD'], 'NP', ('after', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['UAW', 'NNP'], 'NP', (',', 'local')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['UAW', 'NNP'], 'NP', (',', 'local')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['the', 'DT'], ['mid-1990s', 'NNS'], 'NP', ('into', '.')]}['ORG']
+the : 1
+____________________________________________
+Entity: 
+{'ORG': [['Pontiac', 'NNP'], 'NP', ('At', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['UAW', 'NNP'], 'NP', ('erase', 'hopes')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Pontiac', 'NNP'], 'NML', ('seater', 'Fiero')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Fiero', 'NNP'], 'NP', ('the', 'forced')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['UAW', 'NNP'], 'NP', ('Dissident', 'members')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['585,000', 'CD'], 'NP', ('the', 'shares')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Weatherford', 'NNP'], 'NP', ('', 'suspended')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Weatherford', 'NNP'], 'NP', ('', 'currently')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Bronx', 'NNP'], 'NP', ('The', 'has')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Arthur', 'NNP'], ['Avenue', 'NNP'], 'NP', ('on', '-RRB-')]}['PERSON']
+arthur : 1
+____________________________________________
+Entity: 
+{'ORG': [['Yankees', 'NNPS'], 'NP', ('the', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERSON': [['Laura', 'NNP'], ['Cunningham', 'NNP'], ["'s", 'POS'], 'NP', ('But', 'Bronx')]}['ORG']
+'s : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Bronx', 'NNP'], 'NP', ("'s", ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Bronx', 'NNP'], 'NP', ('childhood', 'of')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['the', 'DT'], ["'50s", 'NNS'], 'NP', ('of', ',')]}['ORG']
+the : 1
+____________________________________________
+Entity: 
+{'ORG': [['Knopf', 'NNP'], 'NP', ('-LRB-', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['195', 'CD'], 'NP', (',', 'pages')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Jewish', 'JJ'], 'NP', ('by', 'eccentrics')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Catholic', 'NNP'], 'NP', ('occasional', '-LRB-')]}['GPE_NORP']
+catholic : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Bronx', 'NNP'], 'NP', ('``', 'of')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Jewish', 'JJ'], 'NP', (',', 'working')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['AnaMor', 'NNP'], ['Towers', 'NNP'], 'NP', ('like', '-LRB-')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERSON': [['Morris', 'NNP'], ['Snezak', 'NNP'], 'NP', ('and', '-RRB-')]}['ORG']
+morris : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Syrians', 'NNPS'], 'NP', ('ancient', 'and')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Greeks', 'NNPS'], 'NP', ('and', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Pompeii', 'NNP'], 'NP', ('of', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Jewish', 'JJ'], 'ADJP', ('been', 'and')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['an', 'DT'], ['Orthodox', 'NNP'], ['Jew', 'NNP'], 'NP', (',', 'and')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Manila', 'NNP'], 'NP', ('a', 'envelope')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Philosophy', 'NNP'], ['for', 'IN'], ['Women', 'NNP'], 'NP', ('``', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Bronx', 'NNP'], 'NP', ('The', 'also')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERSON': [['Bruce', 'NNP'], ['Jay', 'NNP'], ['Friedman', 'NNP'], ["'s", 'POS'], 'NP', ('in', 'latest')]}['ORG']
+'s : 1
+____________________________________________
+Entity: 
+{'DATE': [['the', 'DT'], ["'50s", 'NNS'], 'NP', ('of', '.')]}['ORG']
+the : 1
+____________________________________________
+Entity: 
+{'ORG': [['Atlantic', 'NNP'], ['Monthly', 'NNP'], 'NP', ('-LRB-', 'Press')]}['DATE']
+monthly : 1
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['old', 'JJ'], 'NP', ('``', "''")]}['PERSON']
+old : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Idaho', 'NNP'], 'NP', ('in', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Bermuda', 'NNP'], 'NP', ('a', 'concern')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Gulf', 'NNP'], 'NP', (',', 'must')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Gulf', 'NNP'], 'NP', ('of', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Gulf', 'NNP'], 'NP', (',', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Gulf', 'NNP'], 'NP', (',', 'must')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Bermuda', 'NNP'], 'ADJP', ('the', '-')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Gulf', 'NNP'], 'NP', ('', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['1,200', 'CD'], ['to', 'TO'], ['1,500', 'CD'], 'QP', ('of', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Fifth', 'NNP'], ['Avenue', 'NNP'], 'NML', ('and', 'areas')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Bonwit', 'NNP'], ['Teller', 'NNP'], 'NP', ('of', 'and')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['B.', 'NNP'], ['Altman', 'NNP'], ["'s", 'POS'], 'NP', ('and', ',')]}['PERSON']
+'s : 1
+b. : 1
+____________________________________________
+Entity: 
+{'ORG': [['Fifth', 'NNP'], ['Avenue', 'NNP'], 'NML', ('lower', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Portland', 'NNP'], 'NP', (',', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Ore.', 'NNP'], 'NP', (',', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['PCP', 'NN'], 'NP', ('symbol', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Edinburgh', 'NNP'], 'NP', ('an', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Scotland', 'NNP'], 'NP', (',', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['RBSPr', 'NN'], 'NP', ('symbol', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Parsippany', 'NNP'], 'NML', ('a', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['COB', 'NN'], 'NP', ('symbol', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['EBPI', 'NNP'], 'NP', ('symbol', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Justices', 'NNS'], ['Brennan', 'NNP'], 'NP', ('', 'and')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Blackmun', 'NNP'], 'NP', ('and', 'appear')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['fifth', 'JJ'], 'NP', ('a', 'vote')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['mid-1960s', 'JJ'], 'NP', ('the', 'liberal')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['555', 'CD'], 'NP', ('in', 'cases')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['Last', 'JJ'], ['term', 'NN'], 'NP', ('', 'alone')]}['PERSON']
+last : 1
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['133', 'CD'], 'NP', ('in', 'decisions')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Charlotte', 'NNP'], 'NP', (',', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['NCNB', 'NNP'], 'NP', ('', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Alexandria', 'NNP'], 'NP', ('in', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Va', 'NNP'], 'NP', (',', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Salina', 'NNP'], 'NP', (',', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Kan.', 'NNP'], 'NP', (',', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['NCNB', 'NNP'], 'NP', ('', 'continued')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['NCNB', 'NNP'], 'NP', ('', 'will')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['NCNB', 'NNP'], 'NP', ('to', 'to')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['NCNB', 'NNP'], 'NP', ('', 'also')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['NCNB', 'NNP'], 'NP', ('', 'will')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['NCNB', 'NNP'], 'NP', ('', 'will')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Freedom', 'NNP'], 'NP', ('of', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Pa.', 'NNP'], 'NP', (',', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Red', 'NNP'], ['Hill', 'NNP'], 'NP', (',', ',')]}['GPE_NORP']
+hill : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Pa.', 'NNP'], 'NP', (',', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Meridian', 'NNP'], 'NP', ('', 'will')]}['PERSON']
+meridian : 1
+____________________________________________
+Entity: 
+{'ORG': [['Royal', 'NNP'], ['Trustco', 'NNP'], 'NP', ('', 'will')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['1,250,000', 'CD'], 'NP', ('of', 'common')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Alex', 'NNP'], 'NP', ('via', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Bateman', 'NNP'], ['Eichler', 'NNP'], [',', ','], ['Hill', 'NNP'], ['Richards', 'NNP'], 'NP', ('and', '.')]}['GPE_NORP']
+, : 1
+hill : 1
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['700,000', 'CD'], 'NP', ('which', 'shares')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['800,000', 'CD'], 'NP', ('and', 'shares')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['UniHealth', 'NNP'], ['America', 'NNP'], ['Inc', 'NNP'], ['.', '.'], 'NP', ('by', '-LRB-')]}['GPE_NORP']
+. : 1
+america : 1
+inc : 1
+____________________________________________
+Entity: 
+{'ORG': [['PacifiCare', 'NNP'], 'NP', ('-LRB-', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['300,000', 'CD'], 'NP', ('and', 'shares')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['weekly', 'JJ'], 'NP', ("'s", 'magazine')]}['DATE']
+weekly : 1
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['300,000', 'CD'], 'NP', ('by', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['a', 'DT'], ['row', 'NN'], 'NP', ('in', ',')]}['PERCENT_CARDINAL_MONEY']
+a : 1
+____________________________________________
+Entity: 
+{'PERSON': [['McCall', 'NNP'], ["'s", 'POS'], 'NP', ("'s", ',')]}['ORG']
+'s : 1
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['4,393,237', 'CD'], 'NP', ('to', 'in')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Newsweek', 'NNP'], 'NML', ("'s", 'and')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', ('follow', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', (',', 'has')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', ('', 'executives')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', (',', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', ('So', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', (',', 'will')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Eastern', 'NNP'], 'NP', ('.', 'time')]}['GPE_NORP']
+eastern : 1
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', (',', 'is')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', (',', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Networks', 'NNS'], 'NP', ('', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', ('that', 'has')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', ('--', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', ('at', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', (',', 'is')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', ('', 'wants')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', ('watching', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', ('give', 'could')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', ('', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Newsday', 'NNP'], 'NP', ('``', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', (',', 'executive')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', (',', 'is')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', (',', 'has')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', ('so', 'wants')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', ('to', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', ('to', 'for')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', ('as', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'PERSON': [['Pamela', 'NNP'], ['Hill', 'NNP'], 'ADJP', ('producer', ',')]}['GPE_NORP']
+hill : 1
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', ('', 'executives')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', ('skeptical', 'will')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERSON': [['MacNeil', 'NNP'], ['-', 'HYPH'], ['Lehrer', 'NNP'], ['NewsHour', 'NNP'], 'NP', ('with', ',')]}['ORG']
+- : 1
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', ('that', 'is')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', ('', 'recently')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', ('``', 'is')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', ('with', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['CNN', 'NNP'], 'NP', ('opportunities', 'seeks')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Texaco', 'NNP'], 'NP', ('with', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Pennzoil', 'NNP'], 'NP', ('found', 'and')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Arcadian', 'NNP'], ['Phosphates', 'NNP'], 'NP', ('in', 'they')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Van', 'NNP'], ['Nuys', 'NNP'], 'NP', ('in', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['FSLIC', 'NN'], 'NP', ('the', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Cowboys', 'NNPS'], 'NML', ('Dallas', 'football')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['FSLIC', 'NNP'], 'NP', ('the', 'argued')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['FSLIC', 'NNP'], 'NP', ('including', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['FSLIC', 'NNP'], 'NP', ('the', 'and')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Sunbelt', 'NNP'], 'NP', ('of', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['ANC', 'NNP'], 'NP', ('the', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['1964', 'CD'], 'NP', ('in', 'along')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Pretoria', 'NNP'], 'NP', ('as', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['ANC', 'NNP'], 'NP', ('the', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['ANC', 'NNP'], 'NP', ('the', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['Ten', 'CD'], 'NP', ('', 'of')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['NASA', 'NNP'], 'NP', ('', 'pronounced')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Embassy', 'NNP'], 'NP', ("'s", 'in')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Leipzig', 'NNP'], 'NP', ('In', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Angolan', 'NNP'], 'NML', ('with', 'rebel')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Angola', 'NNP'], 'NP', ('end', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Zairean', 'NNP'], 'NP', ('a', 'official')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Baghdad', 'NNP'], 'NP', ('in', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Syria', 'NNP'], 'NP', ('of', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Damascus', 'NNP'], 'NP', ('gives', 'two')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Beirut', 'NNP'], 'NP', ('time', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Moslems', 'NNPS'], 'NP', ('for', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Louisiana', 'NNP'], 'NML', ('-', 'coast')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Arby', 'NNP'], 'NP', ('of', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['DWG', 'NNP'], 'NP', ('', 'is')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['42', 'CD'], 'NP', (',', 'franchisees')]}['DATE']
+42 : 1
+____________________________________________
+Entity: 
+{'ORG': [['Arby', 'NNP'], 'NP', ('the', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['1,900', 'CD'], 'NP', ('the', 'franchised')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Arby', 'NNP'], 'NP', ('franchised', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Arby', 'NNP'], 'NP', ('the', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Arby', 'NNP'], 'NP', ('the', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['DWG', 'NNP'], 'NP', ('at', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['190.58', 'CD'], 'NML', ('the', '-')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['autumn', 'NN'], 'NP', ('annual', 'increase')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Bell', 'NNP'], ['Mueller', 'NNP'], ['Cannon', 'NN'], 'NP', ('at', ',')]}['PERSON']
+bell : 1
+____________________________________________
+Entity: 
+{'DATE': [['autumn', 'NN'], 'NP', ('customary', 'increase')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Flemish', 'NNP'], 'NP', ('A', 'game')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Belgian', 'NNP'], 'NP', ('a', 'pretending')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['300', 'CD'], 'NP', ('identify', 'German')]}['PERSON']
+300 : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Hans', 'NNP'], ['-', 'HYPH'], ['Dietrich', 'NNP'], ['Genscher', 'NNP'], 'NML', ('Minister', 'frying')]}['ORG']
+- : 1
+____________________________________________
+Entity: 
+{'ORG': [['Mega-hits', 'NNS'], 'NP', ('', 'in')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['pan-European', 'JJ'], 'NP', ('``', "''")]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['three', 'CD'], ['-', 'HYPH'], ['hour', 'NN'], ['-', 'HYPH'], ['long', 'JJ'], 'NML', ('the', '``')]}['PERCENT_CARDINAL_MONEY']
+- : 2
+three : 1
+____________________________________________
+Entity: 
+{'ORG': [['Black', 'NNP'], ['Forest', 'NNP'], ['Clinic', 'NNP'], 'NP', ('-LRB-', '-RRB-')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Palermo', 'NNP'], 'NP', ('in', 'against')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Madrid', 'NNP'], 'NP', ('a', 'hotel')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERSON': [['Lisa', 'NNP'], ['Grishaw', 'NNP'], ['-', 'HYPH'], ['Mueller', 'NNP'], 'NP', ('', 'in')]}['ORG']
+- : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Madrid', 'NNP'], 'NP', ('in', 'contributed')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['British', 'NNP'], ['Aerospace', 'NNP'], ['and', 'CC'], ['French', 'JJ'], ['government', 'NN'], 'NP', (',', '-')]}['GPE_NORP']
+british : 1
+french : 1
+government : 1
+____________________________________________
+Entity: 
+{'ORG': [['British', 'NNP'], ['Aerospace', 'NNP'], ['and', 'CC'], ['Thomson', 'NNP'], ['-', 'HYPH'], ['CSF', 'NNP'], 'NP', ('of', '--')]}['GPE_NORP']
+- : 1
+british : 1
+____________________________________________
+Entity: 
+{'ORG': [['British', 'NNP'], ['Aerospace', 'NNP'], ['-', 'HYPH'], ['Thomson', 'NNP'], 'NML', ('closer', 'ties')]}['GPE_NORP']
+- : 1
+british : 1
+____________________________________________
+Entity: 
+{'ORG': [['Matra', 'NNP'], 'NP', ('neither', 'nor')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['GEC', 'NNP'], 'NP', ('nor', '--')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Stamford', 'NNP'], 'NML', ('to', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Conn.', 'NNP'], 'NML', (',', '-')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['GEC', 'NNP'], 'NP', ('to', 'confirmed')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['British', 'NNP'], ['Aerospace', 'NNP'], ['and', 'CC'], ['Thomson', 'NNP'], ['-', 'HYPH'], ['CSF', 'NNP'], 'NP', ('against', '.')]}['GPE_NORP']
+- : 1
+british : 1
+____________________________________________
+Entity: 
+{'ORG': [['GEC', 'NNP'], 'NP', ('which', 'has')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Matra', 'NNP'], 'NP', ('include', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['GEC', 'NNP'], 'NP', ('before', 'and')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['GEC', 'NNP'], 'NP', ('', 'plans')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['GEC', 'NNP'], 'NP', ('any', 'bid')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['GEC', 'NNP'], 'NP', ('is', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['GEC', 'NNP'], 'NP', ('by', 'may')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['GEC', 'NNP'], 'NP', ('diminish', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['British', 'NNP'], ['Aerospace', 'NNP'], 'NML', ('A', 'spokeswoman')]}['GPE_NORP']
+british : 1
+____________________________________________
+Entity: 
+{'ORG': [['GEC', 'NNP'], 'ADVP', ('potential', 'partner')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Matra', 'NNP'], 'NP', (',', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Matra', 'NNP'], 'NP', ('a', 'official')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['British', 'NNP'], ['Aerospace', 'NNP'], 'NML', ('the', 'spokeswoman')]}['GPE_NORP']
+british : 1
+____________________________________________
+Entity: 
+{'ORG': [['British', 'NNP'], ['Aerospace', 'NNP'], 'NML', ('and', ',')]}['GPE_NORP']
+british : 1
+____________________________________________
+Entity: 
+{'ORG': [['Thomson', 'NNP'], 'NP', ('', 'feels')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['GEC', 'NNP'], 'NP', ('joined', 'in')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['H', 'NNP'], 'NP', ('.', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['British', 'NNP'], ['Aerospace', 'NNP'], 'NP', ('by', 'and')]}['GPE_NORP']
+british : 1
+____________________________________________
+Entity: 
+{'ORG': [['British', 'NNP'], ['Aerospace', 'NNP'], 'NP', ('to', '.')]}['GPE_NORP']
+british : 1
+____________________________________________
+Entity: 
+{'ORG': [['British', 'NNP'], ['Aerospace', 'NNP'], ["'s", 'POS'], 'NP', ('of', 'missile')]}['GPE_NORP']
+'s : 1
+british : 1
+____________________________________________
+Entity: 
+{'ORG': [['Thomson', 'NNP'], 'NP', ('a', 'spokesman')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['British', 'NNP'], ['Aerospace', 'NNP'], ["'s", 'POS'], 'NP', ('', 'chief')]}['GPE_NORP']
+'s : 1
+british : 1
+____________________________________________
+Entity: 
+{'ORG': [['British', 'JJ'], ['Aerospace', 'NNP'], 'QP', ('half', "'s")]}['GPE_NORP']
+british : 1
+____________________________________________
+Entity: 
+{'ORG': [['Interprovincial', 'NNP'], 'NP', ('', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Interprovincial', 'NNP'], 'NP', ('with', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Interprovincial', 'NNP'], 'NP', ('on', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['the', 'DT'], ['mid-1990s', 'NNS'], 'NP', ('perhaps', '.')]}['ORG']
+the : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Calgary', 'NNP'], 'NP', ('with', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Interprovincial', 'NNP'], 'NP', ('', 'transports')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Interprovincial', 'NNP'], 'NP', ('of', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Interprovincial', 'NNP'], 'NP', ('on', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Edmonton', 'NNP'], 'NP', ('from', 'to')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Buffalo', 'NNP'], 'NP', (',', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Montreal', 'NNP'], 'NP', ('and', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Nigeria', 'NNP'], 'NP', (',', 'and')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Interprovincial', 'NNP'], 'NP', ('of', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Interprovincial', 'NNP'], 'NP', (',', 'intended')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Indiana', 'NNP'], 'NP', ('are', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['11,000', 'CD'], 'NP', ('by', 'people')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['North', 'NNP'], ['Dakota', 'NNP'], 'NP', (',', 'was')]}['PERSON']
+north : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Mississippi', 'NNP'], 'NP', (',', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Louisiana', 'NNP'], 'NP', (',', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Montana', 'NNP'], 'NP', (',', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Wyoming', 'NNP'], 'NP', (',', 'and')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['1970', 'CD'], 'NP', ('in', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['1970', 'CD'], 'NP', ('since', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['1970', 'CD'], 'NP', ('in', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['75', 'CD'], ['and', 'CC'], ['older', 'JJR'], 'QP', ('aged', ',')]}['PERCENT_CARDINAL_MONEY']
+75 : 1
+____________________________________________
+Entity: 
+{'DATE': [['1970', 'CD'], 'NP', ('in', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['75', 'CD'], ['and', 'CC'], ['older', 'JJR'], 'NP', ('aged', 'lived')]}['PERCENT_CARDINAL_MONEY']
+75 : 1
+____________________________________________
+Entity: 
+{'DATE': [['1970', 'CD'], 'NP', ('in', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['Twenty', 'CD'], ['percent', 'NN'], 'NP', ('', 'do')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['2,500', 'CD'], 'QP', ('$', 'or')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['1978', 'CD'], 'NP', ('since', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['1978', 'CD'], 'NP', ('in', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Mississippi', 'NNP'], 'NP', ('in', 'to')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['P', 'NN'], 'NP', ('with', 'and')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERSON': [['Harold', 'NNP'], ['Hill', 'NNP'], 'NP', ('Prof.', ',')]}['GPE_NORP']
+hill : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Hill', 'NNP'], 'NP', ('Prof.', "'s")]}['GPE_NORP']
+hill : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Hawaiian', 'JJ'], 'NP', ('a', 'shirt')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Jews', 'NNPS'], 'NP', ('and', 'in')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Jewish', 'JJ'], 'NP', ('veteran', 'comedian')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Chicken', 'NNP'], ['Soup', 'NNP'], 'NP', ('``', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['``', '``'], ['Duck', 'NN'], ['Soup', 'NN'], 'NP', ('to', ',')]}['PERSON']
+`` : 1
+____________________________________________
+Entity: 
+{'PERSON': [['the', 'DT'], ['Rudolph', 'NNP'], ['Giuliani', 'NNP'], 'NP', ('for', 'mayoral')]}['ORG']
+the : 1
+____________________________________________
+Entity: 
+{'ORG': [['Newsweek', 'NNP'], 'NP', ('in', 'after')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Jewish', 'JJ'], 'NP', ('many', 'voters')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Jews', 'NNPS'], 'NP', ('that', 'have')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Jews', 'NNPS'], 'NP', ('said', 'were')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['NAACP', 'NNP'], 'NP', ('the', 'said')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Jews', 'NNPS'], 'NP', ('and', 'on')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Chicken', 'NNP'], ['Soup', 'NNP'], 'NP', ('``', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Jewish', 'JJ'], 'NP', ('a', 'bachelor')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Maddie', 'NNP'], 'NP', ('and', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Chicken', 'NNP'], ['Soup', 'NNP'], 'NP', ('``', "''")]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['an', 'DT'], ['Orthodox', 'NNP'], ['Jew', 'NNP'], 'NP', ('between', 'and')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['the', 'DT'], ['1920s', 'CD'], 'NP', ('in', ',')]}['ORG']
+the : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Jewish', 'JJ'], 'ADJP', ('of', 'and')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Chicken', 'NNP'], ['Soup', 'NNP'], 'NP', ('``', "''")]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Jewish', 'JJ'], 'NP', ('shrewd', 'businessman')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Jewish', 'JJ'], 'ADJP', ('fashioned', 'mischief')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Jewish', 'JJ'], 'ADJP', ('-', 'dispute')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Carmelite', 'NNP'], 'NP', ('the', 'convent')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERSON': [['Miss', 'NNP'], ['America', 'NNP'], 'NP', ('of', '.')]}['GPE_NORP']
+america : 1
+____________________________________________
+Entity: 
+{'DATE': [['1929', 'CD'], 'NP', ('the', 'crash')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['N.V', 'NNP'], 'NP', ('of', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Philips', 'NNP'], 'NP', ('.', 'of')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['midweek', 'JJ'], 'ADJP', ('at', 'and')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERSON': [['Gramm', 'NNP'], ['-', 'HYPH'], ['Rudman', 'NNP'], 'NML', ('the', 'deficit')]}['ORG']
+- : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Ill', 'NNP'], 'NP', (',', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERSON': [['Lloyd', 'NNP'], ['Bentsen', 'NNP'], 'NP', ('Chairman', '-LRB-')]}['ORG']
+lloyd : 1
+____________________________________________
+Entity: 
+{'ORG': [['Medicare', 'NNP'], 'NP', ('under', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['ESOP', 'NNP'], 'NP', ('an', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['ESOP', 'NNP'], 'NP', ('the', 'owns')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Styrofoam', 'NNP'], 'NP', ('in', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Nuclear', 'NNP'], ['Regulatory', 'NNP'], ['Commission', 'NNP'], 'NML', ('in', 'fees')]}['PERSON']
+commission : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Mass', 'NNP'], 'NP', (',', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Ottawa', 'NNP'], 'NP', ('-LRB-', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Kan.', 'NNP'], 'NP', (',', '-RRB-')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERSON': [['Franklin', 'NNP'], 'NP', ('said', "'s")]}['ORG']
+franklin : 1
+____________________________________________
+Entity: 
+{'ORG': [['L.F.', 'NNP'], ['Rothschild', 'NNP'], 'NML', ('its', 'subsidiary')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['2200', 'CD'], 'NP', ('until', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['2200', 'CD'], 'NP', ('to', 'this')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERSON': [['Elaine', 'NNP'], ['Garzarelli', 'NNP'], ['.', '.'], 'NP', ('', '')]}['GPE_NORP']
+. : 1
+____________________________________________
+Entity: 
+{'DATE': [['2450', 'CD'], 'NP', ('below', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['14.5', 'CD'], 'NP', ('to', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERSON': [['Ned', 'NNP'], ['Davis', 'NNP'], ['.', '.'], 'NP', ('', '')]}['GPE_NORP']
+. : 1
+davis : 1
+____________________________________________
+Entity: 
+{'PERSON': [['John', 'NNP'], ['Kenneth', 'NNP'], ['Galbraith', 'NNP'], ['.', '.'], 'NP', ('', '')]}['ORG']
+. : 1
+john : 1
+____________________________________________
+Entity: 
+{'ORG': [['Thirties', 'NNS'], 'NP', ('the', '--')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERSON': [['Mario', 'NNP'], ['Gabelli', 'NNP'], ['.', '.'], 'NP', ('', '')]}['GPE_NORP']
+. : 1
+____________________________________________
+Entity: 
+{'ORG': [['BellSouth', 'NNP'], 'NP', (',', 'looking')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERSON': [['Jim', 'NNP'], ['Rogers', 'NNP'], ['.', '.'], 'NP', ('', '')]}['GPE_NORP']
+. : 1
+jim : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Frank', 'NNP'], ['Curzio', 'NNP'], ['.', '.'], 'NP', ('', '')]}['GPE_NORP']
+. : 1
+frank : 1
+____________________________________________
+Entity: 
+{'ORG': [['Queens', 'NNP'], 'NML', ('', 'newsletter')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['2200', 'CD'], 'NP', ('to', 'very')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Renaissance', 'NNP'], 'NP', ('', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Renaissance', 'NNP'], 'NP', ('', 'is')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Kangaroo', 'NNP'], ['Committees', 'NNPS'], 'NP', ('``', "''")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['HUD', 'NNP'], 'NP', ('former', 'secretary')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['HUD', 'NNP'], 'NP', ('at', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['HUD', 'NNP'], 'NP', ('prior', 'officials')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['HUD', 'NNP'], 'NP', ('of', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['HUD', 'NNP'], 'NP', ('defend', 'management')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['American', 'JJ'], 'NP', ('to', 'notions')]}['GPE_NORP']
+american : 1
+____________________________________________
+Entity: 
+{'ORG': [['HUD', 'NNP'], 'NP', ('within', 'could')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['N.J', 'NNP'], 'NP', (',', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['HUD', 'NNP'], 'NP', ('former', 'officials')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Baxter', 'NNP'], 'NP', ('', 'v.')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['425', 'CD'], 'NP', (',', 'U.S.')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERSON': [['Clark', 'NNP'], ['S.', 'NNP'], ['Spalsbury', 'NNP'], ['Jr', 'NNP'], ['.', '.'], 'NP', ('', '')]}['GPE_NORP']
+. : 1
+clark : 1
+s. : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Colo', 'NNP'], 'NP', (',', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['1962', 'CD'], ['-', 'HYPH'], ['85', 'CD'], 'NML', ('the', 'period')]}['ORG']
+- : 1
+____________________________________________
+Entity: 
+{'DATE': [['the', 'DT'], ["'70s", 'NNS'], 'NP', ('In', ',')]}['ORG']
+the : 1
+____________________________________________
+Entity: 
+{'DATE': [['a', 'DT'], ['row', 'NN'], 'NP', ('in', 'on')]}['PERCENT_CARDINAL_MONEY']
+a : 1
+____________________________________________
+Entity: 
+{'DATE': [['Fridays', 'NNPS'], 'NP', ('than', 'in')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Fulton', 'NNP'], ['Prebon', 'NNP'], ['-LRB-', '-LRB-'], ['U.S.A', 'NNP'], ['.', '.'], 'NP', (':', '-RRB-')]}['GPE_NORP']
+-lrb- : 1
+. : 1
+____________________________________________
+Entity: 
+{'DATE': [['6/2', 'CD'], 'NP', (',', 'rate')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Greenwich', 'NNP'], 'NP', (',', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Conn', 'NNP'], 'NP', (',', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['900', 'CD'], 'QP', ('or', 'points')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Chilmark', 'NNP'], ['Capital', 'NNP'], ['Partners', 'NNP'], 'NP', ('based', 'had')]}['GPE_NORP']
+capital : 1
+____________________________________________
+Entity: 
+{'ORG': [['Feshbach', 'NNP'], ['Brothers', 'NNPS'], 'NP', ('is', ',')]}['PERSON']
+brothers : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Palo', 'NNP'], ['Alto', 'NNP'], 'NP', (',', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Baltimore', 'NNP'], 'NP', ('in', '.')]}['PERSON']
+baltimore : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Springfield', 'NNP'], ['Gardens', 'NNP'], 'NML', ('the', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Bolar', 'NNP'], 'NP', ('', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Macrodantin', 'NNP'], 'NP', ('of', '``')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Bolar', 'NNP'], 'NP', ('', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Copiague', 'NNP'], 'NP', ('of', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Bolar', 'NNP'], 'NP', ('that', 'substituted')]}['PERSON']
+____________________________________________
+Entity: 
+{'GPE_NORP': [['Macrodantin', 'NNP'], 'NP', ('of', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Bolar', 'NNP'], 'NP', ('', 'has')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['ASKO', 'NNP'], 'NP', ('lawsuit', 'plans')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['ASKO', 'NNP'], 'NP', (',', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['ASKO', 'NNP'], 'NP', (',', 'will')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Koninklijke', 'NNP'], ['Ahold', 'IN'], ['NV', 'NNP'], 'NP', ('by', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['ASKO', 'NNP'], 'NP', ('', 'says')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['ASKO', 'NNP'], 'NP', ('of', 'and')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['ASKO', 'NNP'], 'NP', (',', 'also')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['ASKO', 'NNP'], 'NP', ('thought', 'held')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['ASKO', 'NNP'], 'NP', ('termed', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'PERSON': [['Gramm', 'NNP'], ['-', 'HYPH'], ['Rudman', 'NNP'], 'NML', ('the', 'budget')]}['ORG']
+- : 1
+____________________________________________
+Entity: 
+{'ORG': [['Transportation', 'NNP'], 'NML', (',', 'Secretary')]}['PERSON']
+transportation : 1
+____________________________________________
+Entity: 
+{'DATE': [['that', 'DT'], ['period', 'NN'], 'NP', ('during', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['1929', 'CD'], 'NP', ('of', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERSON': [['Lloyd', 'NNP'], ['Bentsen', 'NNP'], 'NML', ('Chairman', '-LRB-')]}['ORG']
+lloyd : 1
+____________________________________________
+Entity: 
+{'PERSON': [['Hill', 'NNP'], 'NP', ('', 'Democrats')]}['GPE_NORP']
+hill : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['N.H', 'NNP'], 'NP', (',', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERSON': [['Gramm', 'NNP'], ['-', 'HYPH'], ['Rudman', 'NNP'], 'NML', ('the', 'targets')]}['ORG']
+- : 1
+____________________________________________
+Entity: 
+{'ORG': [['OMB', 'NNP'], 'NP', ('that', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Honeywell', 'NNP'], 'NP', ('', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['156.8', 'CD'], 'NP', ('registered', 'at')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['90.1', 'CD'], 'NP', ('at', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Schwab', 'NNP'], 'NP', ('for', 'customers')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Avis', 'NNP'], 'NP', ('put', "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Avis', 'NNP'], 'NP', ('for', 'would')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Hertz', 'NNP'], 'NP', ('by', 'and')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Avis', 'NNP'], 'NP', ('and', 'can')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Northwest', 'NNP'], 'NP', ('', 'and')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Midway', 'NNP'], 'NP', ('and', 'are')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Northwest', 'NNP'], 'NP', ('the', 'frequent')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['USAir', 'NNP'], 'NML', ("'s", 'unit')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Hertz', 'NNP'], 'NP', (',', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Delta', 'NNP'], 'NP', ('with', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['America', 'NNP'], ['West', 'NNP'], 'NP', (',', 'and')]}['GPE_NORP']
+america : 1
+west : 1
+____________________________________________
+Entity: 
+{'ORG': [['USAir', 'NNP'], 'NP', ('and', 'also')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Hertz', 'NNP'], 'NP', (',', 'said')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Avis', 'NNP'], 'NP', ("''", "'s")]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Avis', 'NNP'], 'NP', (',', 'vice')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Hertz', 'NNP'], 'NP', ('both', 'and')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Avis', 'NNP'], 'NP', ('and', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Alex', 'NNP'], 'NP', ('at', '.')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['four', 'CD'], ['-', 'HYPH'], ['hour', 'NN'], 'NML', ('its', '``')]}['PERCENT_CARDINAL_MONEY']
+- : 1
+four : 1
+____________________________________________
+Entity: 
+{'GPE_NORP': [['non-U.S.', 'JJ'], 'UCP', ('and', 'capital')]}['PERSON']
+____________________________________________
+Entity: 
+{'PERCENT_CARDINAL_MONEY': [['99.943', 'CD'], 'NP', ('at', 'to')]}['PERSON']
+____________________________________________
+Entity: 
+{'DATE': [['1999', 'CD'], 'NP', ('in', ',')]}['PERSON']
+____________________________________________
+Entity: 
+{'ORG': [['Giant', 'NNP'], 'NP', ('a', ',')]}['PERSON']
+____________________________________________
+0.836120401338
+0.849071860567
+[[373  21  19   0   0]
+ [120 468   0   0   0]
+ [231  28 598   2   0]
+ [ 26   0   9 560   6]
+ [ 27   0   0   1 501]]

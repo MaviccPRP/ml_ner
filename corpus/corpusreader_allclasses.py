@@ -2,7 +2,6 @@
 # Phillip Richter-Pechanski
 # Created on 02.12.2016
 # Example:
-#
 # Build an instance of the Conll_Extraction Reader Class.
 # cr = CorpusReader("/home/tom/Dokumente/UniWiSe2016/ML/ml_ner/wsj/")
 # ne = cr.extract_labeled_named_entities()

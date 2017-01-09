@@ -6,6 +6,7 @@
 \usepackage{color}
 \usepackage{booktabs}
 \usepackage{tabularx}
+\usepackage{array}
 
 \setbeamertemplate{navigation symbols}{}
 \mode<presentation>{\usetheme{Madrid}}
@@ -63,27 +64,31 @@
 	\end{frame}
 		\begin{frame}
 			\frametitle{Korpusreader}
-			-
+			Für die Extraktion der Named Entities wurde ein Korpusreader erstellt.\\
+			Der Reader extrahiert alle Named Entities, inklusive POS-tags der einzelnen Tokenm, Phrasenart, Kontextwörtern (ne-1, ne+1), und ordnet sie ihren Klassen zu.\\
+			
+			Beispiel:\\
+			\{'PERSON':[['Peter', 'NNP'],['Mokaba', 'NNP'],'NP', ('Says', ',')]\}
 		\end{frame}
 	
 	\subsection{Korpusklassen}
 		\begin{frame}
 			\frametitle{Korpusklassenbalancierung}
-			-	\begin{table}
+				\begin{table}
 				\caption{Klassen im OntoNotes Korpus}
 				\begin{tabularx}{\textwidth}{Xc}
 					\toprule
 					Klassen  & Trainingset \\
 					\midrule
-					ORG  & 4959 \\
-					PERSON & 2885 \\
-					GPE & 2802 \\
-					NORP & 1057 \\
-					PERCENT & 990  \\
-					CARDINAL & 1514 \\
-					MONEY & 1383  \\
-					DATE & 3474  \\
-					FAC, LOC, PRODUCT, EVENT, WORK\_OF\_ART, LAW, LANGUAGE, TIME, QUANTITY, ORDINAL & $>$ 1600 \\
+					ORG  & 5788 \\
+					PERSON & 3756 \\
+					GPE & 3601 \\
+					NORP & 1484 \\
+					PERCENT & 1061  \\
+					CARDINAL & 1852 \\
+					MONEY & 1509  \\
+					DATE & 4080  \\
+					FAC, LOC, PRODUCT, EVENT, WORK\_OF\_ART, LAW, LANGUAGE, TIME, QUANTITY, ORDINAL & $<$ 1800 \\
 					\bottomrule
 				\end{tabularx}
 				\label{tab:datasets}
@@ -144,18 +149,58 @@
 					 		Unigram & numerisch & Vorkommen der Unigramme, die mindestens fünfmal im Trainingscorpus vorkommen \\
 					 		\bottomrule
 					 	\end{tabularx}
-					 	\label{tab:datasets}
+					 	\label{tab:baselinef}
 					 \end{table}
 	\end{frame}
 	\subsection{Erweitertes Featureset}
 	\begin{frame}
-		\frametitle{Erweitertes Featureset}
-		
-	\end{frame}
+		\frametitle{Erweitertes Featureset I}
+		Anzahl der Features: 1716
+ 			\begin{table}
+ 				\caption{Features für den Baseline-Klassifizierer I}
+ 				\begin{tabularx}{\textwidth}{llX}
+ 					\toprule
+ 					Feature & Wert & Beschreibung\\
+ 					\midrule
+ 					Unigram & numerisch & Vorkommen der Unigramme (lemmatisiert), die mindestens fünfmal im Trainingscorpus vorkommen \\
+ 					POS & numerisch & Häufigkeit von 36 POS-Tags aus der Penn Treebank\\
+ 					isAllCaps & boolean & Wörter nur in Großschreibung\\
+ 					Context & numerisch & Vorkommen der Kontexttokens, die mindestens fünfmal im Trainingskorpus vorkommen. Das Kontextfenster beinhaltet das Vorgänger- und Nachfolgetoken der NE.\\
+ 					containsDigit & boolean & Vorkommen von Nummern.\\
+ 					\bottomrule
+ 				\end{tabularx}
+ 				\label{tab:allf1}
+ 			\end{table}
+ 	\end{frame}
+ 		\begin{frame}
+ 			\frametitle{Erweitertes Featureset II}
+ 					\begin{table}
+ 						\caption{Features für den Baseline-Klassifizierer II}
+ 						\begin{tabularx}{\textwidth}{llX}
+ 							\toprule
+ 							Feature & Wert & Beschreibung\\
+ 							\midrule
+ 							isInWiki & boolean & Vorkommen der NE in der Wikipedia. \\
+ 							isTitle & boolean & Prüft, ob Titelbezeichnungen (z.B. Mr. MA) vorkommen.\\
+ 							isNP & boolean & Ist NE eine Nominalphrase \\
+ 							isName & boolean & Prüft, ob Vornamen vorkommen..\\
+ 							containsDash & boolean & Vorkommen von Viertelgeviertstrichen\\
+ 							\bottomrule
+ 						\end{tabularx}
+ 						\label{tab:allf2}
+ 					\end{table}
+ 		\end{frame}
 	\subsection{Klassifizierertyp}
 	\begin{frame}
 		\frametitle{Klassifizierertyp}
+		Zur Klassifizierung der NE werden zwei verschiedene Klassifizierer genutzt.\\
 		
+		\begin{itemize}
+			\item SVM (sklearn.svm.LinearSVC)\\
+				\em{Parameter: Dual: True, loss: squared hinge, class weight: balanced}
+			\item DecisionTree (sklearn.tree.DecisionTreeClassifier)\\
+			\em{Parameter: class weight: balanced}
+		\end{itemize}
 	\end{frame}
 	\subsection{Probleme}
 	\begin{frame}

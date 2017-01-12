@@ -25,4 +25,3 @@ fe = FeatureExtractor(ne_list=ne, set='train', features=extract_features, filter
 # Print the first feater vector dict
 
 result = fe.extract_all_features()
-pprint.pprint(result)

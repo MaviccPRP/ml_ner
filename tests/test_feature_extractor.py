@@ -18,9 +18,11 @@ cr = CorpusReader("/resources/corpora/multilingual/ontonotes-5.0-conll-2012/conl
 # Extract the NE, its POS tags and phrases
 ne = cr.extract_labeled_named_entities()
 
+# Which features to extract?
+extract_features = ['lemma', 'context', 'pos', 'is_all_caps']
 
-fe = FeatureExtractor(ne, 'train', True, True)
+fe = FeatureExtractor(ne_list=ne, set='train', features=extract_features, filtered=True, verbose=True)
 # Print the first feater vector dict
-#pprint.pprint(fe.extract_all_features())
-fe.extract_all_features()
-#pprint.pprint(fe.define_baseline_features())
+
+result = fe.extract_all_features()
+pprint.pprint(result)

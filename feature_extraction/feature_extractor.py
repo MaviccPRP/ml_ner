@@ -20,17 +20,20 @@ class FeatureExtractor:
     FeatureExtractor class
     '''
 
-    def __init__(self, ne_list, set, filtered = False, verbose = False):
+    def __init__(self, ne_list, set, features=[], filtered = False, verbose = False):
         '''
         Constructor for the FeatureExtractor
         :param ne_list:
         :param set:
+        :param features list []
+        :param filtered
         :param verbose:
         '''
         self.ne_list = ne_list
         self.set = set
         self.filtered = filtered
         self.verbose = verbose
+        self.features = features
 
     def define_baseline_features(self):
         '''
@@ -103,52 +106,82 @@ class FeatureExtractor:
         unused_features = feature_engeneering_helper()
         
         dict_features = OrderedDict()
-        '''
-        if self.verbose: print("Creating is_np feature")
-        dict_features['is_np'] = 0
-        if self.verbose: print("Creating is_in_wiki features")
-        dict_features['is_in_wiki'] =  0
-        if self.verbose: print("Creating is_title features")
-        dict_features['is_title'] = 0
-        '''
-        if self.verbose: print("Creating is_all_caps features")
-        dict_features['is_all_caps'] = 0
-        '''
-        if self.verbose: print("Creating is_name features")
-        dict_features['is_name'] = 0
-        if self.verbose: print("Creating is_com_name features")
-        dict_features['is_com_name'] = 0
-        if self.verbose: print("Creating contains_dash features")
-        dict_features['contains_dash'] = 0
-        '''
-        if self.verbose: print("Creating contains_digit features")
-        dict_features['contains_digit'] = 0
-        
-        if self.verbose: print("Creating lemma features")
-        lemmas = word_helper(self.set)
-        if self.verbose: print("Defining lemma features")
-        for lemma in lemmas:
-            if lemma.lower().strip() not in unused_features and self.filtered:
-                dict_features[lemma.lower().strip()] = 0
-            if not self.filtered:
-                dict_features[lemma.lower().strip()] = 0
-        
-        if self.verbose: print("Creating context features")
-        contexts = context_helper(self.set)
-        if self.verbose: print("Defining context features")
-        for context in contexts:
-            if context.lower().strip() not in unused_features and self.filtered:
-                dict_features[context.lower().strip()] = 0
-            if not self.filtered:
-                dict_features[context.lower().strip()] = 0
-        
-        # Define pos-tags
-        pos_tags = ['CC', 'CD', 'DT', 'EX', 'FW', 'IN', 'JJ', 'JJR', 'JJS', 'LS', 'MD', 'NN', 'NNS', 'NNP', 'NNPS',
-                    'PDT', 'POS', 'PRP', 'PRP$', 'RB', 'RBR', 'RBS', 'RP', 'SYM', 'TO', 'UH', 'VB', 'VBD', 'VBG',
+
+        if 'is_np' in self.features:
+            if self.verbose:
+                print("Creating is_np feature")
+            dict_features['is_np'] = 0
+
+        if 'is_in_wiki' in self.features:
+            if self.verbose:
+                print("Creating is_in_wiki features")
+            dict_features['is_in_wiki'] =  0
+
+        if 'is_title' in self.features:
+            if self.verbose:
+                print("Creating is_title features")
+            dict_features['is_title'] = 0
+
+        if 'is_all_caps' in self.features:
+            if self.verbose:
+                print("Creating is_all_caps features")
+            dict_features['is_all_caps'] = 0
+
+        if 'is_name' in self.features:
+            if self.verbose:
+                print("Creating is_name features")
+            dict_features['is_name'] = 0
+
+        if 'is_com_name' in self.features:
+            if self.verbose:
+                print("Creating is_com_name features")
+            dict_features['is_com_name'] = 0
+
+        if 'contains_dash' in self.features:
+            if self.verbose:
+                print("Creating contains_dash features")
+            dict_features['contains_dash'] = 0
+
+        if 'contains_digit' in self.features:
+            if self.verbose:
+                print("Creating contains_digit features")
+            dict_features['contains_digit'] = 0
+
+        if 'lemma' in self.features:
+            if self.verbose:
+                print("Creating lemma features")
+
+            lemmas = word_helper(self.set)
+            if self.verbose: print("Defining lemma features")
+            for lemma in lemmas:
+                if lemma.lower().strip() not in unused_features and self.filtered:
+                    dict_features[lemma.lower().strip()] = 0
+                if not self.filtered:
+                    dict_features[lemma.lower().strip()] = 0
+
+        if 'context' in self.features:
+            if self.verbose:
+                print("Creating context features")
+            contexts = context_helper(self.set)
+            if self.verbose:
+                print("Defining context features")
+            for context in contexts:
+                if context.lower().strip() not in unused_features and self.filtered:
+                    dict_features[context.lower().strip()] = 0
+                if not self.filtered:
+                    dict_features[context.lower().strip()] = 0
+
+        if 'pos' in self.features:
+            if self.verbose:
+                print("Defining pos features")
+            # Define pos-tags
+            pos_tags = ['CC', 'CD', 'DT', 'EX', 'FW', 'IN', 'JJ', 'JJR', 'JJS', 'LS', 'MD', 'NN', 'NNS', 'NNP', 'NNPS',
+                        'PDT', 'POS', 'PRP', 'PRP$', 'RB', 'RBR', 'RBS', 'RP', 'SYM', 'TO', 'UH', 'VB', 'VBD', 'VBG',
                     'VBN', 'VBP', 'VBZ', 'WDT', 'WP', 'WP$', 'WRB']
-        if self.verbose: print("Creating POS-tag features")
-        for pos in pos_tags:
-            dict_features[pos] = 0
+            if self.verbose:
+                print("Creating POS-tag features")
+            for pos in pos_tags:
+                dict_features[pos] = 0
 
         # Label
         dict_features['class'] = ""
@@ -171,6 +204,7 @@ class FeatureExtractor:
         #@ATTRIBUTE "contains_digit" REAL
         @ATTRIBUTES all lemmas in the corpus REAL
         @ATTRIBUTES all contexts in the corpus REAL
+        @ATTRIBUTES pos-tags REAL
         @ATTRIBUTE class
         returns a list of dicts with the features per sample
         '''
@@ -179,70 +213,78 @@ class FeatureExtractor:
         all_features = self.define_all_features()
         result = []
 
-        # create list of all entries in wikipedia
-        '''        
-        try:
-            wiki_articles = set()
-            fname = "../misc/enwiki-latest-all-titles"
-            with open(fname, "r") as f:
-                for line in f:
-                    reg = re.search("\t.*", line)
-                    line = reg.group().replace('\t', '').replace('"', "")
-                    wiki_articles.add(line.strip().lower())
-        except:
-            print("Cannot read wikifile")
-        '''
+        if 'in_wiki' in self.features:
+            # create list of all entries in wikipedia
+            try:
+                wiki_articles = set()
+                fname = "../misc/enwiki-latest-all-titles"
+                with open(fname, "r") as f:
+                    for line in f:
+                        reg = re.search("\t.*", line)
+                        line = reg.group().replace('\t', '').replace('"', "")
+                        wiki_articles.add(line.strip().lower())
+            except:
+                print("Cannot read wikifile")
 
-        # create list of titles
-        try:
-            titles_list = set()
-            fname = "../misc/title_list"
-            with open(fname, "r") as f:
-                for line in f:
-                    line = line.strip().lower()
-                    titles_list.add(line)
-        except:
-            print("Can not read file with defined titles")
+        if 'is_title' in self.features:
+            # create list of titles
+            try:
+                titles_list = set()
+                fname = "../misc/title_list"
+                with open(fname, "r") as f:
+                    for line in f:
+                        line = line.strip().lower()
+                        titles_list.add(line)
+            except:
+                print("Can not read file with defined titles")
 
-        # create list of commercial names
-        try:
-            com_list = []
-            fname = "../misc/com_list"
-            with open(fname, "r") as f:
-                for line in f:
-                    line = line.strip().lower()
-                    com_list.append(line)
-        except:
-            print("Can not read file with defined commercials")
+        if 'is_com_name' in self.features:
+            # create list of commercial names
+            try:
+                com_list = []
+                fname = "../misc/com_list"
+                with open(fname, "r") as f:
+                    for line in f:
+                        line = line.strip().lower()
+                        com_list.append(line)
+            except:
+                print("Can not read file with defined commercials")
 
-        # create list of names
-        try:
-            names_list = set()
-            fname = "../misc/names_list"
-            with open(fname, "r") as f:
-                for line in f:
-                    line = line.strip().lower().capitalize()
-                    names_list.add(line)
-        except:
-            print("Can not read file with defined names")
+        if 'is_name' in self.features:
+            # create list of names
+            try:
+                names_list = set()
+                fname = "../misc/names_list"
+                with open(fname, "r") as f:
+                    for line in f:
+                        line = line.strip().lower().capitalize()
+                        names_list.add(line)
+            except:
+                print("Can not read file with defined names")
 
         for sample in self.ne_list:
             i += 1
             label = list(sample)[0]
             if i % 100 == 0 and self.verbose:
                 print("Processed ", i, " samples")
-            # List of lemmas in sample
-            sample_lemmas = [lemma_list[0] for key, value in sample.items() for lemma_list in value if
-                             type(lemma_list) == list]
-            # List of pos in sample
-            sample_pos = [lemma_list[1] for key, value in sample.items() for lemma_list in value if
-                          type(lemma_list) == list]
 
-            # Context of current sample
-            sample_context = [value[-1] for key, value in sample.items()]
+            if 'lemma' in self.features:
+                # List of lemmas in sample
+                sample_lemmas = [lemma_list[0] for key, value in sample.items() for lemma_list in value if
+                                 type(lemma_list) == list]
 
-            # Phrase of current sample
-            sample_phrase = [value[-2] for key, value in sample.items()]
+            if 'pos' in self.features:
+                # List of pos in sample
+                sample_pos = [lemma_list[1] for key, value in sample.items() for lemma_list in value if
+                              type(lemma_list) == list]
+
+            if 'context' in self.features:
+                # Context of current sample
+                sample_context = [value[-1] for key, value in sample.items()]
+
+            if 'is_np' in self.features:
+                # Phrase of current sample
+                sample_phrase = [value[-2] for key, value in sample.items()]
 
             # Create dict vector for current sample
             sample_features = all_features.copy()
@@ -250,73 +292,85 @@ class FeatureExtractor:
 
             # Loop through the features
             for feature in sample_features:
-                # Count for each lemma
+
+                if 'lemma' in self.features:
+                    # Count for each lemma
+                    for lemma in sample_lemmas:
+                        lemma = lemma.lower().strip()
+                        feature_l = feature.lower().strip()
+                        if lemma == feature_l and lemma != 'class':
+                            sample_features[feature] += 1
+
+                if 'context' in self.features:
+                    # Count for each context
+                    for context in sample_context:
+                        context = "_".join(context)
+                        context = context.lower().strip()
+                        feature_c = feature.lower().strip()
+                        if context == feature_c:
+                            sample_features[feature] += 1
+
+                if 'pos' in self.features:
+                    # Count for each pos-tag
+                    for pos in sample_pos:
+                        if pos == feature:
+                            sample_features[pos] += 1
+
+            if 'is_np' in self.features:
+                # Check if is NP
+                if 'NP' in sample_phrase:
+                    sample_features['is_np'] = 1
+
+            if 'in_wiki' in self.features:
+                # Check if it is in wiki
+                sample_name = "_".join(sample_lemmas)
+                sample_name = sample_name.lower()
+                if sample_name in wiki_articles:
+                    sample_features['is_in_wiki'] = 1
+
+            if 'is_title' in self.features:
+                # Check if it contains a title
                 for lemma in sample_lemmas:
-                    lemma = lemma.lower().strip()
-                    feature_l = feature.lower().strip()
-                    if lemma == feature_l and lemma != 'class':
-                        sample_features[feature] += 1
-                
-                # Count for each context
-                for context in sample_context:
-                    context = "_".join(context)
-                    context = context.lower().strip()
-                    feature_c = feature.lower().strip()
-                    if context == feature_c:
-                        sample_features[feature] += 1
-                
-                # Count for each pos-tag
-                for pos in sample_pos:
-                    if pos == feature:
-                        sample_features[pos] += 1
-            '''    
-            # Check if is NP
-            if 'NP' in sample_phrase:
-                sample_features['is_np'] = 1
-            
-            # Check if it is in wiki
-            sample_name = "_".join(sample_lemmas)
-            sample_name = sample_name.lower()
-            if sample_name in wiki_articles:
-                sample_features['is_in_wiki'] = 1
-            
-            # Check if it contains a title
-            for lemma in sample_lemmas:
-                if lemma.lower() in titles_list:
-                    sample_features['is_title'] = 1
-            
-            # Check if it contains a name
-            for lemma in sample_lemmas:
-                if lemma.lower() in names_list:
-                    sample_features['is_name'] = 1
-            
-            # Check if it contains a commercial name
-            for lemma in sample_lemmas:
-                if lemma.lower() in com_list:
-                    sample_features['is_com_name'] = 1
-            '''
-            # Check if one word is all caps
-            for lemma in sample_lemmas:
-                reg = re.match("[a-zA-Z]", lemma)
-                if lemma.isupper() and reg:
-                    sample_features['is_all_caps'] = 1
-            '''
-            # Maybe not helping
-            # Check if one word contains a dash
-            for lemma in sample_lemmas:
-                if "-" in lemma:
-                    sample_features['contains_dash'] = 1
-            ''' 
-            # Check if entity contains digi and/or letterst
-            _digits = re.compile('\d')
-            for lemma in sample_lemmas:
-                if _digits.search(lemma):
-                    sample_features['contains_digit'] = 1
-                    _letters = re.compile('[a-zA-Z]')
-                    if ('-' in lemma or '-' in lemma or ',' in lemma) and not _letters.search(lemma):
-                        sample_features['contains_digit'] = 2
-                    elif ('-' in lemma or '-' in lemma or ',' in lemma) and _letters.search(lemma):
-                        sample_features['contains_digit'] = 3
+                    if lemma.lower() in titles_list:
+                        sample_features['is_title'] = 1
+
+            if 'is_name' in self.features:
+                # Check if it contains a name
+                for lemma in sample_lemmas:
+                    if lemma.lower() in names_list:
+                        sample_features['is_name'] = 1
+
+            if 'is_com_name' in self.features:
+                # Check if it contains a commercial name
+                for lemma in sample_lemmas:
+                    if lemma.lower() in com_list:
+                        sample_features['is_com_name'] = 1
+
+            if 'is_all_caps' in self.features:
+                # Check if one word is all caps
+                for lemma in sample_lemmas:
+                    reg = re.match("[a-zA-Z]", lemma)
+                    if lemma.isupper() and reg:
+                        sample_features['is_all_caps'] = 1
+
+            if 'contains_dash' in self.features:
+                # Maybe not helping
+                # Check if one word contains a dash
+                for lemma in sample_lemmas:
+                    if "-" in lemma:
+                        sample_features['contains_dash'] = 1
+
+            if 'contains_digit' in self.features:
+                # Check if entity contains digi and/or letterst
+                _digits = re.compile('\d')
+                for lemma in sample_lemmas:
+                    if _digits.search(lemma):
+                        sample_features['contains_digit'] = 1
+                        _letters = re.compile('[a-zA-Z]')
+                        if ('-' in lemma or '-' in lemma or ',' in lemma) and not _letters.search(lemma):
+                            sample_features['contains_digit'] = 2
+                        elif ('-' in lemma or '-' in lemma or ',' in lemma) and _letters.search(lemma):
+                            sample_features['contains_digit'] = 3
             
             
             # Set class

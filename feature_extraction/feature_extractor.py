@@ -213,7 +213,7 @@ class FeatureExtractor:
         all_features = self.define_all_features()
         result = []
 
-        if 'in_wiki' in self.features:
+        if 'is_in_wiki' in self.features:
             # create list of all entries in wikipedia
             try:
                 wiki_articles = set()
@@ -319,7 +319,7 @@ class FeatureExtractor:
                 if 'NP' in sample_phrase:
                     sample_features['is_np'] = 1
 
-            if 'in_wiki' in self.features:
+            if 'is_in_wiki' in self.features:
                 # Check if it is in wiki
                 sample_name = "_".join(sample_lemmas)
                 sample_name = sample_name.lower()

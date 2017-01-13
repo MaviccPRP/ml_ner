@@ -37,60 +37,61 @@ for L in range(0, len(extract_features)+1):
         '''
         Extract features for the training set
         '''
+        if len(subset) > 1:
 
-        # /resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/train/data/english/annotations/nw/
-        # Create an instance of the CorpusReader class
-        cr = CorpusReader("/resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/train/data/english/annotations/nw/wsj", "auto")
+            # /resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/train/data/english/annotations/nw/
+            # Create an instance of the CorpusReader class
+            cr = CorpusReader("/resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/train/data/english/annotations/nw/wsj", "auto")
 
-        # Extract the NE, its POS tags and phrases
-        ne = cr.extract_labeled_named_entities()
+            # Extract the NE, its POS tags and phrases
+            ne = cr.extract_labeled_named_entities()
 
-        fe = FeatureExtractor(ne, 'train', subset, False, True)
+            fe = FeatureExtractor(ne, 'train', subset, False, True)
 
-        # Extract features
-        samples = fe.extract_all_features()
+            # Extract features
+            samples = fe.extract_all_features()
 
-        data = ArffAndSciKitDataCreator(samples)
+            data = ArffAndSciKitDataCreator(samples)
 
-        # Classify data with sklearn
+            # Classify data with sklearn
 
-        X_train, y_train = array(data.createScikitData()[0]), array(data.createScikitData()[1])
+            X_train, y_train = array(data.createScikitData()[0]), array(data.createScikitData()[1])
 
-        '''
-        Extract features for the test set
-        '''
+            '''
+            Extract features for the test set
+            '''
 
-        # /resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/train/data/english/annotations/nw/
-        # Create an instance of the CorpusReader class
-        cr = CorpusReader("/resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/test/data/english/annotations/nw/wsj", 'auto')
+            # /resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/train/data/english/annotations/nw/
+            # Create an instance of the CorpusReader class
+            cr = CorpusReader("/resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/test/data/english/annotations/nw/wsj", 'auto')
 
-        # Extract the NE, its POS tags and phrases
-        ne = cr.extract_labeled_named_entities()
+            # Extract the NE, its POS tags and phrases
+            ne = cr.extract_labeled_named_entities()
 
-        fe = FeatureExtractor(ne, 'train', subset,False, True)
+            fe = FeatureExtractor(ne, 'train', subset,False, True)
 
-        # Extract features
-        samples = fe.extract_all_features()
+            # Extract features
+            samples = fe.extract_all_features()
 
-        data = ArffAndSciKitDataCreator(samples)
+            data = ArffAndSciKitDataCreator(samples)
 
-        # Classify data with sklearn
+            # Classify data with sklearn
 
-        X_test, y_test = array(data.createScikitData()[0]), array(data.createScikitData()[1])
-
-
-        labels=['PERSON', 'GPE_NORP', 'ORG', 'DATE', 'PERCENT_CARDINAL_MONEY']
+            X_test, y_test = array(data.createScikitData()[0]), array(data.createScikitData()[1])
 
 
-        # Learn to predict each class against the other
-        classifier = OneVsOneClassifier(LinearSVC())
-        y_pred = classifier.fit(X_train, y_train).predict(X_test)
-        print("Evaluation no: ", i)
-        i = i + 1
-        print(subset)
-        print("Accuracy: ", accuracy_score(y_test, y_pred))
-        print("F1-Score: ", f1_score(y_test, y_pred, average='weighted'))
-        print("Confusion Matrix: ")
-        print(confusion_matrix(y_test, y_pred, labels=['PERSON', 'GPE_NORP', 'ORG', 'DATE', 'PERCENT_CARDINAL_MONEY']))
-        print("Classification report: ")
-        print(classification_report(y_test, y_pred, labels=labels))
+            labels=['PERSON', 'GPE_NORP', 'ORG', 'DATE', 'PERCENT_CARDINAL_MONEY']
+
+
+            # Learn to predict each class against the other
+            classifier = OneVsOneClassifier(LinearSVC())
+            y_pred = classifier.fit(X_train, y_train).predict(X_test)
+            print("Evaluation no: ", i)
+            i = i + 1
+            print(subset)
+            print("Accuracy: ", accuracy_score(y_test, y_pred))
+            print("F1-Score: ", f1_score(y_test, y_pred, average='weighted'))
+            print("Confusion Matrix: ")
+            print(confusion_matrix(y_test, y_pred, labels=['PERSON', 'GPE_NORP', 'ORG', 'DATE', 'PERCENT_CARDINAL_MONEY']))
+            print("Classification report: ")
+            print(classification_report(y_test, y_pred, labels=labels))

@@ -34,19 +34,19 @@ from itertools import combinations
 
 import numpy as np
 
-extract_features = ['is_np','in_wiki','is_title','is_all_caps','is_name','is_com_name','contains_dash','contains_digit','lemma','context','pos']
+extract_features = ['is_np','is_in_wiki','is_title','is_all_caps','is_name','is_com_name','contains_dash','contains_digit','lemma','context','pos']
 
 
 
 for L in range(0, len(extract_features)+1):
-    for subset in itertools.combinations(extract_features, L):
+    for subset in combinations(extract_features, L):
         '''
         Extract features for the training set
         '''
 
         # /resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/train/data/english/annotations/nw/
         # Create an instance of the CorpusReader class
-        cr = CorpusReader("/resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/train/data/english/annotations/nw/wsj", "auto")
+        cr = CorpusReader("/resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/test/data/english/annotations/nw/wsj", "auto")
 
         # Extract the NE, its POS tags and phrases
         ne = cr.extract_labeled_named_entities()

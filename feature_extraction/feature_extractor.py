@@ -268,10 +268,8 @@ class FeatureExtractor:
             if i % 100 == 0 and self.verbose:
                 print("Processed ", i, " samples")
 
-            if 'lemma' in self.features:
-                # List of lemmas in sample
-                sample_lemmas = [lemma_list[0] for key, value in sample.items() for lemma_list in value if
-                                 type(lemma_list) == list]
+            # List of lemmas in sample
+            sample_lemmas = [lemma_list[0] for key, value in sample.items() for lemma_list in value if type(lemma_list) == list]
 
             if 'pos' in self.features:
                 # List of pos in sample

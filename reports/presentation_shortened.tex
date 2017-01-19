@@ -33,9 +33,9 @@
 \section{Einführung}
 \begin{frame}
 	\frametitle{NER in der Forschung}
-	Named Entity Recognition ist seit den 1990er Jahren ein aktives Forschungsfeld. (für Überblick siehe: Borthwick, 1999, Tjong Kim Sang 2003, Marrero 2012)\\
+	Named Entity Recognition seit 1990er Jahren aktives Forschungsfeld. (Überblick: Borthwick, 1999, Tjong Kim Sang 2003, Marrero 2012)\\
 	
-	NER ist Grundlage für viele weitere Forschungsfelder im Bereich Information Retrieval, z.B. Semantic Annotation, Question Answering, Opinion Mining, usw. (Marrero 2012)
+	Grundlage für weitere Forschungsfelder im Bereich Information Retrieval, z.B. Semantic Annotation, Question Answering, Opinion Mining, usw. (Marrero 2012)
 \end{frame}
 \begin{frame}
 	\frametitle{Was sind Named Entities}
@@ -45,11 +45,13 @@
 \end{frame}
 	\begin{frame}
 		\frametitle{Unser Projekt}
-		Typischerweise werden in der Forschung Named Entity Recognition und Named Entity Classification (NEC) zusammen betrachtet. Nur wenige Untersuchungen beschäftigen sich nur mit NEC. (Primadhanty 2014, He 2016, Spangler 2016)\\
-		
-		Dieses Projekt konzentriert sich daher insbesondere auf den Bereich NEC und stellt die Frage, welchen Einfluss Feature Selection auf die Klassifikationsergebnisse eines Nemed Entity Klassifizierers hat.\\
-		
-		Die Untersuchung konzentriert sich dabei auf einfache syntaktische und lexikalische Features, die in fast allen Forschungsarbeiten zum Thema in ähnlicher Form genutzt wurden. Zudem nutzen wir externe Ressourcen, wie Wikipedia und Vornamenslisten. \textit{(Toral, Munoz, 2006; Kazama, Torisawa, 2007; Ratinov, Roth 2009)} 
+		\begin{itemize}
+			\item Typischerweise werden Named Entity Recognition und Named Entity Classification (NEC) zusammen betrachtet.
+			\item Wenige Untersuchungen beschäftigen sich nur mit NEC. (Primadhanty 2014, He 2016, Spangler 2016)
+			\item Dieses Projekt konzentriert sich auf NEC und stellt die Frage, welchen Einfluss Feature Selection auf die Klassifikationsergebnisse eines Nemed Entity Klassifizierers hat.
+			\item 		Untersuchung konzentriert sich auf einfache syntaktische und lexikalische Features, die in fast allen Forschungsarbeiten in ähnlicher Form genutzt wurden. \textit{(Toral, Munoz, 2006; Kazama, Torisawa, 2007; Ratinov, Roth 2009)} 
+		\end{itemize}	
+
 	\end{frame}
 \section{Daten \& Tools}
 	\subsection{Tools}
@@ -66,12 +68,12 @@
 	\subsection{Korpus}
 	\begin{frame}
 			\frametitle{Korpus}
-			Für die Named Entity Klassifikation nutzen wir das OntoNotes Korpus 2012. \textit{(OntoNotes Release 5.0 2012)}\\
-			
-			Dabei nutzen die englischen Nachrichtentexte des 'The Wall Street Journal'.
-			Für die Entwicklungsphase nutzten wir das im OntoNotes Korpus bereits vorgefertigte Developmenttest.\\
-			
-			Für die Klassifikation der Named Entities werden die bereits vorgefertigten Trainings- und Testdatensets genutzt.\\
+			\begin{itemize}
+				\item Für Named Entity Klassifikation wird OntoNotes Korpus 2012 genutzt. \textit{(OntoNotes Release 5.0 2012)}
+				\item Englischen Nachrichtentexte des 'The Wall Street Journal'.
+				Für die Entwicklungsphase bereits vorgefertigtes Developmenttest.
+				\item Für die Klassifikation der Named Entities werden die bereits vorgefertigten Trainings- und Testdatensets genutzt.
+			\end{itemize}
 			 \begin{table}
 			 	\caption{Anzahl an atomaren Named Entities}
 			 	\begin{tabular}{ccc}
@@ -86,8 +88,13 @@
 	\end{frame}
 		\begin{frame}
 			\frametitle{Korpusreader}
-			Für die Extraktion der Named Entities wurde ein Korpusreader erstellt.\\
-			Der Reader extrahiert alle Named Entities, inklusive POS-tags der einzelnen Tokenm, Phrasenart, Kontextwörtern (ne-1, ne+1), und ordnet sie ihren Klassen zu.\\
+			\begin{itemize}
+				\item Für Extraktion der Named Entities wurde ein Korpusreader erstellt.
+				\item 	Der Reader extrahiert alle Named Entities, inklusive POS-tags der einzelnen Token, Phrasenart, Kontextwörtern (ne-1, ne+1), und ordnet sie Klassen zu.
+			\end{itemize}
+			
+			
+		
 			
 			Beispiel:\\
 			\{'PERSON':[['Peter', 'NNP'],['Mokaba', 'NNP'],'NP', ('Says', ',')]\}

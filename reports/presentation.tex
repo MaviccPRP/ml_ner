@@ -7,6 +7,7 @@
 \usepackage{booktabs}
 \usepackage{tabularx}
 \usepackage{array}
+\usepackage{graphicx}
 
 \setbeamertemplate{navigation symbols}{}
 \mode<presentation>{\usetheme{Madrid}}
@@ -30,6 +31,26 @@
 
 
 \section{Einführung}
+\begin{frame}
+	\frametitle{NER in der Forschung}
+	Named Entity Recognition ist seit den 1990er Jahren ein aktives Forschungsfeld. (für Überblick siehe: Borthwick, 1999, Tjong Kim Sang 2003, Marrero 2012)\\
+	
+	NER ist Grundlage für viele weitere Forschungsfelder im Bereich Information Retrieval, z.B. Semantic Annotation, Question Answering, Opinion Mining, usw. (Marrero 2012)
+\end{frame}
+\begin{frame}
+	\frametitle{Was sind Named Entities}
+	Named Entities sind Phrasen die Namen von Personen, Organisationen, Währungen, usw enthalten. Beispiele:\\
+	
+	[ORG U.N. ], [PER Obama ], [MONEY Dollar], [LOC Moscow ] 
+\end{frame}
+	\begin{frame}
+		\frametitle{Unser Projekt}
+		Typischerweise werden in der Forschung Named Entity Recognition und Named Entity Classification (NEC) zusammen betrachtet. Nur wenige Untersuchungen beschäftigen sich nur mit NEC. (Primadhanty 2014, He 2016, Spangler 2016)\\
+		
+		Dieses Projekt konzentriert sich daher insbesondere auf den Bereich NEC und stellt die Frage, welchen Einfluss Feature Selection auf die Klassifikationsergebnisse eines Nemed Entity Klassifizierers hat.\\
+		
+		Die Untersuchung konzentriert sich dabei auf einfache syntaktische und lexikalische Features, die in fast allen Forschungsarbeiten zum Thema in ähnlicher Form genutzt wurden. Zudem nutzen wir externe Ressourcen, wie Wikipedia und Vornamenslisten. \textit{(Toral, Munoz, 2006; Kazama, Torisawa, 2007; Ratinov, Roth 2009)} 
+	\end{frame}
 \section{Daten \& Tools}
 	\subsection{Tools}
 	\begin{frame}
@@ -38,15 +59,16 @@
 				\item Python 3.4+
 				\item Scikit Learn als Klassifizierer
 				\item liac-arff
+				\item matplotlib
 				\item Weka zur Korpusanalyse
 			\end{itemize}
 	\end{frame}
 	\subsection{Korpus}
 	\begin{frame}
 			\frametitle{Korpus}
-			Für die Named Entity Klassifikation nutzen wir das OntoNotes Korpus 2012.\\
+			Für die Named Entity Klassifikation nutzen wir das OntoNotes Korpus 2012. \textit{(OntoNotes Release 5.0 2012)}\\
 			
-			Dabei nutzen die englischen Nachrichtentexte des The Wall Street Journal.
+			Dabei nutzen die englischen Nachrichtentexte des 'The Wall Street Journal'.
 			Für die Entwicklungsphase nutzten wir das im OntoNotes Korpus bereits vorgefertigte Developmenttest.\\
 			
 			Für die Klassifikation der Named Entities werden die bereits vorgefertigten Trainings- und Testdatensets genutzt.\\
@@ -75,7 +97,7 @@
 		\begin{frame}
 			\frametitle{Korpusklassenbalancierung}
 				\begin{table}
-				\caption{Klassen im OntoNotes Korpus}
+				\caption{Klassen im OntoNotes Korpus \textit{(OntoNotes Release 5.0 2012)}}
 				\begin{tabularx}{\textwidth}{Xc}
 					\toprule
 					Klassen  & Trainingset \\
@@ -119,7 +141,7 @@
 	\begin{frame}
 			\frametitle{Verteilung Korpusklassen}
 			 \begin{table}
-			 	\caption{Verteilung der Klassen}
+			 	\caption{Verteilung der Klassen nach Balancierung}
 			 	\begin{tabular}{lccc}
 			 		\toprule
 			 		Klassen  & Developmentset & Trainingset & Testset \\
@@ -140,13 +162,14 @@
 	\subsection{Features für den Baseline-Klassifizierer}
 	\begin{frame}
 		\frametitle{Features für den Baseline-Klassifizierer}
+		Anzahl der Features: 1317
 					 \begin{table}
 					 	\caption{Features für den Baseline-Klassifizierer}
 					 	\begin{tabularx}{\textwidth}{llX}
 					 		\toprule
 							Feature & Wert & Beschreibung\\
 					 		\midrule
-					 		Unigram & numerisch & Vorkommen der Unigramme, die mindestens fünfmal im Trainingscorpus vorkommen \\
+					 		Unigram & numerisch & Vorkommen der Unigramme, die mindestens fünfmal im Trainingscorpus vorkommen. \textit{(Mayfield 2003)} \\
 					 		\bottomrule
 					 	\end{tabularx}
 					 	\label{tab:baselinef}
@@ -157,16 +180,16 @@
 		\frametitle{Erweitertes Featureset I}
 		Anzahl der Features: 1716
  			\begin{table}
- 				\caption{Features für den Baseline-Klassifizierer I}
+ 				\caption{Features für den Klassifizierer I}
  				\begin{tabularx}{\textwidth}{llX}
  					\toprule
  					Feature & Wert & Beschreibung\\
  					\midrule
- 					Unigram & numerisch & Vorkommen der Unigramme (lemmatisiert), die mindestens fünfmal im Trainingscorpus vorkommen \\
- 					POS & numerisch & Häufigkeit von 36 POS-Tags aus der Penn Treebank\\
- 					isAllCaps & boolean & Wörter nur in Großschreibung\\
- 					Context & numerisch & Vorkommen der Kontexttokens, die mindestens fünfmal im Trainingskorpus vorkommen. Das Kontextfenster beinhaltet das Vorgänger- und Nachfolgetoken der NE.\\
- 					containsDigit & boolean & Vorkommen von Nummern.\\
+ 					Unigram & numerisch & Vorkommen der Unigramme (lemmatisiert), die mindestens fünfmal im Trainingscorpus vorkommen. \textit{(Mayfield 2003)}\\
+ 					POS & numerisch & Häufigkeit von 36 POS-Tags aus der Penn Treebank \textit{(Florian, Chieu 2003)}\\
+ 					isAllCaps & boolean & Wörter nur in Großschreibung \textit{(Nadeau 2006)}\\
+ 					Context & numerisch & Vorkommen der Kontexttokens, die mindestens fünfmal im Trainingskorpus vorkommen. Das Kontextfenster beinhaltet das Vorgänger- und Nachfolgetoken der NE. \textit{(Munro 2003)}\\
+ 					containsDigit & boolean & Vorkommen von Nummern. \textit{}\\
  					\bottomrule
  				\end{tabularx}
  				\label{tab:allf1}
@@ -175,16 +198,16 @@
  		\begin{frame}
  			\frametitle{Erweitertes Featureset II}
  					\begin{table}
- 						\caption{Features für den Baseline-Klassifizierer II}
+ 						\caption{Features für den  Klassifizierer II}
  						\begin{tabularx}{\textwidth}{llX}
  							\toprule
  							Feature & Wert & Beschreibung\\
  							\midrule
- 							isInWiki & boolean & Vorkommen der NE in der Wikipedia. \\
- 							isTitle & boolean & Prüft, ob Titelbezeichnungen (z.B. Mr. MA) vorkommen.\\
- 							isNP & boolean & Ist NE eine Nominalphrase \\
- 							isName & boolean & Prüft, ob Vornamen vorkommen..\\
- 							containsDash & boolean & Vorkommen von Viertelgeviertstrichen\\
+ 							isInWiki & boolean & Vorkommen der NE in der Wikipedia. \textit{(Toral and Munoz, 2006; Kazama and Torisawa, 2007)}\\
+ 							isTitle & boolean & Prüft, ob Titelbezeichnungen (z.B. Mr. MA) vorkommen. \textit{Ratinov, Roth 2009}\\
+ 							isNP & boolean & Ist NE eine Nominalphrase. \textit{Sánchez, Cuadrado 2009}\\
+ 							isName & boolean & Prüft, ob Vornamen vorkommen.\textit{Ratinov, Roth 2009}\\
+ 							containsDash & boolean & Vorkommen von Viertelgeviertstrichen. \textit{Mayfield 2003}\\
  							\bottomrule
  						\end{tabularx}
  						\label{tab:allf2}
@@ -193,34 +216,89 @@
 	\subsection{Klassifizierertyp}
 	\begin{frame}
 		\frametitle{Klassifizierertyp}
-		Zur Klassifizierung der NE werden zwei verschiedene Klassifizierer genutzt.\\
+		Zur Klassifizierung der NE wird eine Support Vector Maschine mit linearem Kernel verwendet.\\
+		
+		\textit{Alternativ wurde ein Decisiontree getestet, dieser hatte allerdings mit allen Featurekombinationen tendenziell schlechtere Evaluationsergebnisse. Zudem ist die zeitliche Performance der SVM deutlich höher.}\\
 		
 		\begin{itemize}
 			\item SVM (sklearn.svm.LinearSVC)\\
-				\em{Parameter: Dual: True, loss: squared hinge, class weight: balanced}
-			\item DecisionTree (sklearn.tree.DecisionTreeClassifier)\\
-			\em{Parameter: class weight: balanced}
+			
+				Featurevektoren haben sehr viele Features
+				daher linearer Kernel.\\
+				Mapping in höheren Featurespace eines nicht-linearen Kernels bringt kaum Klassifizierungsverbesserungen. \textit{(Chih-Wei Hsu 2003)}\\
 		\end{itemize}
 	\end{frame}
-	\subsection{Probleme}
-	\begin{frame}
-		\frametitle{Probleme}
-		
-	\end{frame}
+
 	\subsection{Erfahrungen mit den Korpusklassen}
 	\begin{frame}
-		\frametitle{Erfahrungen mit den Korpusklassen}
-		
+		\frametitle{Erfahrungen mit den Korpusklassen I}
+		Wie die ROC-Kurve zeigt, hat der Klassifizierer insbesondere Schwierigkeiten, die Klassen PERSON und ORG und GPE\_NORP zu unterscheiden.\\
 	\end{frame}
+	\begin{frame}
+		\frametitle{ROC Curve}
+		\includegraphics[scale=0.3]{roc_curve.png}
+	\end{frame}
+		\begin{frame}
+			\frametitle{Erfahrungen mit den Korpusklassen II}
+			Die Confusion Matrix zeigt, dass von den 361 PERSON Entities, 71 als ORG und 29 als GPE\_NORP klassifiziert werden. 
+			\begin{table}
+				\caption{Confusion Matrix}
+				\begin{tabularx}{\textwidth}{llllll}
+					\toprule
+					361 & 28 & 22 & 2 & 0 & PERSON\\
+					29 & 549 & 10 & 0 & 0 & GPE\_NORP\\
+					71 & 45 & 736 & 6 & 1 & ORG\\
+					0 & 2 & 1 & 591 & 7 & DATE\\
+					0 & 2 & 0 & 2 & 525 & PERCENT\_CARDINAL\_MONEY\\
+					\bottomrule
+				\end{tabularx}
+				\label{tab:allf2}
+			\end{table}			
+		\end{frame}
 \section{Evaluation}
 	\begin{frame}
+		Beste Features: lemma, context\\
+		Accuracy: \\
+		F1-Score:\\
+		Weitere Features:\\
+	\end{frame}
+	\begin{frame}
 		\frametitle{Evaluation}
+		Hier kommt ein eval\_report hin mit Accuracy-Wert und eine Grafik/Tabelle, die die wichtigsten Features anzeigt.\\
+		Tabelle mit Baseline Eval lemma + context Eval und Fullfeature Eval.\\
+				\begin{table}
+					\caption{Final Evaluation}
+					\begin{tabularx}{\textwidth}{llll}
+						Featureset & & Accuracy & F1-Score\\
+						\toprule
+						Baseline & unbalanced & 0.786757848928 &  0.786781978815\\
+								 & balanced & 0.840802675585 & 0.854079560307\\
+						Best	 & unbalanced & 0.87286291576 & 0.869301986664\\
+								 & balanced & 0.923745819398 & 0.924314367424\\
+						\bottomrule
+					\end{tabularx}
+					\label{tab:allf2}
+				\end{table}	
+		
+		
+		
 		
 	\end{frame}
+		\subsection{Probleme}
+		\begin{frame}
+			\frametitle{Probleme}
+			Context bezieht auch Satzzeichen ein (oft ',' oder '.'), dies könnte man auf alphanumerische Strings beschränken.\\
+			
+			Klassifikationsfehler im Testset, da nur die automatisch annotierte Testsetversion von OntoNotes v5 zur Verfügung steht.\\
+			
+			Beispiel:\\
+			\{'ORG': [['American', 'JJ'], 'NP', ('to', 'notions')]\}\\classified as ['GPE\_NORP']\\
+			
+		\end{frame}
 \section{Ausblick}
 	\begin{frame}
 		\frametitle{Ausblick}
-		
+		Was kann man noch verbessern?
 	\end{frame}
 \section{Referenzen}
 	\begin{frame}

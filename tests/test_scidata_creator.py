@@ -21,7 +21,7 @@ from sklearn.metrics import classification_report
 
 from ml_ner.feature_extraction.feature_extractor import FeatureExtractor
 from ml_ner.feature_extraction.arff_scikitdata_creator import ArffAndSciKitDataCreator
-from ml_ner.corpus.corpusreader import CorpusReader
+from ml_ner.corpus.corpusreader_allclasses import CorpusReader
 
 
 '''
@@ -35,8 +35,9 @@ cr = CorpusReader("/resources/corpora/multilingual/ontonotes-5.0-conll-2012/conl
 # Extract the NE, its POS tags and phrases
 ne = cr.extract_labeled_named_entities()
 
+extract_features = ['is_np', 'is_in_wiki', 'is_all_caps', 'contains_digit', 'lemma', 'context', 'pos']
 
-fe = FeatureExtractor(ne, 'train', False, True)
+fe = FeatureExtractor(ne, 'train', extract_features,False, True)
 
 # Extract features
 samples = fe.extract_all_features()
@@ -48,17 +49,19 @@ data = ArffAndSciKitDataCreator(samples)
 X_train, y_train = array(data.createScikitData()[0]), array(data.createScikitData()[1])
 
 '''
-Extract features for the test set
-'''
+       Extract features for the test set
+       '''
 
 # /resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/train/data/english/annotations/nw/
 # Create an instance of the CorpusReader class
-cr = CorpusReader("/resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/test/data/english/annotations/nw/wsj", 'auto')
+cr = CorpusReader(
+    "/resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/test/data/english/annotations/nw/wsj",
+    'auto')
 
 # Extract the NE, its POS tags and phrases
 ne = cr.extract_labeled_named_entities()
 
-fe = FeatureExtractor(ne, 'train', False, True)
+fe = FeatureExtractor(ne, 'train', extract_features, False, True)
 
 # Extract features
 samples = fe.extract_all_features()
@@ -69,63 +72,8 @@ data = ArffAndSciKitDataCreator(samples)
 
 X_test, y_test = array(data.createScikitData()[0]), array(data.createScikitData()[1])
 
-'''
-print("Classification per sample", flush=True)
+classifier = OneVsRestClassifier(LinearSVC())
+y_pred = classifier.fit(X_train, y_train).predict(X_test)
 
-
-for test_sample, entity, f_vector in zip(X_test, ne, samples):
-    y_pred_l1_one = OneVsOneClassifier(LinearSVC(random_state=0, dual=False, penalty='l1')).fit(X_train, y_train).predict(test_sample.reshape(1, -1))
-    for key, value in entity.items():
-        if key != y_pred_l1_one:
-            print("Entity: \n"+str(entity)+str(y_pred_l1_one), flush=True)
-            for key, value in f_vector.items():
-                if not isinstance(value, str) and value > 0:
-                    print(str(key) + " : " + str(value), flush=True)
-            print("____________________________________________", flush=True)
-'''
-
-tuned_parameters = [{'penalty': ['l1'], 'dual': [False], 'multi_class': ['ovr','crammer_singer'],
-                     'max_iter': [100,1000,10000], 'C': [1, 10, 100, 1000]},
-                    {'penalty': ['l2'], 'loss': ['hinge', 'squared_hinge'],'dual': [True], 'multi_class': ['ovr', 'crammer_singer'],
-                     'max_iter': [100, 1000, 10000], 'C': [1, 10, 100, 1000]}]
-
-scores = ['accuracy', 'f1_weighted']
-
-labels=['PERSON', 'GPE_NORP', 'ORG', 'DATE', 'PERCENT_CARDINAL_MONEY']
-
-
-print("Classify LinearSVC")
-for score in scores:
-    print("Calculating: " + str(score))
-    clf = GridSearchCV(LinearSVC(), tuned_parameters, scoring='%s' % score)
-    print("Training: " + str(score))
-    clf.fit(X_train, y_train)
-
-    print("Best parameters set found on development set:")
-    print()
-    print(clf.best_params_)
-    print()
-    print("Grid scores on development set:")
-    print()
-    means = clf.cv_results_['mean_test_score']
-    stds = clf.cv_results_['std_test_score']
-    for mean, std, params in zip(means, stds, clf.cv_results_['params']):
-        print("%0.3f (+/-%0.03f) for %r"
-              % (mean, std * 2, params))
-    print()
-
-    print("Detailed classification report:")
-    print()
-    print("The model is trained on the full development set.")
-    print("The scores are computed on the full evaluation set.")
-    print()
-    y_test, y_pred = y_test, clf.predict(X_test)
-    print(classification_report(y_test, y_pred, labels=labels))
-    print()
-
-    '''
-    print("Solely LinearSVC")
-    print(accuracy_score(y_test, y_pred_l1))
-    print(f1_score(y_test, y_pred_l1, average='weighted'))
-    print(confusion_matrix(y_test, y_pred_l1, labels=['PERSON', 'GPE_NORP', 'ORG', 'DATE', 'PERCENT_CARDINAL_MONEY']))
-    '''
+print("Accuracy: ", accuracy_score(y_test, y_pred))
+print("F1-Score: ", f1_score(y_test, y_pred, average='weighted'))

@@ -4,12 +4,12 @@
 \beamer@subsectionintoc {2}{1}{Tools}{6}{0}{2}
 \beamer@subsectionintoc {2}{2}{Korpus}{7}{0}{2}
 \beamer@subsectionintoc {2}{3}{Korpusklassen}{9}{0}{2}
-\beamer@sectionintoc {3}{Klassifizierer}{12}{0}{3}
-\beamer@subsectionintoc {3}{1}{Features f\IeC {\"u}r den Baseline-Klassifizierer}{12}{0}{3}
-\beamer@subsectionintoc {3}{2}{Erweitertes Featureset}{13}{0}{3}
-\beamer@subsectionintoc {3}{3}{Klassifizierertyp}{15}{0}{3}
-\beamer@subsectionintoc {3}{4}{Erfahrungen mit den Korpusklassen}{16}{0}{3}
-\beamer@sectionintoc {4}{Evaluation}{19}{0}{4}
-\beamer@subsectionintoc {4}{1}{Probleme}{24}{0}{4}
-\beamer@sectionintoc {5}{Ausblick}{25}{0}{5}
-\beamer@sectionintoc {6}{Referenzen}{26}{0}{6}
+\beamer@sectionintoc {3}{Klassifizierer}{13}{0}{3}
+\beamer@subsectionintoc {3}{1}{Features f\IeC {\"u}r den Baseline-Klassifizierer}{13}{0}{3}
+\beamer@subsectionintoc {3}{2}{Erweitertes Featureset}{14}{0}{3}
+\beamer@subsectionintoc {3}{3}{Klassifizierertyp}{16}{0}{3}
+\beamer@subsectionintoc {3}{4}{Erfahrungen mit den Korpusklassen}{17}{0}{3}
+\beamer@sectionintoc {4}{Evaluation}{21}{0}{4}
+\beamer@subsectionintoc {4}{1}{Probleme}{26}{0}{4}
+\beamer@sectionintoc {5}{Ausblick}{27}{0}{5}
+\beamer@sectionintoc {6}{Referenzen}{28}{0}{6}

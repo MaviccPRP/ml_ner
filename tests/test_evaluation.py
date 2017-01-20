@@ -37,7 +37,7 @@ for L in range(0, len(extract_features)+1):
         '''
         Extract features for the training set
         '''
-        if len(subset) > 2:
+        if L > 3 and 'is_in_wiki' not in subset and 'lemma' in subset:
 
             # /resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/train/data/english/annotations/nw/
             # Create an instance of the CorpusReader class

@@ -46,7 +46,8 @@ cr = CorpusReader("/resources/corpora/multilingual/ontonotes-5.0-conll-2012/conl
 ne = cr.extract_labeled_named_entities()
 
 #extract_features = ['pos', 'lemma', 'context', 'is_all_caps', 'contains_digit']
-extract_features = ['is_np','is_title','is_all_caps','is_name','is_com_name','contains_dash','contains_digit','lemma','context','pos']
+extract_features = ['is_np', 'is_in_wiki', 'is_all_caps', 'contains_digit', 'lemma', 'context', 'pos']
+#extract_features = ['is_np', 'is_all_caps', 'pos', 'contains_digit']
 fe = FeatureExtractor(ne, 'train', extract_features, False, True)
 
 # Extract features
@@ -109,11 +110,11 @@ for i in range(n_classes):
     roc_auc[i] = auc(fpr[i], tpr[i])
     print("++++++++++++++++++++++++++++++++")
     print(y_score[:, i])
-    print(y_test[:, i])
-    print(tpr[i])
-    print(fpr[i])
-    print(threshold[i])
-    print("++++++++++++++++++++++++++++++++")
+    #print(y_test[:, i])
+    #print(tpr[i])
+    #print(fpr[i])
+    #print(threshold[i])
+    #print("++++++++++++++++++++++++++++++++")
 
 # Compute micro-average ROC curve and ROC area
 fpr["micro"], tpr["micro"], _ = roc_curve(y_test.ravel(), y_score.ravel())
@@ -139,7 +140,7 @@ tpr["macro"] = mean_tpr
 roc_auc["macro"] = auc(fpr["macro"], tpr["macro"])
 
 # Plot all ROC curves
-plt.figure()
+#plt.figure()
 #plt.plot(fpr["micro"], tpr["micro"],
 #         label='micro-average ROC curve (area = {0:0.2f})'
 #               ''.format(roc_auc["micro"]),
@@ -162,6 +163,9 @@ plt.xlim([0.0, 1.0])
 plt.ylim([0.0, 1.05])
 plt.xlabel('False Positive Rate')
 plt.ylabel('True Positive Rate')
-plt.title('Some extension of Receiver operating characteristic to multi-class')
+plt.title('ROC-Kurve für jede Klasse')
+plt.rc('legend',fontsize='medium') # using a named size
 plt.legend(loc="lower right")
+fig = plt.gcf()
 plt.show()
+fig.savefig("roc_curve.png")

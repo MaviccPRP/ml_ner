@@ -36,11 +36,12 @@ cr = CorpusReader("/resources/corpora/multilingual/ontonotes-5.0-conll-2012/conl
 ne = cr.extract_labeled_named_entities()
 
 extract_features = ['is_np', 'is_in_wiki', 'is_all_caps', 'contains_digit', 'lemma', 'context', 'pos']
+#extract_features = ['is_np', 'pos', 'is_all_caps']
 
 fe = FeatureExtractor(ne, 'train', extract_features,False, True)
 
 # Extract features
-samples = fe.extract_all_features()
+samples = fe.extract_baseline_features()
 
 data = ArffAndSciKitDataCreator(samples)
 
@@ -64,7 +65,7 @@ ne = cr.extract_labeled_named_entities()
 fe = FeatureExtractor(ne, 'train', extract_features, False, True)
 
 # Extract features
-samples = fe.extract_all_features()
+samples = fe.extract_baseline_features()
 
 data = ArffAndSciKitDataCreator(samples)
 
@@ -74,6 +75,7 @@ X_test, y_test = array(data.createScikitData()[0]), array(data.createScikitData(
 
 classifier = OneVsRestClassifier(LinearSVC())
 y_pred = classifier.fit(X_train, y_train).predict(X_test)
-
+y_train_set = set(y_train)
+print(y_train_set)
 print("Accuracy: ", accuracy_score(y_test, y_pred))
 print("F1-Score: ", f1_score(y_test, y_pred, average='weighted'))

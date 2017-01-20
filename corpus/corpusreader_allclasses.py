@@ -87,8 +87,8 @@ class CorpusReader:
                                 if ')' in line[10] and '*)' not in line[10] and save is True:
                                     entity_list[entity].append(current_phrase)
                                     entity_list[entity].append((previous_word, next_line[3]))
-                                    if current_entity not in ["FAC","PRODUCT","EVENT","WORK_OF_ART","LAW","LANGUAGE","TIME","QUANTITY","ORDINAL","LOC"]:
-                                        n_entities.append(entity_list)
+                                    #if current_entity not in ["FAC","PRODUCT","EVENT","WORK_OF_ART","LAW","LANGUAGE","TIME","QUANTITY","ORDINAL","LOC"]:
+                                    n_entities.append(entity_list)
                                     save = False
                                 # add multiple words to the current ne
                                 if line[10] is '*' and save is True:
@@ -99,8 +99,8 @@ class CorpusReader:
                                     entity_list[current_entity].append([line[3], line[4]])
                                     entity_list[current_entity].append(current_phrase)
                                     entity_list[current_entity].append((previous_word, next_line[3]))
-                                    if current_entity not in ["FAC","PRODUCT","EVENT","WORK_OF_ART","LAW","LANGUAGE","TIME","QUANTITY","ORDINAL","LOC"]:
-                                        n_entities.append(entity_list)
+                                    #if current_entity not in ["FAC","PRODUCT","EVENT","WORK_OF_ART","LAW","LANGUAGE","TIME","QUANTITY","ORDINAL","LOC"]:
+                                    n_entities.append(entity_list)
                                     save = False
 
         return n_entities

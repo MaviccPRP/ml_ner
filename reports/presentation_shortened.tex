@@ -40,16 +40,18 @@
 \begin{frame}
 	\frametitle{Was sind Named Entities}
 	Named Entities sind Phrasen die Namen von Personen, Organisationen, Währungen, usw enthalten. Beispiele:\\
-	
-	[ORG U.N. ], [PER Obama ], [MONEY Dollar], [LOC Moscow ] 
+	\begin{exampleblock}{Beispiel für Named Entities}
+		[ORG U.N. ], [PER Obama ], [MONEY Dollar], [LOC Moscow ] 
+	\end{exampleblock}
+
 \end{frame}
 	\begin{frame}
 		\frametitle{Unser Projekt}
 		\begin{itemize}
-			\item Typischerweise werden Named Entity Recognition und Named Entity Classification (NEC) zusammen betrachtet.
-			\item Wenige Untersuchungen beschäftigen sich nur mit NEC. (Primadhanty 2014, He 2016, Spangler 2016)
-			\item Dieses Projekt konzentriert sich auf NEC und stellt die Frage, welchen Einfluss Feature Selection auf die Klassifikationsergebnisse eines Nemed Entity Klassifizierers hat.
-			\item 		Untersuchung konzentriert sich auf einfache syntaktische und lexikalische Features, die in fast allen Forschungsarbeiten in ähnlicher Form genutzt wurden. \textit{(Toral, Munoz, 2006; Kazama, Torisawa, 2007; Ratinov, Roth 2009)} 
+			\item <+->Typischerweise werden Named Entity Recognition und Named Entity Classification (NEC) zusammen betrachtet.
+			\item <+->Wenige Untersuchungen beschäftigen sich nur mit NEC. (Primadhanty 2014, He 2016, Spangler 2016)
+			\item <+->Dieses Projekt konzentriert sich auf NEC und stellt die Frage, welchen Einfluss Feature Selection auf die Klassifikationsergebnisse eines Nemed Entity Klassifizierers hat.
+			\item <+->Nutzung einfacher syntaktischer und lexikalischer Features, die in fast allen Forschungsarbeiten in ähnlicher Form genutzt wurden. \textit{(Toral, Munoz, 2006; Kazama, Torisawa, 2007; Ratinov, Roth 2009)} 
 		\end{itemize}	
 
 	\end{frame}
@@ -96,8 +98,10 @@
 			
 		
 			
-			Beispiel:\\
-			\{'PERSON':[['Peter', 'NNP'],['Mokaba', 'NNP'],'NP', ('Says', ',')]\}
+			\begin{exampleblock}{Extrahierte Instanz der Korpusreader-Klasse}
+				\{'PERSON':[['Peter', 'NNP'],['Mokaba', 'NNP'],'NP', ('Says', ',')]\}
+			\end{exampleblock}
+			
 		\end{frame}
 	
 	\subsection{Korpusklassen}
@@ -231,16 +235,14 @@
 	\subsection{Klassifizierertyp}
 	\begin{frame}
 		\frametitle{Klassifizierertyp}
-		Zur Klassifizierung der NE wird eine Support Vector Maschine mit linearem Kernel verwendet.\\
-		
-		\textit{Alternativ wurde ein Decisiontree getestet, dieser hatte allerdings mit allen Featurekombinationen tendenziell schlechtere Evaluationsergebnisse. Zudem trainiert der SVM deutlich schneller.}\\
-		
 		\begin{itemize}
-			\item SVM (sklearn.svm.LinearSVC)\\
-			
-				Featurevektoren haben sehr viele Features
-				daher linearer Kernel.\\
-				Mapping in höheren Featurespace eines nicht-linearen Kernels bringt kaum Klassifizierungsverbesserungen. \textit{(Chih-Wei Hsu 2003)}\\
+			\item<+->Zur Klassifizierung der NE wird eine Support Vector Maschine mit linearem Kernel verwendet.
+			\item<+-> SVM (sklearn.svm.LinearSVC)\\
+						
+			Featurevektoren haben sehr viele Features
+			daher linearer Kernel.\\
+			Mapping in höheren Featurespace eines nicht-linearen Kernels bringt kaum Klassifizierungsverbesserungen. \textit{(Chih-Wei Hsu 2003)}
+			\item<+->\textit{Alternativ wurde ein Decisiontree getestet, dieser hatte allerdings mit allen Featurekombinationen tendenziell schlechtere Evaluationsergebnisse. Zudem trainiert der SVM deutlich schneller.}
 		\end{itemize}
 	\end{frame}
 
@@ -280,11 +282,14 @@
 \section{Evaluation}
 	\begin{frame}
 		\frametitle{Featureselektion I}
-		Insgesamt wurden elf Features eingesetzt.\\
+		\begin{itemize}
+			\item <+->Insgesamt wurden elf Features eingesetzt.\\
+			
+			\item <+->Um die Performance der einzelnen Features zu testen, wurde die Potenzmenge des Featuresets gebildet.\\
+			
+			\item <+->Schließlich wurde der Klassifizierer auf allen 1013 Teilmengen durchgeführt.\\
+		\end{itemize}
 		
-		Um die Performance der einzelnen Features zu testen, wurde die Potenzmenge des Featuresets gebildet.\\
-		
-		Schließlich wurde der Klassifizierer auf allen 1013 Teilmengen durchgeführt.\\
 	\end{frame}
 	\begin{frame}
 		\frametitle{Featureselektion II}
@@ -305,10 +310,10 @@
 	\begin{frame}
 		\begin{itemize}
 			\frametitle{Featureselektion IV}
-			\item Beste Features: 'Unigram', 'Context'\\
-			\item Höchste Accuracy: Ab sieben Features. Ab vier Features kaum mehr Verbesserung der Accuracy \\
-			\item Features, die zur Erhöhung der Accuracy beitragen: 'POS', 'is\_all\_caps', 'is\_in\_wiki', 'is\_np', 'contains\_digit'\\
-			\item Das Featureset aus vier Features: 'Unigram', 'Context', 'POS', 'is\_all\_caps' erreicht die beste Accuracy bei möglichts kleinem Featureset.
+			\item <+->Beste Features: 'Unigram', 'Context'\\
+			\item <+->Höchste Accuracy: Ab sieben Features. Ab vier Features kaum mehr Verbesserung der Accuracy \\
+			\item <+->Features, die zur Erhöhung der Accuracy beitragen: 'POS', 'is\_all\_caps', 'is\_in\_wiki', 'is\_np', 'contains\_digit'\\
+			\item <+->Das Featureset aus vier Features: 'Unigram', 'Context', 'POS', 'is\_all\_caps' erreicht die beste Accuracy bei möglichts kleinem Featureset.
 		\end{itemize}
 	\end{frame}
 	\begin{frame}
@@ -339,8 +344,10 @@
 			
 			Klassifikationsfehler im Testset, da nur die automatisch annotierte Testsetversion von OntoNotes v5 zur Verfügung steht.\\
 			
-			Beispiel:\\
-			\{'ORG': [['American', 'JJ'], 'NP', ('to', 'notions')]\}\\classified as ['GPE\_NORP']\\
+			\begin{exampleblock}{Beispiel für falsch klassifizierte Instanz}
+				\{'ORG': [['American', 'JJ'], 'NP', ('to', 'notions')]\}\\classified as ['GPE\_NORP']
+			\end{exampleblock}
+			
 			
 		\end{frame}
 \section{Ausblick}

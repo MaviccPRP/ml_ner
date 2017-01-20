@@ -123,8 +123,16 @@
 				\label{tab:datasets}
 			\end{table}
 		\end{frame}
+			\begin{frame}
+				\frametitle{Verteilung Korpusklassen}
+				\begin{itemize}
+					\item Zehn Klassen enthalten nur wenige NE-Instanzen. Diese werden aus dem balancierten Korpus entfernt.
+					\item Semantisch ähnliche Klassen NORP und GPE werden zusammengefasst.
+					\item Numerische Klassen MONEY, PERCENT und CARDINAl werden ebenfalls zusammengefasst.
+				\end{itemize}
+			\end{frame}
 	\begin{frame}
-		\frametitle{Beschreibung Korpusklassen}
+		\frametitle{Beschreibung neuer Korpusklassen}
 		\begin{table}
 			\caption{Balancierte Klassen}
 			\begin{tabularx}{\textwidth}{lX}
@@ -144,7 +152,7 @@
 			\label{tab:datasets}
 		\end{table}
 	\end{frame}
-	
+
 	\begin{frame}
 			\frametitle{Verteilung Korpusklassen}
 			 \begin{table}
@@ -243,11 +251,10 @@
 	\end{frame}
 	\begin{frame}
 		\frametitle{ROC Curve}
-		\includegraphics[scale=0.3]{roc_curve.png}
+		\includegraphics[scale=0.54]{roc_curve.png}
 	\end{frame}
 		\begin{frame}
 			\frametitle{Erfahrungen mit den Korpusklassen II}
-			Die Confusion Matrix zeigt, dass von den 361 PERSON Entities, 71 als ORG und 29 als GPE\_NORP klassifiziert werden. 
 			\begin{table}
 				\caption{Confusion Matrix}
 				\begin{tabularx}{\textwidth}{llllll}
@@ -262,7 +269,14 @@
 				\label{tab:allf2}
 			\end{table}			
 		\end{frame}
+	\begin{frame}
+		\frametitle{Beobachtungen zur Confusion-Matrix}
+		\begin{itemize}
+			\item Von 361 PERSON Entities, werden 71 als ORG und 29 als GPE\_NORP klassifiziert.
 
+			\item Numerische Klassen und Datum werden fast zu 100\% erkannt.
+		\end{itemize}
+	\end{frame}	
 \section{Evaluation}
 	\begin{frame}
 		\frametitle{Featureselektion I}
@@ -290,15 +304,16 @@
 		\end{frame}
 	\begin{frame}
 		\begin{itemize}
+			\frametitle{Featureselektion IV}
 			\item Beste Features: 'Unigram', 'Context'\\
-			\item Höchste Accuracy: Ab sieben Features.\\
-			\item Weitere Features:\\
+			\item Höchste Accuracy: Ab sieben Features. Ab vier Features kaum mehr Verbesserung der Accuracy \\
+			\item Features, die zur Erhöhung der Accuracy beitragen: 'POS', 'is\_all\_caps', 'is\_in\_wiki', 'is\_np', 'contains\_digit'\\
+			\item Das Featureset aus vier Features: 'Unigram', 'Context', 'POS', 'is\_all\_caps' erreicht die beste Accuracy bei möglichts kleinem Featureset.
 		\end{itemize}
 	\end{frame}
 	\begin{frame}
 		\frametitle{Evaluation}
-		Hier kommt ein eval\_report hin mit Accuracy-Wert und eine Grafik/Tabelle, die die wichtigsten Features anzeigt.\\
-		Tabelle mit Baseline Eval lemma + context Eval und Fullfeature Eval.\\
+		Evaluationsergebnisse der Baseline im Vergleich mit optimalen Testset
 				\begin{table}
 					\caption{Final Evaluation}
 					\begin{tabularx}{\textwidth}{llll}
@@ -306,7 +321,7 @@
 						\toprule
 						Baseline & unbalanced & 0.786757848928 &  0.786781978815\\
 								 & balanced & 0.840802675585 & 0.854079560307\\
-						Best	 & unbalanced & 0.87286291576 & 0.869301986664\\
+						Optimales Featureset	 & unbalanced & 0.87286291576 & 0.869301986664\\
 								 & balanced & 0.923745819398 & 0.924314367424\\
 						\bottomrule
 					\end{tabularx}

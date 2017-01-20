@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.5)  19 JAN 2017 16:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.5)  19 JAN 2017 16:56
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**presentation.tex
-(./presentation.tex
+**presentation_shortened.tex
+(./presentation_shortened.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1092,11 +1092,11 @@ Package: ifplatform 2010/10/22 v0.4 Testing for the operating system
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/catchfile.sty
 Package: catchfile 2011/03/01 v1.6 Catch the contents of a file (HO)
 )
-runsystem(uname -s > "presentation.w18")...executed.
+runsystem(uname -s > "presentation_shortened.w18")...executed.
 
 
-(./presentation.w18)
-runsystem(rm -- "presentation.w18")...executed.
+(./presentation_shortened.w18)
+runsystem(rm -- "presentation_shortened.w18")...executed.
 
 )
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
@@ -1150,10 +1150,10 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \@float@every@listing=\toks48
 \c@listing=\count172
 )
-runsystem(mkdir -p "_minted-presentation")...executed.
+runsystem(mkdir -p "_minted-presentation_shortened")...executed.
 
 
-(./_minted-presentation/default.pygstyle)
+(./_minted-presentation_shortened/default.pygstyle)
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen256
@@ -1213,11 +1213,11 @@ Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
 folines.sty
 Package: beamerouterthemeinfolines 2012/10/16  (rcs-revision 51a8c72084af)
 ))
-runsystem(which "pygmentize" && touch "presentation.aex")...executed.
+runsystem(which "pygmentize" && touch "presentation_shortened.aex")...executed.
 
-runsystem(rm "presentation.aex")...executed.
+runsystem(rm "presentation_shortened.aex")...executed.
 
- (./presentation.aux
+ (./presentation_shortened.aux
 
 LaTeX Warning: Label `tab:datasets' multiply defined.
 
@@ -1234,7 +1234,7 @@ LaTeX Warning: Label `tab:allf2' multiply defined.
 LaTeX Warning: Label `tab:allf2' multiply defined.
 
 )
-\openout1 = `presentation.aux'.
+\openout1 = `presentation_shortened.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
@@ -1333,9 +1333,9 @@ LaTeX Info: Redefining \ref on input line 19.
 LaTeX Info: Redefining \pageref on input line 19.
 LaTeX Info: Redefining \nameref on input line 19.
 
-(./presentation.out) (./presentation.out)
+(./presentation_shortened.out) (./presentation_shortened.out)
 \@outlinefile=\write8
-\openout8 = `presentation.out'.
+\openout8 = `presentation_shortened.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 19.
@@ -1410,11 +1410,11 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 LaTeX Info: Redefining \includegraphics on input line 19.
 
-(./_minted-presentation/default-pyg-prefix.pygstyle) (./presentation.nav)
-[1
+(./_minted-presentation_shortened/default-pyg-prefix.pygstyle)
+(./presentation_shortened.nav) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./presentation.toc)
-[2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./presentation_shortened.
+toc) [2
 
 ] [3
 
@@ -1422,75 +1422,76 @@ LaTeX Info: Redefining \includegraphics on input line 19.
 
 ]
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 53.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 55.
  [5
 
 ] [6
 
 ]
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 86.
- (/usr/share/texmf/tex/latex/lm/omllmm.fd
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 88.
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 86.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 88.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 86.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 88.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 86.
+(Font)              <10.95> on input line 88.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 86.
+(Font)              <8> on input line 88.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 86.
-LaTeX Font Info:    Try loading font information for U+msa on input line 86.
+(Font)              <6> on input line 88.
+LaTeX Font Info:    Try loading font information for U+msa on input line 88.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 86.
+LaTeX Font Info:    Try loading font information for U+msb on input line 88.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 86.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 88.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 86.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 88.
  [7
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+lmss on input line 94.
-
-LaTeX Font Info:    No file OMSlmss.fd. on input line 94.
+LaTeX Font Info:    Try loading font information for OMS+lmss on input line 101
+.
+LaTeX Font Info:    No file OMSlmss.fd. on input line 101.
 
 
 LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 94.
+(Font)              for symbol `textbraceleft' on input line 101.
 
 [8
 
 ]
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 118.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 125.
 
 pdfTeX warning (ext4): destination with the same identifier (name{tab:datasets}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.118 		\end{frame}
+l.125 		\end{frame}
                     [9
 
 ]
-Underfull \hbox (badness 3078) in paragraph at lines 139--139
+Underfull \hbox (badness 3078) in paragraph at lines 146--146
 []|\OT1/lmss/m/n/10.95 Companies, agen-cies, in-sti-tu-tions,
  []
 
@@ -1498,47 +1499,47 @@ pdfTeX warning (ext4): destination with the same identifier (name{tab:datasets}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.139 	\end{frame}
+l.146 	\end{frame}
                    [10
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{tab:datasets
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.158 	\end{frame}
+l.165 	\end{frame}
                   
-Overfull \hbox (11.27443pt too wide) in paragraph at lines 158--158
+Overfull \hbox (11.27443pt too wide) in paragraph at lines 165--165
  [] 
  []
 
 [11
 
 ]
-Underfull \hbox (badness 1478) in paragraph at lines 177--177
+Underfull \hbox (badness 1478) in paragraph at lines 184--184
 []|\OT1/lmss/m/n/10.95 Vorkommen der Un-i-gramme, die min-destens
  []
 
 [12
 
 ]
-Underfull \hbox (badness 2426) in paragraph at lines 197--197
+Underfull \hbox (badness 2426) in paragraph at lines 204--204
 []|\OT1/lmss/m/n/10.95 W[]orter nur in Gro^^Yschrei-bung \OT1/lmss/m/sl/10.95 (
 Nadeau
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 197--197
+Underfull \hbox (badness 1163) in paragraph at lines 204--204
 \OT1/lmss/m/n/10.95 Vorg[]anger- und Nach-folge-to-ken der NE.
  []
 
 
-Overfull \vbox (28.07637pt too high) detected at line 197
+Overfull \vbox (28.07637pt too high) detected at line 204
  []
 
 [13
 
 ]
-Underfull \hbox (badness 4846) in paragraph at lines 215--215
+Underfull \hbox (badness 4846) in paragraph at lines 222--222
 []|\OT1/lmss/m/n/10.95 Ist NE eine Nom-i-nalphrase. \OT1/lmss/m/sl/10.95 S[]anc
 hez,
  []
@@ -1553,17 +1554,17 @@ hez,
 File: roc_curve.png Graphic file (type png)
 
 <use roc_curve.png>
-Package pdftex.def Info: roc_curve.png used on input line 240.
+Package pdftex.def Info: roc_curve.png used on input line 247.
 (pdftex.def)             Requested size: 377.46912pt x 228.08588pt.
 
-Overfull \hbox (35.17381pt too wide) in paragraph at lines 240--240
+Overfull \hbox (35.17381pt too wide) in paragraph at lines 247--247
 [][]  
  []
 
 [17
 
  <./roc_curve.png>]
-Underfull \hbox (badness 10000) in alignment at lines 257--257
+Underfull \hbox (badness 10000) in alignment at lines 264--264
 [][][][][][] 
  []
 
@@ -1571,27 +1572,27 @@ pdfTeX warning (ext4): destination with the same identifier (name{tab:allf2}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.257 		\end{frame}
+l.264 		\end{frame}
                     [18
 
 ] [19
 
 ]
-LaTeX Font Info:    Try loading font information for OML+lmss on input line 278
+LaTeX Font Info:    Try loading font information for OML+lmss on input line 285
 .
-LaTeX Font Info:    No file OMLlmss.fd. on input line 278.
+LaTeX Font Info:    No file OMLlmss.fd. on input line 285.
 
 
 LaTeX Font Warning: Font shape `OML/lmss/m/n' undefined
 (Font)              using `OML/cmm/m/it' instead
-(Font)              for symbol `textless' on input line 278.
+(Font)              for symbol `textless' on input line 285.
 
 [20
 
 ] <accuracy.pdf, id=237, 324.87775pt x 220.07922pt>
 File: accuracy.pdf Graphic file (type pdf)
  <use accuracy.pdf>
-Package pdftex.def Info: accuracy.pdf used on input line 283.
+Package pdftex.def Info: accuracy.pdf used on input line 290.
 (pdftex.def)             Requested size: 292.38725pt x 198.06946pt.
 
 [21
@@ -1599,7 +1600,7 @@ Package pdftex.def Info: accuracy.pdf used on input line 283.
  <./accuracy.pdf>] [22
 
 ]
-Underfull \hbox (badness 10000) in alignment at lines 312--312
+Underfull \hbox (badness 10000) in alignment at lines 319--319
 [][][][] 
  []
 
@@ -1607,7 +1608,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{tab:allf2}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.312 	\end{frame}
+l.319 	\end{frame}
                    [23
 
 ] [24
@@ -1620,20 +1621,21 @@ l.312 	\end{frame}
 
 ]
 \tf@nav=\write9
-\openout9 = `presentation.nav'.
+\openout9 = `presentation_shortened.nav'.
 
 \tf@toc=\write10
-\openout10 = `presentation.toc'.
+\openout10 = `presentation_shortened.toc'.
 
 \tf@snm=\write11
-\openout11 = `presentation.snm'.
+\openout11 = `presentation_shortened.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 349.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 349.
- (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 349.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 349.
-Package rerunfilecheck Info: File `presentation.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 356.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 356.
+ (./presentation_shortened.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 356.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 356.
+Package rerunfilecheck Info: File `presentation_shortened.out' has not changed.
+
 (rerunfilecheck)             Checksum: 2C7F4FA880B715F2577CF7BDB4205403;830.
 
 
@@ -1642,16 +1644,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 349.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 356.
  ) 
 Here is how much of TeX's memory you used:
  19936 strings out of 493029
- 377569 string characters out of 6136234
- 482230 words of memory out of 5000000
+ 377809 string characters out of 6136234
+ 482420 words of memory out of 5000000
  22899 multiletter control sequences out of 15000+600000
  35964 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,16n,62p,936b,603s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,16n,62p,946b,603s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-rm.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
@@ -1659,7 +1661,7 @@ sy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/f
 onts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.
 pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/t
 ype1/public/lm/lmsso10.pfb>
-Output written on presentation.pdf (27 pages, 265935 bytes).
+Output written on presentation_shortened.pdf (27 pages, 265910 bytes).
 PDF statistics:
  332 PDF objects out of 1000 (max. 8388607)
  275 compressed objects within 3 object streams

@@ -39,8 +39,8 @@
 \end{frame}
 \begin{frame}
 	\frametitle{Was sind Named Entities}
-	Named Entities sind Phrasen die Namen von Personen, Organisationen, Währungen, usw enthalten. Beispiele:\\
-	\begin{exampleblock}{Beispiel für Named Entities}
+	Named Entities sind Phrasen die Namen von Personen, Organisationen, Währungen, usw enthalten:\\
+	\begin{exampleblock}{Beispiele für Named Entities}
 		[ORG U.N. ], [PER Obama ], [MONEY Dollar], [LOC Moscow ] 
 	\end{exampleblock}
 
@@ -50,7 +50,7 @@
 		\begin{itemize}
 			\item <+->Typischerweise werden Named Entity Recognition und Named Entity Classification (NEC) zusammen betrachtet.
 			\item <+->Wenige Untersuchungen beschäftigen sich nur mit NEC. (Primadhanty 2014, He 2016, Spangler 2016)
-			\item <+->Dieses Projekt konzentriert sich auf NEC und stellt die Frage, welchen Einfluss Feature Selection auf die Klassifikationsergebnisse eines Nemed Entity Klassifizierers hat.
+			\item <+->Dieses Projekt konzentriert sich auf NEC und stellt die Frage, \textbf{welchen Einfluss Feature Selection auf die Klassifikationsergebnisse eines Named Entity Klassifizierers hat}.
 			\item <+->Nutzung einfacher syntaktischer und lexikalischer Features, die in fast allen Forschungsarbeiten in ähnlicher Form genutzt wurden. \textit{(Toral, Munoz, 2006; Kazama, Torisawa, 2007; Ratinov, Roth 2009)} 
 		\end{itemize}	
 
@@ -92,7 +92,7 @@
 			\frametitle{Korpusreader}
 			\begin{itemize}
 				\item Für Extraktion der Named Entities wurde ein Korpusreader erstellt.
-				\item 	Der Reader extrahiert alle Named Entities, inklusive POS-tags der einzelnen Token, Phrasenart, Kontextwörtern (ne-1, ne+1), und ordnet sie Klassen zu.
+				\item 	Der Reader extrahiert alle Named Entities, inklusive POS-Tags der einzelnen Token, Phrasenart, Kontextwörtern (ne-1, ne+1), und ordnet ihnen Klassen zu.
 			\end{itemize}
 			
 			

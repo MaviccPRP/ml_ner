@@ -35,56 +35,62 @@
 \headcommand {\sectionentry {3}{Klassifizierer}{16}{Klassifizierer}{0}}
 \headcommand {\beamer@sectionpages {9}{15}}
 \headcommand {\beamer@subsectionpages {12}{15}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{16}{Features f\IeC {\"u}r den Baseline-Klassifizierer}}\headcommand {\beamer@subsectionpages {16}{15}}
-\headcommand {\slideentry {3}{1}{1}{16/16}{Features f\IeC {\"u}r den Baseline-Klassifizierer}{0}}
+\headcommand {\slideentry {3}{0}{1}{16/16}{}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{17}{Erweitertes Featureset}}\headcommand {\beamer@subsectionpages {16}{16}}
-\headcommand {\slideentry {3}{2}{1}{17/17}{Erweitertes Featureset}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{17}{Features f\IeC {\"u}r den Baseline-Klassifizierer}}\headcommand {\beamer@subsectionpages {16}{16}}
+\headcommand {\slideentry {3}{1}{1}{17/17}{Features f\IeC {\"u}r den Baseline-Klassifizierer}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\slideentry {3}{2}{2}{18/18}{Erweitertes Featureset}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{18}{Erweitertes Featureset}}\headcommand {\beamer@subsectionpages {17}{17}}
+\headcommand {\slideentry {3}{2}{1}{18/18}{Erweitertes Featureset}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\beamer@subsectionentry {0}{3}{3}{19}{Klassifizierertyp}}\headcommand {\beamer@subsectionpages {17}{18}}
-\headcommand {\slideentry {3}{3}{1}{19/21}{Klassifizierertyp}{0}}
-\headcommand {\beamer@framepages {19}{21}}
-\headcommand {\beamer@subsectionentry {0}{3}{4}{22}{Erfahrungen mit den Korpusklassen}}\headcommand {\beamer@subsectionpages {19}{21}}
-\headcommand {\slideentry {3}{4}{1}{22/22}{Erfahrungen mit den Korpusklassen}{0}}
-\headcommand {\beamer@framepages {22}{22}}
-\headcommand {\slideentry {3}{4}{2}{23/23}{Erfahrungen mit den Korpusklassen}{0}}
+\headcommand {\slideentry {3}{2}{2}{19/19}{Erweitertes Featureset}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{20}{Klassifizierertyp}}\headcommand {\beamer@subsectionpages {18}{19}}
+\headcommand {\slideentry {3}{3}{1}{20/22}{Klassifizierertyp}{0}}
+\headcommand {\beamer@framepages {20}{22}}
+\headcommand {\beamer@subsectionentry {0}{3}{4}{23}{Erfahrungen mit den Korpusklassen}}\headcommand {\beamer@subsectionpages {20}{22}}
+\headcommand {\slideentry {3}{4}{1}{23/23}{Erfahrungen mit den Korpusklassen}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\slideentry {3}{4}{3}{24/24}{Erfahrungen mit den Korpusklassen}{0}}
+\headcommand {\slideentry {3}{4}{2}{24/24}{Erfahrungen mit den Korpusklassen}{0}}
 \headcommand {\beamer@framepages {24}{24}}
-\headcommand {\slideentry {3}{4}{4}{25/25}{Erfahrungen mit den Korpusklassen}{0}}
+\headcommand {\slideentry {3}{4}{3}{25/25}{Erfahrungen mit den Korpusklassen}{0}}
 \headcommand {\beamer@framepages {25}{25}}
-\headcommand {\sectionentry {4}{Evaluation}{26}{Evaluation}{0}}
-\headcommand {\beamer@sectionpages {16}{25}}
-\headcommand {\beamer@subsectionpages {22}{25}}
-\headcommand {\slideentry {4}{0}{1}{26/28}{}{0}}
-\headcommand {\beamer@framepages {26}{28}}
-\headcommand {\slideentry {4}{0}{2}{29/29}{}{0}}
-\headcommand {\beamer@framepages {29}{29}}
-\headcommand {\slideentry {4}{0}{3}{30/30}{}{0}}
+\headcommand {\slideentry {3}{4}{4}{26/26}{Erfahrungen mit den Korpusklassen}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\sectionentry {4}{Evaluation}{27}{Evaluation}{0}}
+\headcommand {\beamer@sectionpages {16}{26}}
+\headcommand {\beamer@subsectionpages {23}{26}}
+\headcommand {\slideentry {4}{0}{1}{27/29}{}{0}}
+\headcommand {\beamer@framepages {27}{29}}
+\headcommand {\slideentry {4}{0}{2}{30/30}{}{0}}
 \headcommand {\beamer@framepages {30}{30}}
-\headcommand {\slideentry {4}{0}{4}{31/34}{}{0}}
-\headcommand {\beamer@framepages {31}{34}}
-\headcommand {\slideentry {4}{0}{5}{35/35}{}{0}}
-\headcommand {\beamer@framepages {35}{35}}
-\headcommand {\beamer@subsectionentry {0}{4}{1}{36}{Probleme}}\headcommand {\beamer@subsectionpages {26}{35}}
-\headcommand {\slideentry {4}{1}{1}{36/36}{Probleme}{0}}
+\headcommand {\slideentry {4}{0}{3}{31/31}{}{0}}
+\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\slideentry {4}{0}{4}{32/35}{}{0}}
+\headcommand {\beamer@framepages {32}{35}}
+\headcommand {\slideentry {4}{0}{5}{36/36}{}{0}}
 \headcommand {\beamer@framepages {36}{36}}
-\headcommand {\sectionentry {5}{Ausblick}{37}{Ausblick}{0}}
-\headcommand {\beamer@sectionpages {26}{36}}
-\headcommand {\beamer@subsectionpages {36}{36}}
-\headcommand {\slideentry {5}{0}{1}{37/37}{}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{37}{Probleme}}\headcommand {\beamer@subsectionpages {27}{36}}
+\headcommand {\slideentry {4}{1}{1}{37/37}{Probleme}{0}}
 \headcommand {\beamer@framepages {37}{37}}
-\headcommand {\sectionentry {6}{Referenzen}{38}{Referenzen}{0}}
-\headcommand {\beamer@sectionpages {37}{37}}
+\headcommand {\sectionentry {5}{Ausblick}{38}{Ausblick}{0}}
+\headcommand {\beamer@sectionpages {27}{37}}
 \headcommand {\beamer@subsectionpages {37}{37}}
-\headcommand {\slideentry {6}{0}{1}{38/38}{}{0}}
+\headcommand {\slideentry {5}{0}{1}{38/38}{}{0}}
 \headcommand {\beamer@framepages {38}{38}}
-\headcommand {\slideentry {6}{0}{2}{39/39}{}{0}}
+\headcommand {\sectionentry {6}{Referenzen}{39}{Referenzen}{0}}
+\headcommand {\beamer@sectionpages {38}{38}}
+\headcommand {\beamer@subsectionpages {38}{38}}
+\headcommand {\slideentry {6}{0}{1}{39/39}{}{0}}
 \headcommand {\beamer@framepages {39}{39}}
-\headcommand {\beamer@partpages {1}{39}}
-\headcommand {\beamer@subsectionpages {38}{39}}
-\headcommand {\beamer@sectionpages {38}{39}}
-\headcommand {\beamer@documentpages {39}}
-\headcommand {\def \inserttotalframenumber {29}}
+\headcommand {\slideentry {6}{0}{2}{40/40}{}{0}}
+\headcommand {\beamer@framepages {40}{40}}
+\headcommand {\slideentry {6}{0}{3}{41/41}{}{0}}
+\headcommand {\beamer@framepages {41}{41}}
+\headcommand {\slideentry {6}{0}{4}{42/42}{}{0}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\beamer@partpages {1}{42}}
+\headcommand {\beamer@subsectionpages {39}{42}}
+\headcommand {\beamer@sectionpages {39}{42}}
+\headcommand {\beamer@documentpages {42}}
+\headcommand {\def \inserttotalframenumber {32}}

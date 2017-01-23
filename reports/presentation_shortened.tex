@@ -33,9 +33,9 @@
 \section{Einführung}
 \begin{frame}
 	\frametitle{NER in der Forschung}
-	Named Entity Recognition seit 1990er Jahren aktives Forschungsfeld. (Überblick: Borthwick, 1999, Tjong Kim Sang 2003, Marrero 2012)\\
+	Named Entity Recognition seit 1990er Jahren aktives Forschungsfeld. (Überblick: Borthwick, 1999, Tjong Kim Sang 2003, Marrero 2013)\\
 	
-	Grundlage für weitere Forschungsfelder im Bereich Information Retrieval, z.B. Semantic Annotation, Question Answering, Opinion Mining, usw. (Marrero 2012)
+	Grundlage für weitere Forschungsfelder im Bereich Information Retrieval, z.B. Semantic Annotation, Question Answering, Opinion Mining, usw. (Marrero 2013)
 \end{frame}
 \begin{frame}
 	\frametitle{Was sind Named Entities}
@@ -114,13 +114,13 @@
 					Klassen  & Trainingset \\
 					\midrule
 					ORG  & 5788 \\
+					DATE & 4080  \\
 					PERSON & 3756 \\
 					GPE & 3601 \\
-					NORP & 1484 \\
-					PERCENT & 1061  \\
 					CARDINAL & 1852 \\
 					MONEY & 1509  \\
-					DATE & 4080  \\
+					NORP & 1484 \\
+					PERCENT & 1061  \\
 					FAC, LOC, PRODUCT, EVENT, WORK\_OF\_ART, LAW, LANGUAGE, TIME, QUANTITY, ORDINAL & $<$ 1800 \\
 					\bottomrule
 				\end{tabularx}
@@ -166,10 +166,10 @@
 			 		Klassen  & Developmentset & Trainingset & Testset \\
 			 		\midrule
 			 		ORG  & 930 & 5857 & 859 \\
-			 		PERSON & 486 & 3759 & 413 \\
 			 		GPE\_NORP & 732 & 5134 & 588 \\
 			 		PERCENT\_CARDINAL\_MONEY & 564 & 4672 & 529 \\
-			 		DATE & 613 & 4254 & 601 \\
+			 		DATE & 613 & 4254 & 601 \\	 		
+			 		PERSON & 486 & 3759 & 413 \\
 			 		\bottomrule
 			 	\end{tabular}
 			 	\label{tab:datasets}
@@ -178,6 +178,13 @@
 
 
 \section{Klassifizierer}
+	\begin{frame}
+		\frametitle{Beispielinstanz}
+		\begin{exampleblock}{Beispielinstanz zur Veranschaulichung der Features}
+		[ ['North', 'NNP'],['-', HYPH], ['America', 'NNP'], 'NP', (',', 'and')]
+	\end{exampleblock}
+		
+	\end{frame}
 	\subsection{Features für den Baseline-Klassifizierer}
 	\begin{frame}
 		\frametitle{Features für den Baseline-Klassifizierer}
@@ -204,11 +211,11 @@
  					\toprule
  					Feature & Wert & Beschreibung\\
  					\midrule
- 					Unigram & numerisch & Vorkommen der Unigramme (lemmatisiert), die mindestens fünfmal im Trainingscorpus vorkommen. \textit{(Mayfield 2003)}\\
- 					POS & numerisch & Häufigkeit von 36 POS-Tags aus der Penn Treebank \textit{(Florian, Chieu 2003)}\\
- 					isAllCaps & boolean & Wörter nur in Großschreibung \textit{(Nadeau 2006)}\\
- 					Context & numerisch & Vorkommen der Kontexttokens, die mindestens fünfmal im Trainingskorpus vorkommen. Das Kontextfenster beinhaltet das Vorgänger- und Nachfolgetoken der NE. \textit{(Munro 2003)}\\
- 					containsDigit & boolean & Vorkommen von Nummern. \textit{}\\
+ 					Unigram & numerisch & Vorkommen der Unigramme (lemmatisiert), die mindestens fünfmal im Trainingscorpus vorkommen. \textit{(Mayfield 2003)} \color{red}(america : 1, north : 1)\\
+ 					POS & numerisch  & Häufigkeit von 36 POS-Tags aus der Penn Treebank \textit{(Florian, Chieu 2003)} \color{red}NNP: '2'\\
+ 					isAllCaps & boolean & Wörter nur in Großschreibung \textit{(Nadeau 2006)} \color{red} (0)\\
+ 					Context & numerisch & Vorkommen der Kontexttokens. Beinhaltet Vorgänger- und Nachfolgetoken der NE. \textit{(Munro 2003)}  \color{red} (,\_and : 1)\\
+ 					containsDigit & boolean & Vorkommen von Nummern. \color{red} (0)\textit{}\\
  					\bottomrule
  				\end{tabularx}
  				\label{tab:allf1}
@@ -220,13 +227,14 @@
  						\caption{Features für den  Klassifizierer II}
  						\begin{tabularx}{\textwidth}{llX}
  							\toprule
- 							Feature & Wert & Beschreibung\\
+ 							Feature & Wert & Beschreibung (Beispielwert)\\
  							\midrule
- 							isInWiki & boolean & Vorkommen der NE in der Wikipedia. \textit{(Toral and Munoz, 2006; Kazama and Torisawa, 2007)}\\
- 							isTitle & boolean & Prüft, ob Titelbezeichnungen (z.B. Mr. MA) vorkommen. \textit{Ratinov, Roth 2009}\\
- 							isNP & boolean & Ist NE eine Nominalphrase. \textit{Sánchez, Cuadrado 2009}\\
- 							isName & boolean & Prüft, ob Vornamen vorkommen.\textit{Ratinov, Roth 2009}\\
- 							containsDash & boolean & Vorkommen von Viertelgeviertstrichen. \textit{Mayfield 2003}\\
+ 							isInWiki & boolean & Vorkommen der NE in der Wikipedia. \textit{(Toral, Munoz 2006)} \color{red} (1)\\
+ 							isTitle & boolean & Prüft, ob Titelbezeichnungen (z.B. Mr. MA) vorkommen. \textit{(Ratinov, Roth 2009)} (0)\\
+ 							isNP & boolean & Ist NE eine Nominalphrase. \textit{(Sánchez, Cuadrado 2009)} \color{red} (1)\\
+ 							isName & boolean & Prüft, ob Vornamen vorkommen.\textit{(Ratinov, Roth 2009)} (0)\\
+ 							containsDash & boolean & Vorkommen von Viertelgeviertstrichen. \textit{(Mayfield 2003)} (1) \\
+ 							isComName & boolean & Prüft aus kommerzielle Bezeichner \color{red} (0)\\
  							\bottomrule
  						\end{tabularx}
  						\label{tab:allf2}
@@ -322,12 +330,12 @@
 				\begin{table}
 					\caption{Final Evaluation}
 					\begin{tabularx}{\textwidth}{llll}
-						Featureset & & Accuracy & F1-Score\\
+						Featureset & & Accuracy\\
 						\toprule
-						Baseline & unbalanced & 0.786757848928 &  0.786781978815\\
-								 & balanced & 0.840802675585 & 0.854079560307\\
-						Optimales Featureset	 & unbalanced & 0.87286291576 & 0.869301986664\\
-								 & balanced & 0.923745819398 & 0.924314367424\\
+						Baseline & unbalanced & 0.7867578489285\\
+								 & balanced & 0.840802675585\\
+						Optimales Featureset	 & unbalanced & 0.87286291576\\
+								 & balanced & 0.923745819398\\
 						\bottomrule
 					\end{tabularx}
 					\label{tab:allf2}
@@ -353,26 +361,48 @@
 \section{Ausblick}
 	\begin{frame}
 		\frametitle{Ausblick}
-		Was kann man noch verbessern?
+		
 	\end{frame}
 \section{Referenzen}
 	\begin{frame}
 		\frametitle{Referenzen}
 		\begin{itemize}
-			\item Cho, Han-Cheol; Okazaki, Naoaki; Miwa, Makoto; Tsujii, Jun’ichi (2013): Named entity recognition with multiple segment representations. In: Information Processing \& Management 49\\
-			\item Derczynski, Leon; Maynard, Diana; Rizzo, Giuseppe; van Erp, Marieke; Gorrell, Genevieve; Troncy, Raphaël et al. (2015): Analysis of named entity recognition and linking for tweets. In: Information Processing \& Management 51 (2), S. 32–49.\\
-			\item Konkol, Michal; Brychcín, Tomáš; Konopík, Miloslav (2015): Latent semantics in Named Entity Recognition. In: Expert Systems with Applications 42 (7), S. 3470–3479.\\
-			\item Agerri, Rodrigo; Rigau, German (2016): Robust multilingual Named Entity Recognition with shallow semi-supervised features. In: Artificial Intelligence 238, S. 63–82.\\
-			\item Erik F. Tjong Kim Sang and Fien De Meulder (2003): Language-Independent Named Entity Recognition.\\
+			\item Cho, H.; Okazaki, N. (2013): Named entity recognition with multiple segment representations. In: Information Processing \& Management 49\\
+			\item Derczynski, L.; Maynard, D.; Rizzo, G.; van Erp, M. (2015): Analysis of named entity recognition and linking for tweets. In: Information Processing \& Management 51 (2), S. 32–49.\\
+			\item Konkol, M.; Brychcín, T.; Konopík, M. (2015): Latent semantics in Named Entity Recognition. In: Expert Systems with Applications 42 (7), S. 3470–3479.\\
+			\item Agerri, R.; Rigau, G. (2016): Robust multilingual Named Entity Recognition with shallow semi-supervised features. In: Artificial Intelligence 238, S. 63–82.\\
+			\item Tjong Kim Sang,E.; De Meulder, F. (2003): Language-Independent Named Entity Recognition.\\
 		\end{itemize}
 	\end{frame}
 	\begin{frame}
 		\begin{itemize}
-			\item Marrero, Mónica; Urbano, Julián; Sánchez-Cuadrado, Sonia; Morato, Jorge; Gómez-Berbís, Juan Miguel (2013): Named Entity Recognition. Fallacies, challenges and opportunities. In: Computer Standards \& Interfaces 35 (5), S. 482–489.\\
-			\item Mayfield, James; McNamee, Paul; Piatko, Christine (2003): Named entity recognition using hundreds of thousands of features. In: Walter Daelemans und Miles Osborne (Hg.): Proceedings of the seventh conference on Natural language learning at HLT-NAACL 2003 -. the seventh conference. Edmonton, Canada. Morristown, NJ, USA: Association for Computational Linguistics, S. 184–187.\\
-			\item Mónica Marrero, Sonia Sánchez-Cuadrado (2009): Evaluation of Named Entity Extraction Systems.\\
-			\item Weischedel, Ralph M. (2013): OntoNotes release 5.0. [Philadelphia, Pa.]: Linguistic Data Consortium.\\
+			\item Marrero, M.; Urbano, J. (2013): Named Entity Recognition. Fallacies, challenges and opportunities. In: Computer Standards \& Interfaces 35 (5), S. 482–489.\\
+			\item Mayfield, J.; McNamee, P. (2003): Named entity recognition using hundreds of thousands of features. In: Walter Daelemans und Miles Osborne (Hg.): Proceedings of the seventh conference on Natural language learning at HLT-NAACL 2003 -. the seventh conference. Edmonton, Canada. Morristown, NJ, USA: Association for Computational Linguistics, S. 184–187.\\
+			\item Marrero, M.; Sánchez-Cuadrado, S. (2009): Evaluation of Named Entity Extraction Systems.\\
+			\item Weischedel, R. (2013): OntoNotes release 5.0. [Philadelphia, Pa.]: Linguistic Data Consortium.\\
+			\item Nadeau, D.; Turney, P. (2006): Unsupervised Named-Entity Recognition: Generating Gazetteers and Resolving Ambiguity. Berlin.
 		\end{itemize}
+	\end{frame}
+	\begin{frame}
+			\begin{itemize}
+				\item Radu F.; Abe It. (2003):  Named Entity Recognition
+				through Classifier Combination. In
+				Proceedings of 	CoNLL-2003.
+				\item Chieu H. (2003): Named Entity Recognition with a Maximum Entropy Approach. In Proceedings of CoNLL-2003.
+				\item Borthwick, A. (1999): A
+				Maximum Entropy Approach to Named Entity Recognition, Diss., New York.\\
+				\item Primadhanty, A.; Carreras, X. (2014): Low-Rank Regularization for Sparse Conjunctive Feature Spaces:
+				An Application to Named Entity Classification. In Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics.
+				\item He, Q.; Spangler, S. (2016): Semi-supervised data integration model for named entity classification. Google Patents.
+			\end{itemize}
+	\end{frame}
+	\begin{frame}
+			\begin{itemize}
+				\item Munro, R.; Ler, D. (2003): Meta-Learning Orthographic and Contextual Models for Language Independent Named Entity Recognition. In Proceeding
+				CONLL '03 Proceedings of the seventh conference on Natural language learning at HLT-NAACL.\\
+				\item Ratinov, L.; Roth, D. (2009): Design Challenges and Misconceptions in Named Entity Recognition. In Proceedings of the Thirteenth Conference on Computational Natural Language Learning (CoNLL).
+				Toral, Antonio; Munoz, Rafael (2006): A proposal to automatically build and maintain gazetteers for Named Entity Recognition by using Wikipedia.
+			\end{itemize}
 	\end{frame}
 
 \end{document}

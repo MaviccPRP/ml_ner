@@ -33,12 +33,12 @@
 \section{Einführung}
 \begin{frame}
 	\frametitle{NER in der Forschung}
-	Named Entity Recognition seit 1990er Jahren aktives Forschungsfeld. (Überblick: Borthwick, 1999, Tjong Kim Sang 2003, Marrero 2013)\\
+	Named Entity Recognition seit 1990er Jahren aktives Forschungsfeld. \textit{(Überblick: Borthwick, 1999, Tjong Kim Sang 2003, Marrero 2013)}\\
 	
-	Grundlage für weitere Forschungsfelder im Bereich Information Retrieval, z.B. Semantic Annotation, Question Answering, Opinion Mining, usw. (Marrero 2013)
+	Grundlage für weitere Forschungsfelder im Bereich Information Retrieval, z.B. Semantic Annotation, Question Answering, Opinion Mining, usw. \textit{(Marrero 2013)}
 \end{frame}
 \begin{frame}
-	\frametitle{Was sind Named Entities}
+	\frametitle{Was sind Named Entities?}
 	Named Entities sind Phrasen die Namen von Personen, Organisationen, Währungen, usw enthalten:\\
 	\begin{exampleblock}{Beispiele für Named Entities}
 		[ORG U.N. ], [PER Obama ], [MONEY Dollar], [LOC Moscow ] 
@@ -232,9 +232,9 @@
  							isInWiki & boolean & Vorkommen der NE in der Wikipedia. \textit{(Toral, Munoz 2006)} \color{red} (1)\\
  							isTitle & boolean & Prüft, ob Titelbezeichnungen (z.B. Mr. MA) vorkommen. \textit{(Ratinov, Roth 2009)} (0)\\
  							isNP & boolean & Ist NE eine Nominalphrase. \textit{(Sánchez, Cuadrado 2009)} \color{red} (1)\\
- 							isName & boolean & Prüft, ob Vornamen vorkommen.\textit{(Ratinov, Roth 2009)} (0)\\
- 							containsDash & boolean & Vorkommen von Viertelgeviertstrichen. \textit{(Mayfield 2003)} (1) \\
- 							isComName & boolean & Prüft aus kommerzielle Bezeichner \color{red} (0)\\
+ 							isName & boolean & Prüft, ob Vornamen vorkommen.\textit{(Ratinov, Roth 2009)} \color{red}(0)\\
+ 							containsDash & boolean & Vorkommen von Viertelgeviertstrichen. \textit{(Mayfield 2003)} \color{red}(1) \\
+ 							isComName & boolean & Prüft auf kommerzielle Bezeichner (Corp., Inc.) \color{red} (0)\\
  							\bottomrule
  						\end{tabularx}
  						\label{tab:allf2}
@@ -358,10 +358,15 @@
 			
 			
 		\end{frame}
-\section{Ausblick}
+\section{Zusammenfassung}
 	\begin{frame}
-		\frametitle{Ausblick}
-		
+		\frametitle{Zusammenfassung}
+		\begin{itemize}
+			\item Mehr Features bieten nicht zwangsläufig bessere Evaluationsergebnisse.
+			\item Die SVM kann schon mit wenigen Features gute Ergebnisse erzielen.
+			\item Wichtig scheint neben der Art der Features auch die Dimension des Featurespaces zu sein, siehe Relevanz hochdimensionaler Features (Unigram, Context).
+			\item Semantische Zusammenfassung von Klassen zur besseren Balancierung verbessern die Ergebnisse.
+		\end{itemize}
 	\end{frame}
 \section{Referenzen}
 	\begin{frame}

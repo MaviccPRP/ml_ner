@@ -77,7 +77,7 @@
 				\item Für die Klassifikation der Named Entities werden die bereits vorgefertigten Trainings- und Testdatensets genutzt.
 			\end{itemize}
 			 \begin{table}
-			 	\caption{Anzahl an atomaren Named Entities}
+			 	\caption{Anzahl an  Named Entities}
 			 	\begin{tabular}{ccc}
 			 		\toprule
 					Developmentset & Trainingset & Testset\\
@@ -301,7 +301,7 @@
 	\end{frame}
 	\begin{frame}
 		\frametitle{Featureselektion II}
-			Für die Evaluation entscheidend waren alle Teilmengen, die die Features 'Unigram' und 'Context' enthalten und mind. drei Features 3 besitzen.\\
+			Für die Evaluation entscheidend waren alle Teilmengen, die die Features 'Unigram' und 'Context' enthalten und mind. drei Features besitzen.\\
 					
 			\begin{itemize}
 				\item Accuracy aller Teilnmengen ohne diese Features: \textless 69 \%.
@@ -367,41 +367,46 @@
 	\begin{frame}
 		\frametitle{Referenzen}
 		\begin{itemize}
-			\item Cho, H.; Okazaki, N. (2013): Named entity recognition with multiple segment representations. In: Information Processing \& Management 49\\
-			\item Derczynski, L.; Maynard, D.; Rizzo, G.; van Erp, M. (2015): Analysis of named entity recognition and linking for tweets. In: Information Processing \& Management 51 (2), S. 32–49.\\
-			\item Konkol, M.; Brychcín, T.; Konopík, M. (2015): Latent semantics in Named Entity Recognition. In: Expert Systems with Applications 42 (7), S. 3470–3479.\\
-			\item Agerri, R.; Rigau, G. (2016): Robust multilingual Named Entity Recognition with shallow semi-supervised features. In: Artificial Intelligence 238, S. 63–82.\\
-			\item Tjong Kim Sang,E.; De Meulder, F. (2003): Language-Independent Named Entity Recognition.\\
+			\item Agerri, R.; Rigau, G. (2016): Robust multilingual Named Entity Recognition with shallow semi-supervised features. In: Artificial Intelligence 238.\\
+			\item Borthwick, A. (1999): A
+				Maximum Entropy Approach to Named Entity Recognition, Diss., New York.\\
+			\item Chieu H. (2003): Named Entity Recognition with a Maximum Entropy Approach. In Proceedings of CoNLL-2003.
+			\item Cho, H.; Okazaki, N. (2013): Named entity recognition with multiple segment representations. In: Information Processing \& Management 49.\\
+			\item Derczynski, L.; Maynard, D.; Rizzo, G.; van Erp, M. (2015): Analysis of named entity recognition and linking for tweets. In: Information Processing \& Management 51 (2).\\
 		\end{itemize}
 	\end{frame}
 	\begin{frame}
 		\begin{itemize}
-			\item Marrero, M.; Urbano, J. (2013): Named Entity Recognition. Fallacies, challenges and opportunities. In: Computer Standards \& Interfaces 35 (5), S. 482–489.\\
-			\item Mayfield, J.; McNamee, P. (2003): Named entity recognition using hundreds of thousands of features. In: Walter Daelemans und Miles Osborne (Hg.): Proceedings of the seventh conference on Natural language learning at HLT-NAACL 2003 -. the seventh conference. Edmonton, Canada. Morristown, NJ, USA: Association for Computational Linguistics, S. 184–187.\\
+			\item He, Q.; Spangler, S. (2016): Semi-supervised data integration model for named entity classification. Google Patents.
+			\item Konkol, M.; Brychcín, T.; Konopík, M. (2015): Latent semantics in Named Entity Recognition. In: Expert Systems with Applications 42.\\
+						
+			\item Marrero, M.; Urbano, J. (2013): Named Entity Recognition. Fallacies, challenges and opportunities. In: Computer Standards \& Interfaces 35 (5).\\
 			\item Marrero, M.; Sánchez-Cuadrado, S. (2009): Evaluation of Named Entity Extraction Systems.\\
-			\item Weischedel, R. (2013): OntoNotes release 5.0. [Philadelphia, Pa.]: Linguistic Data Consortium.\\
-			\item Nadeau, D.; Turney, P. (2006): Unsupervised Named-Entity Recognition: Generating Gazetteers and Resolving Ambiguity. Berlin.
 		\end{itemize}
+	\end{frame}
+	\begin{frame}
+			\begin{itemize}
+			\item Mayfield, J.; McNamee, P. (2003): Named entity recognition using hundreds of thousands of features. In: Walter Daelemans und Miles Osborne (Hg.): Proceedings of the seventh conference on Natural language learning at HLT-NAACL 2003 -. the seventh conference. Edmonton, Canada. Morristown, NJ, USA: Association for Computational Linguistics.\\
+			\item Munro, R.; Ler, D. (2003): Meta-Learning Orthographic and Contextual Models for Language Independent Named Entity Recognition. In Proceeding
+			CONLL '03 Proceedings of the seventh conference on Natural language learning at HLT-NAACL.\\
+			\item Nadeau, D.; Turney, P. (2006): Unsupervised Named-Entity Recognition: Generating Gazetteers and Resolving Ambiguity. Berlin.
+
+			
+				\item Primadhanty, A.; Carreras, X. (2014): Low-Rank Regularization for Sparse Conjunctive Feature Spaces:
+				An Application to Named Entity Classification. In Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics.
+
+			\end{itemize}
 	\end{frame}
 	\begin{frame}
 			\begin{itemize}
 				\item Radu F.; Abe It. (2003):  Named Entity Recognition
 				through Classifier Combination. In
-				Proceedings of 	CoNLL-2003.
-				\item Chieu H. (2003): Named Entity Recognition with a Maximum Entropy Approach. In Proceedings of CoNLL-2003.
-				\item Borthwick, A. (1999): A
-				Maximum Entropy Approach to Named Entity Recognition, Diss., New York.\\
-				\item Primadhanty, A.; Carreras, X. (2014): Low-Rank Regularization for Sparse Conjunctive Feature Spaces:
-				An Application to Named Entity Classification. In Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics.
-				\item He, Q.; Spangler, S. (2016): Semi-supervised data integration model for named entity classification. Google Patents.
-			\end{itemize}
-	\end{frame}
-	\begin{frame}
-			\begin{itemize}
-				\item Munro, R.; Ler, D. (2003): Meta-Learning Orthographic and Contextual Models for Language Independent Named Entity Recognition. In Proceeding
-				CONLL '03 Proceedings of the seventh conference on Natural language learning at HLT-NAACL.\\
+				Proceedings of 	CoNLL-2003.\\
 				\item Ratinov, L.; Roth, D. (2009): Design Challenges and Misconceptions in Named Entity Recognition. In Proceedings of the Thirteenth Conference on Computational Natural Language Learning (CoNLL).
-				Toral, Antonio; Munoz, Rafael (2006): A proposal to automatically build and maintain gazetteers for Named Entity Recognition by using Wikipedia.
+				\item Tjong Kim Sang,E.; De Meulder, F. (2003): Language-Independent Named Entity Recognition. In
+				Proceedings of 	CoNLL-2003.\\
+				\item Toral, A.; Munoz, R. (2006): A proposal to automatically build and maintain gazetteers for Named Entity Recognition by using Wikipedia.\\
+				\item Weischedel, R. (2013): OntoNotes release 5.0. [Philadelphia, Pa.]: Linguistic Data Consortium.\\
 			\end{itemize}
 	\end{frame}
 

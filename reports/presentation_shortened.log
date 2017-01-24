@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.5)  23 JAN 2017 20:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.5)  24 JAN 2017 09:21
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1618,11 +1618,11 @@ LaTeX Font Warning: Font shape `OML/lmss/m/n' undefined
 
 [30
 
-] <accuracy.pdf, id=302, 324.87775pt x 220.07922pt>
+] <accuracy.pdf, id=302, 330.11833pt x 211.34558pt>
 File: accuracy.pdf Graphic file (type pdf)
  <use accuracy.pdf>
 Package pdftex.def Info: accuracy.pdf used on input line 319.
-(pdftex.def)             Requested size: 292.38725pt x 198.06946pt.
+(pdftex.def)             Requested size: 297.10374pt x 190.20926pt.
 
 [31
 
@@ -1702,7 +1702,7 @@ onts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.
 pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/t
 ype1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb
 >
-Output written on presentation_shortened.pdf (42 pages, 276262 bytes).
+Output written on presentation_shortened.pdf (42 pages, 276258 bytes).
 PDF statistics:
  438 PDF objects out of 1000 (max. 8388607)
  363 compressed objects within 4 object streams

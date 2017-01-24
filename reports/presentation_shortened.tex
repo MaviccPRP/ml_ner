@@ -261,7 +261,7 @@
 			\item<+->Zur Klassifizierung der NE wird eine Support Vector Maschine mit linearem Kernel verwendet.
 			\item<+-> SVM (sklearn.svm.LinearSVC(loss=’squared\_hinge’, penalty='l2'))
 						
-			\item Featurevektoren haben sehr viele Features
+			\item<+-> Featurevektoren haben sehr viele Features
 			daher linearer Kernel.\\
 			Mapping in höheren Featurespace eines nicht-linearen Kernels bringt kaum Klassifizierungsverbesserungen. \textit{(Chih-Wei Hsu 2003)}
 			\item<+->\textit{Alternativ wurde ein Decisiontree getestet, dieser hatte allerdings mit allen Featurekombinationen tendenziell schlechtere Evaluationsergebnisse. Zudem trainiert der SVM deutlich schneller.}
@@ -276,9 +276,12 @@
 	\end{frame}
 		\begin{frame}
 			\frametitle{Erfahrungen mit den Korpusklassen I}
-			Wie die ROC-Kurve zeigt, hat der Klassifizierer insbesondere Schwierigkeiten, die Klassen PERSON und ORG und GPE\_NORP zu unterscheiden.\\
+			\begin{itemize}
+				\item Abbildung zeigt jeweils "One-vs-Rest" Klassifizierung, z.B. PERSON gegen alle anderen Klassen.
+				
+				\item Wie die ROC-Kurve zeigt, hat der Klassifizierer insbesondere Schwierigkeiten, die Klassen PERSON und ORG und GPE\_NORP zu unterscheiden.
+			\end{itemize}
 			
-			Die Abbildung zeigt jeweils "One-vs-Rest", z.B. PERSON gegen alle anderen Klassen.\\
 		\end{frame}
 		\begin{frame}
 			\frametitle{Erfahrungen mit den Korpusklassen II}

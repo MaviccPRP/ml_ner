@@ -8,8 +8,8 @@
 \beamer@subsectionintoc {3}{1}{Features f\IeC {\"u}r den Baseline-Klassifizierer}{17}{0}{3}
 \beamer@subsectionintoc {3}{2}{Erweitertes Featureset}{18}{0}{3}
 \beamer@subsectionintoc {3}{3}{Klassifizierertyp}{20}{0}{3}
-\beamer@subsectionintoc {3}{4}{Erfahrungen mit den Korpusklassen}{23}{0}{3}
-\beamer@sectionintoc {4}{Evaluation}{27}{0}{4}
-\beamer@subsectionintoc {4}{1}{Probleme}{37}{0}{4}
-\beamer@sectionintoc {5}{Zusammenfassung}{38}{0}{5}
-\beamer@sectionintoc {6}{Referenzen}{39}{0}{6}
+\beamer@subsectionintoc {3}{4}{Erfahrungen mit den Korpusklassen}{24}{0}{3}
+\beamer@sectionintoc {4}{Evaluation}{28}{0}{4}
+\beamer@subsectionintoc {4}{1}{Probleme}{38}{0}{4}
+\beamer@sectionintoc {5}{Zusammenfassung}{39}{0}{5}
+\beamer@sectionintoc {6}{Referenzen}{40}{0}{6}

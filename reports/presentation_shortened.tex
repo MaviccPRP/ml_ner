@@ -79,7 +79,7 @@
 			\begin{itemize}
 				\item Für Named Entity Klassifikation wird OntoNotes Korpus 2012 genutzt. \textit{(OntoNotes Release 5.0 2012)}
 				\item Englischen Nachrichtentexte des 'The Wall Street Journal'.
-				Für die Entwicklungsphase bereits vorgefertigtes Developmenttest.
+				Für die Entwicklungsphase bereits vorgefertigtes Developmentset.
 				\item Für die Klassifikation der Named Entities werden die bereits vorgefertigten Trainings- und Testdatensets aus dem Goldstandard genutzt.
 			\end{itemize}
 			 \begin{table}
@@ -207,7 +207,7 @@
 					 		\toprule
 							Feature & Wert & Beschreibung\\
 					 		\midrule
-					 		Unigram & numerisch & Vorkommenshäufigkeit der Unigramme in der NE, die mindestens fünfmal im Trainingscorpus vorkommen. \textit{(Mayfield 2003)} \\
+					 		Unigram & numerisch & Vorkommenshäufigkeit der Unigramme (lemmatisiert) in der NE, die mindestens fünfmal im Trainingscorpus vorkommen. \textit{(Mayfield 2003)} \color{red}(america : 1, north : 1)\\ \\
 					 		\bottomrule
 					 	\end{tabularx}
 					 	\label{tab:baselinef}
@@ -244,7 +244,7 @@
  							Feature & Wert & Beschreibung (Beispielwert)\\
  							\midrule
  							isInWiki & boolean & Vorkommen der NE in der Wikipedia. \textit{(Toral, Munoz 2006)} \color{red} (1)\\
- 							isTitle & boolean & Prüft, ob Titelbezeichnungen (z.B. Mr. MA) vorkommen. \textit{(Ratinov, Roth 2009)} (0)\\
+ 							isTitle & boolean & Prüft, ob Titelbezeichnungen (z.B. Mr., MA) vorkommen. \textit{(Ratinov, Roth 2009)} (0)\\
  							isNP & boolean & Ist NE eine Nominalphrase. \textit{(Sánchez, Cuadrado 2009)} \color{red} (1)\\
  							isName & boolean & Prüft, ob Vornamen vorkommen.\textit{(Ratinov, Roth 2009)} \color{red}(0)\\
  							containsDash & boolean & Vorkommen von Viertelgeviertstrichen. \textit{(Mayfield 2003)} \color{red}(1) \\
@@ -365,10 +365,15 @@
 	\end{frame}
 		\subsection{Probleme}
 		\begin{frame}
-			\frametitle{Probleme}
-			Context bezieht auch Satzzeichen ein (oft ',' oder '.'), dies könnte man auf alphanumerische Strings beschränken.\\
+			\frametitle{Probleme und Lösungsvorschläge}
+			\begin{itemize}
+				\item Context bezieht auch Satzzeichen ein (oft ',' oder '.'), dies könnte man auf alphanumerische Strings beschränken.\\
+				
+				\item Verbesserung bei PERSON-Klassifizierung möglicherweise durch Generierung weiterer PERSON-Instanzen.
+				
+				\item Klassifikationsfehler im Testset, da nur die automatisch annotierte Testsetversion von OntoNotes 5.0 zur Verfügung steht.\\
+			\end{itemize}
 			
-			Klassifikationsfehler im Testset, da nur die automatisch annotierte Testsetversion von OntoNotes 5.0 zur Verfügung steht.\\
 			
 			\begin{exampleblock}{Beispiel für "falsch" klassifizierte Instanz}
 				\{'ORG': [['American', 'JJ'], 'NP', ('to', 'notions')]\}\\classified as ['GPE\_NORP']

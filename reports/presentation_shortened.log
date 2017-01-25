@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.5)  24 JAN 2017 19:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.5)  25 JAN 2017 11:50
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1533,8 +1533,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 236--236
 [18
 
 ]
-Underfull \hbox (badness 1655) in paragraph at lines 256--256
-[]|\OT1/lmss/m/n/10 Pr[]uft, ob Titel-beze-ich-nun-gen (z.B. Mr. MA)
+Underfull \hbox (badness 3209) in paragraph at lines 256--256
+[]|\OT1/lmss/m/n/10 Pr[]uft, ob Titel-beze-ich-nun-gen (z.B. Mr., MA)
  []
 
 
@@ -1640,11 +1640,11 @@ l.365 	\end{frame}
 \tf@snm=\write11
 \openout11 = `presentation_shortened.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 430.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 430.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 435.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 435.
  (./presentation_shortened.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 430.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 430.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 435.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 435.
 Package rerunfilecheck Info: File `presentation_shortened.out' has not changed.
 
 (rerunfilecheck)             Checksum: 7EAECA31F1029562567F0CC66A305AF1;839.
@@ -1655,7 +1655,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 430.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 435.
  ) 
 Here is how much of TeX's memory you used:
  20059 strings out of 493029
@@ -1673,7 +1673,7 @@ onts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.
 pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/t
 ype1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmsso8.pfb>
-Output written on presentation_shortened.pdf (41 pages, 301913 bytes).
+Output written on presentation_shortened.pdf (41 pages, 302184 bytes).
 PDF statistics:
  435 PDF objects out of 1000 (max. 8388607)
  360 compressed objects within 4 object streams

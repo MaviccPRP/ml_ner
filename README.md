@@ -8,7 +8,7 @@
 * [Prerequisites](#prerequisites)
 * [Quickstart](#quickstart)
 * [What's included](#whats-included)
-⋅⋅* [Folder structure](#folder-structure)
+  * [Folder structure](#folder-structure)
 * [Classes](#classes)
 
 

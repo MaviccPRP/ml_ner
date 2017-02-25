@@ -87,6 +87,9 @@ python tests/test_scidata_creator_alternative.py
 
 A list of the classes used in the project. For the full Pythondocs see the .py files.
 
+* **bootstrap**  
+    Bootstrapping algorithm that extracts positive sentences and negative situation phrases given a corpus.
+
 * **class ArffAndSciKitDataCreator**
 	Class to create an arff filefrom a given list of features and values created by the corpus_reader and feature_extractor.
 

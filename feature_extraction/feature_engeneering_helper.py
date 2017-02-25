@@ -10,7 +10,7 @@ import pprint
 
 def feature_engeneering_helper():
     '''
-    This class takes a list of engeneered featured, not to be used in the dataset. featured selected by weka feature selection
+    This class takes a list of engeneered featured (using WEKA feature selections tools), not to be used in the dataset. featured selected by weka feature selection
     '''
     features = []
     try:

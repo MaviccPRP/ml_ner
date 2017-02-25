@@ -38,7 +38,6 @@ class FeatureExtractor:
     def define_baseline_features(self):
         '''
         This methods defines the baseline features
-        This methods defines the baseline features
         :return: an ordered dict with the featured as keys
         '''
         dict_features = OrderedDict()

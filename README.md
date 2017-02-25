@@ -1,6 +1,7 @@
 ## Synopsis
 
-This project focuses on Named Entity Classification. It uses simple syntactic features, frequently used in research (Toral, Munoz, 2006; Kazama, Torisawa, 2007; Ratinov, Roth 2009), and evaluates the most significant features. 
+This project focuses on Named Entity Classification. It uses simple syntactic features, frequently used in research, and evaluates the most significant features.
+For further project details and the used literature see the finalpresentation in the documentation/pdf/ folder.
 
 You can find the whole project on GitHub:
 
@@ -23,6 +24,7 @@ https://github.com/Ssanaz
 2. Scikit Learn als Klassifizierer
 3. liac-arff
 4. matplotlib
+5. WEKA (to watch the .arff files)
 
 To print the ROC curves, you need the $DISPLAY environment variable being set.
 
@@ -32,19 +34,19 @@ To print the ROC curves, you need the $DISPLAY environment variable being set.
 Contains the corpus reader class
 
 *feature_extraction/*
-Contains the feature extractor class and the arff_scikitdata_creator class for creating arff files and scikit instances. Additionally helpers for the feature extractor class. 
+>Contains the feature extractor class and the arff_scikitdata_creator class for creating arff files and scikit instances. Additionally helpers for the feature extractor class. 
 
 *literature/pdf/*
-Contains the most important papers, used for this paper.
+>Contains the most important papers, used for this paper.
 
 *misc/*
-Contains several lists for feature extraction, e.g. wikipedia titles, name lists and official titles list.
+>Contains several lists for feature extraction, e.g. wikipedia titles, name lists and official titles list.
 
 *reports/*
-Contains presentations and the final report
+>Contains presentations and the final report
 
 *tests/*
-Contains several test scripts for the classes. For example usage, see section Code Example
+>Contains several test scripts for the classes. For example usage, see section Code Example
 
 
 ## Examples

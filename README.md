@@ -88,11 +88,11 @@ python tests/test_scidata_creator_alternative.py
 A list of the classes used in the project. For the full Pythondocs see the .py files.
 
 * **class ArffAndSciKitDataCreator**
-    Class to create an arff filefrom a given list of features and values created by the corpus_reader and feature_extractor.
+	Class to create an arff filefrom a given list of features and values created by the corpus_reader and feature_extractor.
 
 * **class FeatureExtractor**
-    Class to extract a list of predefined features.
+	Class to extract a list of predefined features.
 
 * **class CorpusReader**
-    Corpus Reader for the Ontonotes 2012 conll corpus
+	Corpus Reader for the Ontonotes 2012 conll corpus
 

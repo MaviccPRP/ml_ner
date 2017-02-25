@@ -1,5 +1,10 @@
 # Features Evaluation in Named Entity Classification
 
+
+## Table of contents
+
+- [Synopsis](#synopsis)
+
 ## Synopsis
 
 This project focuses on Named Entity Classification. It uses simple syntactic features, frequently used in research, and picks the most significant features. 

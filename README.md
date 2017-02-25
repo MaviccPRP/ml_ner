@@ -97,7 +97,7 @@ python tests/test_scidata_creator_alternative.py
 
 ## What's included
 
-Classes included:
+Folder structure and classes included:
 
 ```
 ml_ner/

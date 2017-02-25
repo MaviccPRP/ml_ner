@@ -22,11 +22,11 @@ https://github.com/Ssanaz
 
 ## Prerequisites
 
-*Python 3.4+
-	*Scikit Learn als Klassifizierer
-	*liac-arff
-	*matplotlib
-5. WEKA (to watch the .arff files)
+* Python 3.4+
+	* Scikit Learn als Klassifizierer
+	* liac-arff
+	* matplotlib
+* WEKA (to watch the .arff files)
 
 To print the ROC curves, you need the $DISPLAY environment variable being set.
 

@@ -3,13 +3,13 @@
 
 ## Table of contents
 
-- [Synopsis](#synopsis)
-- [Contributors](#contributors)
-- [Prerequisites](#prerequisites)
-- [Quickstart](#quickstart)
-- [What's included](#whats-included)
+* [Synopsis](#synopsis)
+* [Contributors](#contributors)
+* [Prerequisites](#prerequisites)
+* [Quickstart](#quickstart)
+* [What's included](#whats-included)
 ⋅⋅* [Folder structure](#folder-structure)
-- [Classes](#classes)
+* [Classes](#classes)
 
 
 ## Synopsis

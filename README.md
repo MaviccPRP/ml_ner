@@ -8,7 +8,7 @@
 - [Prerequisites](#prerequisites)
 - [Folder Structure](#folder-structure)
 - [Quickstart](#quickstart)
-- [Classes](#classes)
+- [What's included](#whats-included)
 
 
 ## Synopsis
@@ -95,9 +95,30 @@ python tests/test_scidata_creator_alternative.py
 
 
 
-## Classes
+## What's included
 
-A list of the classes used in the project. (*For the full Pythondocs see the .py files*)
+Classes included:
+
+```
+ml_ner/
+├── corpus/
+│   └── corpusreader.py
+│ 
+├── feature_extrator/
+│   ├── arff_scikitdata_creator.py
+│   ├── context_helpers.py 
+│   ├── feature_engeneering_helper.py
+│   ├── word_helpers.py
+│   └── feature_extractor.py
+├── tests/
+│   └── evaluation
+├── reports 
+└── literature
+
+```
+
+
+A list of the most important classes used in the project. (*For the full Pythondocs see the .py files*)
 
 * **class ArffAndSciKitDataCreator**  
     Class to create an arff filefrom a given list of features and values created by the corpus_reader and feature_extractor.

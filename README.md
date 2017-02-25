@@ -3,7 +3,7 @@
 ## Synopsis
 
 This project focuses on Named Entity Classification. It uses simple syntactic features, frequently used in research, and picks the most significant features. 
-For further project details and the used literature see the finalpresentation in the documentation/pdf/ folder.
+For further project details and the used literature see the final presentation in the documentation/pdf/ folder.
 
 You can find the whole project on GitHub:
 
@@ -30,7 +30,7 @@ https://github.com/Ssanaz
 
 * A valid OntoNotes corpus 2012 in the in the following location: resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/train/data/english/annotations/nw/
 
-* To print the ROC curves, you need the $DISPLAY environment variable being set.
+* To print the ROC curves, you need the ```$DISPLAY``` environment variable being set.
 
 ## Folder Structure
 
@@ -87,7 +87,7 @@ python tests/test_scidata_creator_alternative.py
 
 ## Classes
 
-A list of the classes used in the project. For the full Pythondocs see the .py files.
+A list of the classes used in the project. (*For the full Pythondocs see the .py files*)
 
 * **class ArffAndSciKitDataCreator**  
     Class to create an arff filefrom a given list of features and values created by the corpus_reader and feature_extractor.

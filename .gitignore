@@ -1,0 +1,5 @@
+*.pyc
+reports/*.aux
+reports/*.log
+reports/*.gz
+reports/*.bak

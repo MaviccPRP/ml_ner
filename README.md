@@ -23,9 +23,9 @@ https://github.com/MaviccPRP/ml_ner
 
 ## Contributors
 
-[M. Huvar](https://github.com/XMadiX)
-[Ph. Richter-P.](https://github.com/MaviccPRP)
-[S. Safdel](https://github.com/Ssanaz)
+* [M. Huvar](https://github.com/XMadiX)
+* [Ph. Richter-P.](https://github.com/MaviccPRP)
+* [S. Safdel](https://github.com/Ssanaz)
 
 ## Prerequisites
 
@@ -94,6 +94,7 @@ ml_ner/
 ├── tests/
 │   └── evaluation
 ├── reports 
+├── docs
 └── literature
 
 ```
@@ -114,12 +115,15 @@ ml_ner/
 *reports/*
 >Contains presentations and the final report
 
+*docs/*
+>The python docs for the classes
+
 *tests/*
 >Contains several test scripts for the classes. For example usage, see section Code Example
 
 ## Classes
 
-A list of the most important classes used in the project. (*For the full Pythondocs see the .py files*)
+A list of the most important classes used in the project. (*For the full Pythondocs see in [docs/ml_ner.html](docs/ml_ner.html))
 
 * **class ArffAndSciKitDataCreator**  
     Class to create an arff filefrom a given list of features and values created by the corpus_reader and feature_extractor.

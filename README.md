@@ -22,10 +22,10 @@ https://github.com/Ssanaz
 
 ## Prerequisites
 
-1. Python 3.4+
-2. Scikit Learn als Klassifizierer
-3. liac-arff
-4. matplotlib
+*Python 3.4+
+	*Scikit Learn als Klassifizierer
+	*liac-arff
+	*matplotlib
 5. WEKA (to watch the .arff files)
 
 To print the ROC curves, you need the $DISPLAY environment variable being set.
@@ -51,18 +51,34 @@ Contains the corpus reader class
 >Contains several test scripts for the classes. For example usage, see section Code Example
 
 
-## Examples
+## Installation and Examples
 
-To evaluate all features (for a full feature description see, final_presentation in report/), and write the results into a ROC curve, type in the following:
+We recommend using a virtual environment for Python 3.
+
+    $ virtualenv -p python3 venv
+    $ source venv/bin/activate  
+    $ pip install -r requirements.txt  
+
+Congratulations! You are now ready to classify sarcasm.
+
+Before starting your evaluations, you can define your featureset in each of the following scripts by editing the extract_features list.
+
+To evaluate all features (for a full feature description see, final presentation in reports/) printing the results into a ROC curve, type in the following:
 
 ```
 python tests/test_roc_curve.py
 ```
 
-To create an .arff file for further analyses in WEKA, use:
+To create an .arff file for further analyses in WEKA, type in:
 
 ```
 python tests/test_arff_creator.py 
+```
+
+To get a confusion matrix and a full evaluation report using scikits classification_report, type in:
+
+```
+python tests/test_scidata_creator_alternative.py 
 ```
 
 

@@ -8,9 +8,8 @@
 - [Prerequisites](#prerequisites)
 - [Folder Structure](#folder-structure)
 - [Folder Structure](#folder-structure)
-- [Installation and Examples](#installation-and-examples)
+- [Quickstart](#quickstart)
 - [Classes](#classes)
-
 
 
 ## Synopsis
@@ -61,7 +60,11 @@ https://github.com/MaviccPRP/ml_ner
 >Contains several test scripts for the classes. For example usage, see section Code Example
 
 
-## Installation and Examples
+## Quickstart
+
+Until now you can vary the featuresset and evaluate each featureselection individually, by just editing the extract_features variable in the test scripts.
+
+In the future, we want to implement a module, which is classifiying a predefined list of Named Entities using the command line.
 
 We recommend using a virtual environment for Python 3.
 

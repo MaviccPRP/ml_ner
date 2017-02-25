@@ -3,7 +3,7 @@
 ## Synopsis
 
 This project focuses on Named Entity Classification. It uses simple syntactic features, frequently used in research, and picks the most significant features. 
-For further project details and the used literature see the final presentation in the documentation/pdf/ folder.
+For further project details and the used literature see the [final presentation](https://github.com/MaviccPRP/ml_ner/blob/master/reports/presentation_final.pdf) in the documentation/pdf/ folder.
 
 You can find the whole project on GitHub:
 
@@ -11,14 +11,11 @@ https://github.com/MaviccPRP/ml_ner
 
 ## Contributors
 
-M. Huvar
-https://github.com/XMadiX
+[M. Huvar](https://github.com/XMadiX)
 
-Ph. Richter-P.
-https://github.com/MaviccPRP
+[Ph. Richter-P.](https://github.com/MaviccPRP)
 
-S. Safdel
-https://github.com/Ssanaz
+[S. Safdel](https://github.com/Ssanaz)
 
 ## Prerequisites
 

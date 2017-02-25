@@ -33,7 +33,7 @@ To print the ROC curves, you need the $DISPLAY environment variable being set.
 ## Folder Structure
 
 *corpus/*
-Contains the corpus reader class
+>Contains the corpus reader class
 
 *feature_extraction/*
 >Contains the feature extractor class and the arff_scikitdata_creator class for creating arff files and scikit instances. Additionally helpers for the feature extractor class. 
@@ -59,9 +59,9 @@ We recommend using a virtual environment for Python 3.
     $ source venv/bin/activate  
     $ pip install -r requirements.txt  
 
-Congratulations! You are now ready to classify sarcasm.
+Congratulations! You are now ready to evaluate features for Named Entity Classification.
 
-Before starting your evaluations, you can define your featureset in each of the following scripts by editing the extract_features list.
+Before starting your evaluations, you can define your featureset in each of the following scripts by editing the extract_features list variable.
 
 To evaluate all features (for a full feature description see, final presentation in reports/) printing the results into a ROC curve, type in the following:
 
@@ -86,20 +86,13 @@ python tests/test_scidata_creator_alternative.py
 ## Classes
 
 A list of the classes used in the project. For the full Pythondocs see the .py files.
-```
-class ArffAndSciKitDataCreator:
-    '''
+
+* **class ArffAndSciKitDataCreator**
     Class to create an arff filefrom a given list of features and values created by the corpus_reader and feature_extractor.
-    '''
 
-class FeatureExtractor:
-    '''
+* **class FeatureExtractor**
     Class to extract a list of predefined features.
-    '''
 
-class CorpusReader:
-    '''
+* **class CorpusReader**
     Corpus Reader for the Ontonotes 2012 conll corpus
-    '''
-```
 

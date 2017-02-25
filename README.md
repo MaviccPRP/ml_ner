@@ -4,6 +4,14 @@
 ## Table of contents
 
 - [Synopsis](#synopsis)
+- [Contributors](#contributors)
+- [Prerequisites](#prerequisites)
+- [Folder Structure](#folder-structure)
+- [Folder Structure](#folder-structure)
+- [Installation and Examples](#installation-and-examples)
+- [Classes](#classes)
+
+
 
 ## Synopsis
 
@@ -17,9 +25,7 @@ https://github.com/MaviccPRP/ml_ner
 ## Contributors
 
 [M. Huvar](https://github.com/XMadiX)
-
 [Ph. Richter-P.](https://github.com/MaviccPRP)
-
 [S. Safdel](https://github.com/Ssanaz)
 
 ## Prerequisites

@@ -2,7 +2,7 @@
 
 ## Synopsis
 
-This project focuses on Named Entity Classification. It uses simple syntactic features, frequently used in research, and evaluates the most significant features.
+This project focuses on Named Entity Classification. It uses simple syntactic features, frequently used in research, and picks the most significant features. 
 For further project details and the used literature see the finalpresentation in the documentation/pdf/ folder.
 
 You can find the whole project on GitHub:
@@ -39,7 +39,7 @@ Contains the corpus reader class
 >Contains the feature extractor class and the arff_scikitdata_creator class for creating arff files and scikit instances. Additionally helpers for the feature extractor class. 
 
 *literature/pdf/*
->Contains the most important papers, used for this paper.
+>Contains the most important papers, used for this project.
 
 *misc/*
 >Contains several lists for feature extraction, e.g. wikipedia titles, name lists and official titles list.
@@ -70,7 +70,7 @@ python tests/test_arff_creator.py
 ## Classes
 
 A list of the classes used in the project. For the full Pythondocs see the .py files.
-
+```
 class ArffAndSciKitDataCreator:
     '''
     Class to create an arff filefrom a given list of features and values created by the corpus_reader and feature_extractor.
@@ -85,5 +85,5 @@ class CorpusReader:
     '''
     Corpus Reader for the Ontonotes 2012 conll corpus
     '''
-
+```
 

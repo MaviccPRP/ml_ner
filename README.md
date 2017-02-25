@@ -7,7 +7,6 @@
 - [Contributors](#contributors)
 - [Prerequisites](#prerequisites)
 - [Folder Structure](#folder-structure)
-- [Folder Structure](#folder-structure)
 - [Quickstart](#quickstart)
 - [Classes](#classes)
 

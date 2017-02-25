@@ -6,9 +6,10 @@
 - [Synopsis](#synopsis)
 - [Contributors](#contributors)
 - [Prerequisites](#prerequisites)
-- [Folder Structure](#folder-structure)
 - [Quickstart](#quickstart)
 - [What's included](#whats-included)
+-- [Folder structure](#folder-structure)
+- [Classes](#classes)
 
 
 ## Synopsis
@@ -37,26 +38,6 @@ https://github.com/MaviccPRP/ml_ner
 * A valid OntoNotes corpus 2012 in the in the following location: resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/train/data/english/annotations/nw/
 
 * To print the ROC curves, you need the ```$DISPLAY``` environment variable being set.
-
-## Folder Structure
-
-*corpus/*
->Contains the corpus reader class
-
-*feature_extraction/*
->Contains the feature extractor class and the arff_scikitdata_creator class for creating arff files and scikit instances. Additionally helpers for the feature extractor class. 
-
-*literature/pdf/*
->Contains the most important papers, used for this project.
-
-*misc/*
->Contains several lists for feature extraction, e.g. wikipedia titles, name lists and official titles list.
-
-*reports/*
->Contains presentations and the final report
-
-*tests/*
->Contains several test scripts for the classes. For example usage, see section Code Example
 
 
 ## Quickstart
@@ -116,7 +97,27 @@ ml_ner/
 └── literature
 
 ```
+### Folder descriptions
 
+*corpus/*
+>Contains the corpus reader class
+
+*feature_extraction/*
+>Contains the feature extractor class and the arff_scikitdata_creator class for creating arff files and scikit instances. Additionally helpers for the feature extractor class. 
+
+*literature/pdf/*
+>Contains the most important papers, used for this project.
+
+*misc/*
+>Contains several lists for feature extraction, e.g. wikipedia titles, name lists and official titles list.
+
+*reports/*
+>Contains presentations and the final report
+
+*tests/*
+>Contains several test scripts for the classes. For example usage, see section Code Example
+
+## Classes
 
 A list of the most important classes used in the project. (*For the full Pythondocs see the .py files*)
 

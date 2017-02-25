@@ -28,22 +28,22 @@ To print the ROC curves, you need the $DISPLAY environment variable being set.
 
 ## Folder Structure
 
-corpus/
+*corpus/*
 Contains the corpus reader class
 
-feature_extraction/
+*feature_extraction/*
 Contains the feature extractor class and the arff_scikitdata_creator class for creating arff files and scikit instances. Additionally helpers for the feature extractor class. 
 
-literature/pdf/
+*literature/pdf/*
 Contains the most important papers, used for this paper.
 
-misc/
+*misc/*
 Contains several lists for feature extraction, e.g. wikipedia titles, name lists and official titles list.
 
-reports/
+*reports/*
 Contains presentations and the final report
 
-tests/
+*tests/*
 Contains several test scripts for the classes. For example usage, see section Code Example
 
 

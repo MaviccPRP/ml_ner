@@ -12,7 +12,8 @@ from ml_ner.corpus.corpusreader import CorpusReader
 
 class ArffAndSciKitDataCreator:
     '''
-    Class to create an arff filefrom a given list of features and values created by the corpus_reader and feature_extractor
+    Class to create an arff file from a given list of features and values created by the corpus_reader and feature_extractor
+    and to create scikit compatible input lists
     '''
 
     def __init__(self, samples, attributes = []):

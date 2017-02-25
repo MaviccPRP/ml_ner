@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module corpus.corpusreader_allclasses</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="corpus.html"><font color="#ffffff">corpus</font></a>.corpusreader_allclasses</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/courses/ws16/eml/ner_n2/ml_ner/corpus/corpusreader_allclasses.py">/courses/ws16/eml/ner_n2/ml_ner/corpus/corpusreader_allclasses.py</a></font></td></tr></table>
+    <p><tt>#&nbsp;Phillip&nbsp;Richter-Pechanski<br>
+#&nbsp;Created&nbsp;on&nbsp;02.12.2016<br>
+#<br>
+#&nbsp;Example:<br>
+#&nbsp;Build&nbsp;an&nbsp;instance&nbsp;of&nbsp;the&nbsp;Conll_Extraction&nbsp;Reader&nbsp;Class.<br>
+#&nbsp;cr&nbsp;=&nbsp;<a href="#CorpusReader">CorpusReader</a>("/home/tom/Dokumente/UniWiSe2016/ML/ml_ner/wsj/")<br>
+#&nbsp;ne&nbsp;=&nbsp;cr.extract_labeled_named_entities()</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="os.html">os</a><br>
+</td><td width="25%" valign=top><a href="re.html">re</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="corpus.corpusreader_allclasses.html#CorpusReader">CorpusReader</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="CorpusReader">class <strong>CorpusReader</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Corpus&nbsp;Reader&nbsp;for&nbsp;the&nbsp;Ontonotes&nbsp;2012&nbsp;conll&nbsp;corpus<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="CorpusReader-__init__"><strong>__init__</strong></a>(self, path, auto_gold='gold')</dt><dd><tt>Constructor&nbsp;for&nbsp;the&nbsp;<a href="#CorpusReader">CorpusReader</a>&nbsp;class<br>
+:param&nbsp;path:&nbsp;the&nbsp;path&nbsp;to&nbsp;the&nbsp;ontonotes&nbsp;corpus<br>
+:param&nbsp;auto_gold:&nbsp;use&nbsp;auto&nbsp;or&nbsp;gold&nbsp;conll&nbsp;files</tt></dd></dl>
+
+<dl><dt><a name="CorpusReader-extract_labeled_named_entities"><strong>extract_labeled_named_entities</strong></a>(self)</dt><dd><tt>Extract&nbsp;all&nbsp;named&nbsp;entities&nbsp;and&nbsp;assign&nbsp;them&nbsp;to&nbsp;their&nbsp;groups.<br>
+Returns&nbsp;a&nbsp;list&nbsp;of&nbsp;dictionaries&nbsp;containing&nbsp;the&nbsp;NEs,&nbsp;its&nbsp;POS&nbsp;tags&nbsp;and&nbsp;its&nbsp;NE&nbsp;group<br>
+Example&nbsp;output:&nbsp;&nbsp;{'PERSON':&nbsp;[['Mikhail',&nbsp;'NNP'],&nbsp;['Gorbachev',&nbsp;'NNP'],&nbsp;'NP']}</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-tee"><strong>tee</strong></a>(...)</dt><dd><tt><a href="#-tee">tee</a>(iterable,&nbsp;n=2)&nbsp;--&gt;&nbsp;tuple&nbsp;of&nbsp;n&nbsp;independent&nbsp;iterators.</tt></dd></dl>
+</td></tr></table>
+</body></html>

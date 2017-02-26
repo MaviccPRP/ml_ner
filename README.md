@@ -14,8 +14,9 @@
 
 ## Synopsis
 
-This project focuses on Named Entity Classification. It uses simple syntactic features, frequently used in research, and picks the most significant features. 
-For further project details and the used literature see the [final presentation](https://github.com/MaviccPRP/ml_ner/blob/master/reports/presentation_final.pdf) in the reports/ folder.
+This project focuses on Named Entity Classification. You can evaluate a specific set of features, which you can define by just editing a featureset variable, and get evaluation results as a ROC-curve, a confusion matrix and a more comples classification report.
+The default setup uses the OntoNotes 2012 corpus in CoNLL format.
+For further project details, the used features, evaluation results and the used literature see the [final presentation](https://github.com/MaviccPRP/ml_ner/blob/master/reports/presentation_final.pdf) in the reports/ folder.
 
 You can find the whole project on GitHub:
 

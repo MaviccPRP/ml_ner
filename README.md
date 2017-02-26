@@ -43,7 +43,7 @@ https://github.com/MaviccPRP/ml_ner
 
 ## Quickstart
 
-Until now you can vary the featuresset and evaluate each featureselection individually, by just editing the extract_features variable in the test scripts.
+Until now you can vary the featuresset and evaluate each feature selection individually, by just editing the extract_features variable in the test scripts.
 
 In the future, we want to implement a module, which is classifiying a predefined list of Named Entities using the command line.
 

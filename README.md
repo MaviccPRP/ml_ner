@@ -14,7 +14,7 @@
 
 ## Synopsis
 
-This module focuses on Named Entity Classification. You can evaluate a specific set of features, which you can define by just editing a featureset variable, and get evaluation results as a ROC-curve, a confusion matrix and a more comples classification report.
+This module focuses on [Named Entity](https://en.wikipedia.org/wiki/Named_entity) Classification. You can evaluate a specific set of features, which you can define by just editing a featureset variable, and get evaluation results as a ROC-curve, a confusion matrix and a more comples classification report.
 The default setup uses the OntoNotes 2012 corpus in CoNLL format and eleven predefined syntactic features on word and sentence level.
 For further project details, predefined features, evaluation results and the used literature see the [final presentation](https://github.com/MaviccPRP/ml_ner/blob/master/reports/presentation_final.pdf) in the reports/ folder.
 

@@ -62,16 +62,39 @@ To evaluate all features (for a full feature description see, final presentation
 python tests/test_roc_curve.py
 ```
 
+Example output ROC curve:
+
+![alt tag](https://github.com/MaviccPRP/ml_ner/blob/master/reports/roc_curve.png)
+
 To create an .arff file for further analyses in WEKA, type in:
 
 ```
 python tests/test_arff_creator.py 
 ```
 
-To get a confusion matrix and a full evaluation report using scikits classification_report, type in:
+To get a confusion matrix and a full evaluation using scikits classification_report, type in:
 
 ```
 python tests/test_scidata_creator_alternative.py 
+```
+Example output of a confusion matrix and a classification report:
+
+```
+[[348  27  38   0   0]
+ [ 29 549  10   0   0]
+ [ 64  52 739   4   0]
+ [  0   4   0 583  14]
+ [  0   1   0   2 526]]
+                        precision    recall  f1-score   support
+
+                PERSON       0.79      0.84      0.81       413
+              GPE_NORP       0.87      0.93      0.90       588
+                   ORG       0.94      0.86      0.90       859
+                  DATE       0.99      0.97      0.98       601
+PERCENT_CARDINAL_MONEY       0.97      0.99      0.98       529
+
+           avg / total       0.92      0.92      0.92      2990
+
 ```
 
 
@@ -100,25 +123,25 @@ ml_ner/
 ```
 ### Folder descriptions
 
-*corpus/*
+corpus/
 >Contains the corpus reader class
 
-*feature_extraction/*
+feature_extraction/
 >Contains the feature extractor class and the arff_scikitdata_creator class for creating arff files and scikit instances. Additionally helpers for the feature extractor class. 
 
-*literature/pdf/*
+literature/pdf/
 >Contains the most important papers, used for this project.
 
-*misc/*
+misc/
 >Contains several lists for feature extraction, e.g. wikipedia titles, name lists and official titles list.
 
-*reports/*
+reports/
 >Contains presentations and the final report
 
-*docs/*
+docs/
 >The python docs for the classes
 
-*tests/*
+tests/
 >Contains several test scripts for the classes. For example usage, see section Code Example
 
 ## Classes

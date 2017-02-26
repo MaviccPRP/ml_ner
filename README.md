@@ -36,7 +36,7 @@ https://github.com/MaviccPRP/ml_ner
 	* matplotlib
 * WEKA (to watch the .arff files)
 
-* A valid OntoNotes corpus 2012 in the in the following location: resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/train/data/english/annotations/nw/
+* A valid OntoNotes corpus 2012 in the in the following location: /resources/corpora/multilingual/ontonotes-5.0-conll-2012/conll-2012/v4/data/train/data/english/annotations/nw/
 
 * To print the ROC curves, you need the ```$DISPLAY``` environment variable being set.
 

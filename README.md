@@ -56,7 +56,7 @@ Congratulations! You are now ready to evaluate features for Named Entity Classif
 
 Before starting your evaluations, you can define your featureset in each of the following scripts by editing the extract_features list variable.
 
-* To evaluate all features (for a full feature description see, final presentation in reports/) printing the results into a ROC curve, type in the following:
+**To evaluate all features (for a full feature description see, final presentation in reports/) printing the results into a ROC curve, type in the following:**
 
 ```
 python tests/test_roc_curve.py
@@ -68,13 +68,13 @@ Example output ROC curve:
 
 To get known how an optimal ROC curve needs to look like, have a look at the [Wikipedia article](https://de.wikipedia.org/wiki/Receiver_Operating_Characteristic).
 
-*To create an .arff file for further analyses in WEKA, type in:
+**To create an .arff file for further analyses in WEKA, type in:**
 
 ```
 python tests/test_arff_creator.py 
 ```
 
-* To get a confusion matrix and a full evaluation using scikits classification_report, type in:
+**To get a confusion matrix and a full evaluation using scikits classification_report, type in:**
 
 ```
 python tests/test_scidata_creator_alternative.py 

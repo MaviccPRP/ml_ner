@@ -1,0 +1,18 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Einf\IeC {\"u}hrung}{3}
+\contentsline {subsection}{\numberline {1.1}Was sind Named Entities?}{3}
+\contentsline {section}{\numberline {2}Unser Projekt}{3}
+\contentsline {subsection}{\numberline {2.1}Ziel}{3}
+\contentsline {subsection}{\numberline {2.2}Organisation}{3}
+\contentsline {section}{\numberline {3}Tools}{3}
+\contentsline {section}{\numberline {4}Korpus}{4}
+\contentsline {section}{\numberline {5}Korpusreader}{4}
+\contentsline {section}{\numberline {6}Korpusklassenbalancierung}{4}
+\contentsline {section}{\numberline {7}Baselineklassifizierer}{4}
+\contentsline {section}{\numberline {8}Erweitertes Featureset}{4}
+\contentsline {section}{\numberline {9}Klassifizierertyp}{5}
+\contentsline {section}{\numberline {10}Featureselection}{5}
+\contentsline {section}{\numberline {11}Evaluation}{5}
+\contentsline {section}{\numberline {12}Probleme und L\IeC {\"o}sungsvorschl\IeC {\"a}ge}{5}
+\contentsline {section}{\numberline {13}Zusammenfassung}{6}
+\contentsline {section}{\numberline {14}Anhang}{6}

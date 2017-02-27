@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.27)  27 FEB 2017 14:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.27)  27 FEB 2017 14:57
 entering extended mode
 **./Bericht.tex
 (Bericht.tex
@@ -370,66 +370,633 @@ Now handling font encoding U ...
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
-)) (Bericht.aux)
+))
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graph
+icx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyva
+l.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graph
+ics.sty"
+Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.
+sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\g
+raphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\p
+dftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\inf
+warerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltx
+cmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\tabularx
+.sty"
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.st
+y"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen106
+\extrarowheight=\dimen107
+\NC@list=\toks17
+\extratabsurround=\skip43
+\backup@length=\skip44
+)
+\TX@col@width=\dimen108
+\TX@old@table=\dimen109
+\TX@old@col=\dimen110
+\TX@target=\dimen111
+\TX@delta=\dimen112
+\TX@cols=\count89
+\TX@ftn=\toks18
+)
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pbox\pbox.sty"
+Package: pbox 2011/12/07 v1.2 Dynamic parboxes
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty
+"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count90
+\calc@Bcount=\count91
+\calc@Adimen=\dimen113
+\calc@Bdimen=\dimen114
+\calc@Askip=\skip45
+\calc@Bskip=\skip46
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count92
+\calc@Cskip=\skip47
+)
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.st
+y"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\pb@xlen=\skip48
+)
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color
+.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\c
+olor.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\booktabs\bookt
+abs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen115
+\lightrulewidth=\dimen116
+\cmidrulewidth=\dimen117
+\belowrulesep=\dimen118
+\belowbottomsep=\dimen119
+\aboverulesep=\dimen120
+\abovetopsep=\dimen121
+\cmidrulesep=\dimen122
+\cmidrulekern=\dimen123
+\defaultaddspace=\dimen124
+\@cmidla=\count93
+\@cmidlb=\count94
+\@aboverulesep=\dimen125
+\@belowrulesep=\dimen126
+\@thisruleclass=\count95
+\@lastruleclass=\count96
+\@thisrulewidth=\dimen127
+)
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyper
+ref.sty"
+Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
+
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hob
+sub-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hob
+sub-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxe
+tex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxho
+ok.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvopt
+ions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen128
+\Hy@linkcounter=\count97
+\Hy@pagecounter=\count98
+
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1en
+c.def"
+File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count99
+
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyper
+ref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4486.
+Package hyperref Info: Link nesting OFF on input line 4491.
+Package hyperref Info: Hyper index ON on input line 4494.
+Package hyperref Info: Plain pages OFF on input line 4501.
+Package hyperref Info: Backreferencing OFF on input line 4506.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4735.
+\c@Hy@tempcnt=\count100
+
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5088.
+\XeTeXLinkMargin=\dimen129
+\Fld@menulength=\count101
+\Field@Width=\dimen130
+\Fld@charsize=\dimen131
+Package hyperref Info: Hyper figures OFF on input line 6342.
+Package hyperref Info: Link nesting OFF on input line 6347.
+Package hyperref Info: Hyper index ON on input line 6350.
+Package hyperref Info: backreferencing OFF on input line 6357.
+Package hyperref Info: Link coloring OFF on input line 6362.
+Package hyperref Info: Link coloring with OCG OFF on input line 6367.
+Package hyperref Info: PDF/A mode OFF on input line 6372.
+LaTeX Info: Redefining \ref on input line 6412.
+LaTeX Info: Redefining \pageref on input line 6416.
+\Hy@abspage=\count102
+\c@Item=\count103
+\c@Hfootnote=\count104
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdft
+ex.def"
+File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
+\Fld@listcount=\count105
+\c@bookmark@seq@number=\count106
+
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerun
+filecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip49
+)
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\lmodern.sty
+"
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (Bericht.aux)
 \openout1 = `Bericht.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 11.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 11.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 18.
+
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pd
+f.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count107
+\scratchdimen=\dimen132
+\scratchbox=\box26
+\nofMPsegments=\count108
+\nofMParguments=\count109
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen133
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
+\everyMPtoPDFconversion=\toks20
+)
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epsto
+pdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfex
+t.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\AtBeginShipoutBox=\box27
+Package hyperref Info: Link coloring OFF on input line 18.
+
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\namer
+ef.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\get
+titlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count113
+)
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
+ (Bericht.out) (Bericht.out)
+\@outlinefile=\write3
+\openout3 = `Bericht.out'.
+
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 20.
+
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 20.
+
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 20.
+
+ ("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omxlmex.fd
+"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 20.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 20.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 20.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 20.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 20.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 20.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 20.
  [1
 
-{C:/Users/QueenMadi/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (Berich
-t.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
+{C:/Users/QueenMadi/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(Bericht.toc
+LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 3.
 )
-\tf@toc=\write3
-\openout3 = `Bericht.toc'.
+\tf@toc=\write4
+\openout4 = `Bericht.toc'.
 
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 22.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 22.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 22.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 22.
  [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 28.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 23.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 23.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 25.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 25.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 33.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 33.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 34.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 34.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 36.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 36.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 38.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 38.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 41.
 
-("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd
-"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+("C:\Users\QueenMadi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
- [3] [4] [5] [6] (Bericht.aux) ) 
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 41.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 48.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 48.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 48.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 48.
+[3]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 49.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 49.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 51.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 51.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 53.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 53.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 57.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 57.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 59.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 59.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 61.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 61.
+
+
+LaTeX Warning: Reference `img:matrix' on page 4 undefined on input line 63.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 64.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 64.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 64.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 64.
+[4]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 64.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 64.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 66.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 66.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 68.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 68.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 70.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 70.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 72.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 72.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 72.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 72.
+ [5]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 72.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 72.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 72.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 72.
+ [6]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 73.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 73.
+ <roc_curve.png, id=136, 578.16pt x 433.62pt>
+File: roc_curve.png Graphic file (type png)
+ <use roc_curve.png>
+Package pdftex.def Info: roc_curve.png used on input line 75.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+<canvas.png, id=138, 2007.5pt x 1284.8pt>
+File: canvas.png Graphic file (type png)
+ <use canvas.png>
+Package pdftex.def Info: canvas.png used on input line 80.
+(pdftex.def)             Requested size: 401.49289pt x 256.95544pt.
+
+Overfull \hbox (41.49289pt too wide) in paragraph at lines 80--81
+[][] 
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 128--128
+[]|\OT1/lmr/m/n/10.95 Companies, agen-cies, in-sti-tu-ti-ons,
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 165--165
+[]|\OT1/lmr/m/n/10.95 H[]aufigkeit der Kon-text-to-kens. Bein-hal-tet
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 165--165
+\OT1/lmr/m/n/10.95 Vorg[]anger- und Nach-fol-ge-to-ken der NE.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|\OT1/lmr/m/n/10.95 Vorkommen von Vier-tel-ge-viert-stri-chen.
+ []
+
+
+Overfull \hbox (102.80423pt too wide) in paragraph at lines 184--193
+ [][] 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 196.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 196.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 196.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 196.
+[7 <./roc_curve.png>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 196.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 196.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 196.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 196.
+ [8 <./canvas.png>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 196.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 196.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 196.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 196.
+ [9]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 196.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 196.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 196.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 196.
+ [10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
+ (Bericht.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 196.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
+Package rerunfilecheck Info: File `Bericht.out' has not changed.
+(rerunfilecheck)             Checksum: 91BA2D70817BE84308F0E287D87A6A3A;925.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 196.
+ ) 
 Here is how much of TeX's memory you used:
- 1028 strings out of 493333
- 12093 string characters out of 3128407
- 71716 words of memory out of 3000000
- 4592 multiletter control sequences out of 15000+200000
- 8811 words of font info for 31 fonts, out of 3000000 for 9000
+ 6323 strings out of 493333
+ 93872 string characters out of 3128407
+ 192813 words of memory out of 3000000
+ 9715 multiletter control sequences out of 15000+200000
+ 44698 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 25i,6n,23p,903b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/QueenMadi/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/QueenMadi/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Que
-enMadi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.p
-fb><C:/Users/QueenMadi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmr12.pfb><C:/Users/QueenMadi/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmr17.pfb><C:/Users/QueenMadi/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Bericht.pdf (6 pages, 103047 bytes).
+ 29i,11n,32p,924b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/QueenMadi/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-r
+m.enc}{C:/Users/QueenMadi/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
+lm-mathit.enc}{C:/Users/QueenMadi/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/d
+vips/lm/lm-mathsy.enc}<C:/Users/QueenMadi/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/lm/lmbx10.pfb><C:/Users/QueenMadi/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/QueenMadi/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/QueenMadi/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/QueenMadi/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/QueenMadi
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/Qu
+eenMadi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/
+Users/QueenMadi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.
+pfb>
+Output written on Bericht.pdf (10 pages, 375464 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 201 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 147 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-# Features Evaluation in Named Entity Classification
+# Feature Evaluation in Named Entity Classification
 
 
 ## Table of contents
